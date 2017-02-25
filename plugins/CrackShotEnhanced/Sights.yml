@@ -1,0 +1,24 @@
+iron_sight:
+  Display Name: "Iron Sight"
+  Quality: 'Stock'
+red_dot_sight:
+  Display Name: "Red Dot Sight"
+  Quality: 'Stock'
+  Bullet Spread Multiplier: 0.05
+acog_scope:
+  Display Name: "ACOG Scope"
+  Quality: 'Stock'
+  Crackshot Zoom Amount: 4
+tactical_scope:
+  Display Name: "Tactical Scope"
+  Quality: 'Stock'
+  Crackshot Zoom Amount: 5
+sniper_scope:
+  Display Name: "Sniper Scope"
+  Quality: 'Stock'
+  Crackshot Zoom Amount: 4
+broken_scope:
+  Display Name: "Broken Scope"
+  Quality: 'Stock'
+  Crackshot Zoom Amount: 0
+  Bullet Spread Multiplier: -0.25

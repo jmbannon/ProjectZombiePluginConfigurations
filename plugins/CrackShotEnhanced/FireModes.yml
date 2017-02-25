@@ -1,0 +1,17 @@
+semi_auto:
+  Display Name: 'Semi-Auto'
+burst:
+  Display Name: 'Burst'
+  Burst Fire: true
+  Burst Shots Per Fire: 3
+automatic:
+  Display Name: 'Automatic'
+  Automatic: true
+single_shot:
+  Display Name: 'Single Shot'
+bolt_action:
+  Display Name: 'Bolt Action'
+pump_action:
+  Display Name: 'Pump Action'
+over_under:
+  Display Name: 'Over-Under'

@@ -1,0 +1,80 @@
+C4:
+    Item_Information:
+        Item_Name: "&eC4"
+        Item_Type: 404
+        Item_Lore: "&eRemote explosives.|&eRight click to throw.|&eLeft click to detonate."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Skip_Name_Check: true
+        Remove_Unused_Tag: true
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+    Explosive_Devices:
+        Enable: true
+        Device_Type: itembomb
+        Device_Info: 2,10,159,159~14
+        Sounds_Deploy: SHOOT_ARROW-1-0-0
+        Sounds_Alert_Placer: CLICK-1-1-0
+        Sounds_Trigger: SHEEP_SHEAR-1-2-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Explosion_Delay: 16
+        Sounds_Explode: ZOMBIE_WOOD-2-0-0
+    Extras:
+        One_Time_Use: true
+Grenade:
+    Item_Information:
+        Item_Name: "&eFrag Grenade"
+        Item_Type: 341
+        Item_Lore: "&eExplodes three seconds after launch."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Skip_Name_Check: true
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 10
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 341
+        Projectile_Speed: 12
+        Sounds_Shoot: ANVIL_LAND-1-0-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 7
+        Explosion_Delay: 75
+        Sounds_Explode: CREEPER_HISS-3-0-0
+    Extras:
+        One_Time_Use: true
+
+Flashbang:
+    Item_Information:
+        Item_Name: "&eFlashbang"
+        Item_Type: 405
+        Item_Lore: "&eDisorientates the target upon detonation."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Skip_Name_Check: true
+        Remove_Unused_Tag: true
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 10
+        Projectile_Amount: 1
+        Projectile_Type: grenade
+        Projectile_Subtype: 405
+        Projectile_Speed: 12
+        Sounds_Shoot: ANVIL_LAND-1-0-0
+    Explosions:
+        Enable: true
+        Explosion_No_Grief: true
+        Explosion_No_Damage: true
+        Explosion_Radius: 4
+        Explosion_Potion_Effect: BLINDNESS-120-1,SLOW-120-1
+        Explosion_Delay: 45
+        Sounds_Victim: DONKEY_ANGRY-1-0-0
+        Sounds_Explode: DONKEY_DEATH-3-1-0
+    Extras:
+        One_Time_Use: true

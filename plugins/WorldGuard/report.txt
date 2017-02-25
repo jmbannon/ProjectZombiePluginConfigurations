@@ -1,0 +1,694 @@
+================================
+System Information
+================================
+
+Java: Oracle Corporation 1.7.0_45 (http://java.oracle.com/)
+Operating System: Linux 2.6.32-358.23.2.el6.x86_64 (amd64)
+Available Processors: 12
+Free Memory: 2544 MB
+Max Memory: 2944 MB
+Total Memory: 2944 MB
+System Load Average: 0.12
+Java Uptime: 300 minutes
+Startup: 
+	Input Arguments: 
+		-Xmx3072M
+		-Xms3072M
+Virtual Machine: 
+	Name: OpenJDK 64-Bit Server VM
+	Vendor: Oracle Corporation
+	Version: Oracle Corporation
+Specification: 
+	Name: Java Virtual Machine Specification
+	Vendor: Oracle Corporation
+	Version: 1.7
+Class Loader: 
+	Loaded Class Count: 7776
+	Total Loaded Class Count: 7817
+	Unloaded Class Count: 41
+Garbage Collectors: 
+	PS Scavenge: 
+		Collection Count: 21
+		Collection Time: 265ms
+	PS MarkSweep: 
+		Collection Count: 20
+		Collection Time: 3151ms
+Threads: 
+	#1021 pool-10-thread-2: TIMED_WAITING
+	#1020 Chunk I/O Executor Thread-1: WAITING
+	#1019 Keep-Alive-Timer: TIMED_WAITING
+	#1010 Craft Scheduler Thread - 247: TIMED_WAITING
+	#1000 Craft Scheduler Thread - 245: TIMED_WAITING
+	#28 Netty Server IO #3: BLOCKED
+	#27 Netty Server IO #2: RUNNABLE
+	#26 Netty Server IO #1: RUNNABLE
+	#50 File IO Thread: TIMED_WAITING
+	#36 Timer-1: TIMED_WAITING
+	#32 Timer-0: TIMED_WAITING
+	#31 Thread-8: TIMED_WAITING
+	#25 Netty Server IO #0: RUNNABLE
+	#23 Spigot Metrics Thread: TIMED_WAITING
+	#22 Spigot Watchdog Thread: TIMED_WAITING
+	#20 Java2D Disposer: WAITING
+	#18 Thread-4: WAITING
+	#17 Server console handler: RUNNABLE
+	#16 DestroyJavaVM: RUNNABLE
+	#14 Server thread: RUNNABLE
+	#15 Server Infinisleeper: TIMED_WAITING
+	#11 Snooper Timer: TIMED_WAITING
+	#4 Signal Dispatcher: RUNNABLE
+	#3 Finalizer: WAITING
+	#2 Reference Handler: WAITING
+
+================================
+Server Information
+================================
+
+Server ID: unnamed
+Server Name: Project Zombie
+Bukkit Version: 1.8-R0.1-SNAPSHOT
+Implementation: git-Spigot-35348a5-ee6d0fa (MC: 1.8)
+Player Count: 1/61
+Server Class Source: file:/home/minecraft/multicraft/servers/server151/jar/spigot_server.jar
+Spawning: 
+	Ambient Spawn Limit: 0
+	Animal Spawn Limit: 3
+	Monster Spawn Limit: 15
+	Ticks per Animal Spawn: 500
+	Ticks per Monster Spawn: 5
+Configuration: 
+	Nether Enabled?: false
+	The End Enabled?: false
+	Generate Structures?: false
+	Flight Allowed?: true
+	Connection Throttle: 4000
+	Idle Timeout: 0
+	Shutdown Message: Server restart. Should be up momentarily. Get the latest updates at www.projectzombie.net
+	Default Game Mode: SURVIVAL
+	Main World Type: DEFAULT
+	View Distance: 8
+Protection: Spawn Radius: 16
+
+================================
+Plugins
+================================
+
+Plugin Count: 17
+Plugin: SkyDiver: 
+	Enabled?: true
+	Full Name: SkyDiver v1.4
+	Version: 1.4
+	Website: null
+	Description: null
+	Authors: 
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/SkyDiver
+	Entry Point: me.SkyDiver
+	Class: me.SkyDiver
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/SkyDiver.jar
+Plugin: NoSpawnChunksPlus: 
+	Enabled?: true
+	Full Name: NoSpawnChunksPlus v1.0 (Build 7)
+	Version: 1.0 (Build 7)
+	Website: null
+	Description: Helps manage server memory by dynamically unloading chunks
+	Authors: dmulloy2
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/NoSpawnChunksPlus
+	Entry Point: net.dmulloy2.nospawnchunksplus.NoSpawnChunksPlus
+	Class: net.dmulloy2.nospawnchunksplus.NoSpawnChunksPlus
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/NoSpawnChunksPlus.jar
+Plugin: bPermissions: 
+	Enabled?: true
+	Full Name: bPermissions v2.10.9m
+	Version: 2.10.9m
+	Website: http://bpermissions.com/
+	Description: null
+	Authors: codename_B
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/bPermissions
+	Entry Point: de.bananaco.bpermissions.imp.Permissions
+	Class: de.bananaco.bpermissions.imp.Permissions
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/bPermissions.jar
+Plugin: WorldEdit: 
+	Enabled?: true
+	Full Name: WorldEdit v6.0;3342-78f975b9
+	Version: 6.0;3342-78f975b9
+	Website: null
+	Description: null
+	Authors: 
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: Spout
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/WorldEdit
+	Entry Point: com.sk89q.worldedit.bukkit.WorldEditPlugin
+	Class: com.sk89q.worldedit.bukkit.WorldEditPlugin
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/WorldEdit.jar
+Plugin: SimpleRamChecker: 
+	Enabled?: true
+	Full Name: SimpleRamChecker v2.2
+	Version: 2.2
+	Website: null
+	Description: Allows players to check the servers ram usage.
+	Authors: StephenTheHero
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/SimpleRamChecker
+	Entry Point: me.StephenTheHero.SimpleRamChecker.MainFile
+	Class: me.StephenTheHero.SimpleRamChecker.MainFile
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/SimpleRamChecker.jar
+Plugin: VoxelSniper: 
+	Enabled?: true
+	Full Name: VoxelSniper v5.168.9-SNAPSHOT-jnks278
+	Version: 5.168.9-SNAPSHOT-jnks278
+	Website: http://www.voxelwiki.com/minecraft/VoxelSniper
+	Description: World editing from ingame using 3D brushes.
+	Authors: 
+		przerwap
+		MikeMatrix
+		Gavjenks
+		giltwist
+		psanker
+		Deamon5550
+		DivineRage
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: VoxelModPackPlugin
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/VoxelSniper
+	Entry Point: com.thevoxelbox.voxelsniper.VoxelSniper
+	Class: com.thevoxelbox.voxelsniper.VoxelSniper
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/VoxelSniper-5.168.9-SNAPSHOT.jar
+Plugin: CrackShot: 
+	Enabled?: true
+	Full Name: CrackShot v0.97.8
+	Version: 0.97.8
+	Website: http://dev.bukkit.org/server-mods/crackshot/
+	Description: Replicate any first-person shooter with advanced gun-mechanics and a vast number of exciting and fully customisable features.
+	Authors: Shampaggon
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/CrackShot
+	Entry Point: com.shampaggon.crackshot.CSDirector
+	Class: com.shampaggon.crackshot.CSDirector
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/CrackShot.jar
+Plugin: OPNecessities: 
+	Enabled?: true
+	Full Name: OPNecessities v1.2
+	Version: 1.2
+	Website: null
+	Description: null
+	Authors: 
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/OPNecessities
+	Entry Point: main.Main
+	Class: main.Main
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/OPNecessities.jar
+Plugin: Vault: 
+	Enabled?: true
+	Full Name: Vault v1.5.2-b33
+	Version: 1.5.2-b33
+	Website: http://dev.bukkit.org/server-mods/vault/
+	Description: Vault is a Permissions & Economy API to allow plugins to more easily hook into these systems without needing to hook each individual system themselves.
+	Authors: 
+		cereal
+		Sleaker
+		mung3r
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/Vault
+	Entry Point: net.milkbowl.vault.Vault
+	Class: net.milkbowl.vault.Vault
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/Vault.jar
+Plugin: HolographicDisplays: 
+	Enabled?: true
+	Full Name: HolographicDisplays v2.1.4
+	Version: 2.1.4
+	Website: null
+	Description: null
+	Authors: 
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		Multiverse-Core
+		MultiWorld
+		My_Worlds
+		My_Worlds
+		ProtocolLib
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/HolographicDisplays
+	Entry Point: com.gmail.filoghost.holographicdisplays.HolographicDisplays
+	Class: com.gmail.filoghost.holographicdisplays.HolographicDisplays
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/HolographicDisplays.jar
+Plugin: WorldGuard: 
+	Enabled?: true
+	Full Name: WorldGuard v6.0.0-beta-05.1569-
+	Version: 6.0.0-beta-05.1569-
+	Website: null
+	Description: null
+	Authors: 
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		WorldEdit
+		CommandBook
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/WorldGuard
+	Entry Point: com.sk89q.worldguard.bukkit.WorldGuardPlugin
+	Class: com.sk89q.worldguard.bukkit.WorldGuardPlugin
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/WorldGuard.jar
+Plugin: EnjinMinecraftPlugin: 
+	Enabled?: true
+	Full Name: EnjinMinecraftPlugin v2.7.1-bukkit
+	Version: 2.7.1-bukkit
+	Website: www.enjin.com
+	Description: A plugin which allows the enjin servers to communicate with your server.
+	Authors: www.Enjin.com
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		Vault
+		Votifier
+		mcMMO
+		GroupManager
+		Essentials
+		VanishNoPacket
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/EnjinMinecraftPlugin
+	Entry Point: com.enjin.officialplugin.EnjinMinecraftPlugin
+	Class: com.enjin.officialplugin.EnjinMinecraftPlugin
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/EnjinMinecraftPlugin.jar
+Plugin: StackableItems: 
+	Enabled?: true
+	Full Name: StackableItems v1.0.2
+	Version: 1.0.2
+	Website: http://dev.bukkit.org/server-mods/stackableitems/
+	Description: null
+	Authors: haveric
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: Vault
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/StackableItems
+	Entry Point: haveric.stackableItems.StackableItems
+	Class: haveric.stackableItems.StackableItems
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/StackableItems.jar
+Plugin: PhatLoots: 
+	Enabled?: true
+	Full Name: PhatLoots v4.0.0
+	Version: 4.0.0
+	Website: www.codisimus.com
+	Description: Chests with randomly generated money/items
+	Authors: Codisimus
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		Vault
+		MythicDrops
+		RegionTools
+		Econ
+		Votifier
+		Multiverse-Core
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/PhatLoots
+	Entry Point: com.codisimus.plugins.phatloots.PhatLoots
+	Class: com.codisimus.plugins.phatloots.PhatLoots
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/PhatLoots.jar
+Plugin: ServerShop-GUI: 
+	Enabled?: false
+	Full Name: ServerShop-GUI v1.6
+	Version: 1.6
+	Website: null
+	Description: null
+	Authors: crysis992
+	Load Before: 
+	Dependencies: Vault
+	Soft Dependencies: Citizens
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/ServerShop-GUI
+	Entry Point: com.avalon.servershop.ServerShop
+	Class: com.avalon.servershop.ServerShop
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/ServerShop.jar
+Plugin: BreakableWindows: 
+	Enabled?: true
+	Full Name: BreakableWindows v1.0
+	Version: 1.0
+	Website: null
+	Description: null
+	Authors: 
+	Load Before: 
+	Dependencies: CrackShot
+	Soft Dependencies: 
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/BreakableWindows
+	Entry Point: breakable_windows.StartUp
+	Class: breakable_windows.StartUp
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/BreakableWindows.jar
+Plugin: MythicMobs: 
+	Enabled?: true
+	Full Name: MythicMobs v1.1.8
+	Version: 1.1.8
+	Website: null
+	Description: A plugin for creating powerful mob variants and bosses.
+	Authors: Xikage AKA Ashijin
+	Load Before: 
+	Dependencies: 
+	Soft Dependencies: 
+		Multiverse-Core
+		Heroes
+		PhatLoots
+		Vault
+		MagicSpells
+		BarAPI
+		LanguageAPI
+		LibsDisguises
+		WorldGuard
+		SkillAPI
+	Folder: /home/minecraft/multicraft/servers/server151/plugins/MythicMobs
+	Entry Point: net.elseland.xikage.MythicMobs.MythicMobs
+	Class: net.elseland.xikage.MythicMobs.MythicMobs
+	Class Source: file:/home/minecraft/multicraft/servers/server151/plugins/MythicMobs.jar
+
+================================
+Scheduler
+================================
+
+Pending Task Count: 24
+Task: #31: 
+	Owner: Vault
+	Runnable: net.milkbowl.vault.Vault$1$1
+	Synchronous?: false
+Task: #12: 
+	Owner: HolographicDisplays
+	Runnable: com.gmail.filoghost.holographicdisplays.task.BungeeCleanupTask
+	Synchronous?: true
+Task: #22: 
+	Owner: EnjinMinecraftPlugin
+	Runnable: com.enjin.officialplugin.threaded.DelayedCommandExecuter
+	Synchronous?: true
+Task: #27: 
+	Owner: StackableItems
+	Runnable: haveric.stackableItems.Updater$1
+	Synchronous?: true
+Task: #20: 
+	Owner: EnjinMinecraftPlugin
+	Runnable: com.enjin.officialplugin.threaded.PeriodicEnjinTask
+	Synchronous?: false
+Task: #19: 
+	Owner: EnjinMinecraftPlugin
+	Runnable: com.enjin.officialplugin.tpsmeter.MonitorTPS
+	Synchronous?: false
+Task: #13: 
+	Owner: HolographicDisplays
+	Runnable: com.gmail.filoghost.holographicdisplays.task.WorldPlayerCounterTask
+	Synchronous?: true
+Task: #28: 
+	Owner: PhatLoots
+	Runnable: com.codisimus.plugins.phatloots.PhatLoots$1
+	Synchronous?: true
+Task: #18: 
+	Owner: WorldGuard
+	Runnable: com.sk89q.worldguard.session.SessionManager
+	Synchronous?: true
+Task: #25: 
+	Owner: EnjinMinecraftPlugin
+	Runnable: com.enjin.officialplugin.MetricsLite$1
+	Synchronous?: false
+Task: #8: 
+	Owner: SimpleRamChecker
+	Runnable: me.StephenTheHero.SimpleRamChecker.Metrics.Metrics$1
+	Synchronous?: false
+Task: #26: 
+	Owner: StackableItems
+	Runnable: haveric.stackableItems.mcstats.Metrics$1
+	Synchronous?: false
+Task: #17: 
+	Owner: WorldGuard
+	Runnable: com.sk89q.worldguard.bukkit.RegionContainer$2
+	Synchronous?: true
+Task: #9: 
+	Owner: VoxelSniper
+	Runnable: org.mcstats.Metrics$1
+	Synchronous?: false
+Task: #10: 
+	Owner: HolographicDisplays
+	Runnable: com.gmail.filoghost.holographicdisplays.placeholder.PlaceholdersManager$1
+	Synchronous?: true
+Task: #30: 
+	Owner: MythicMobs
+	Runnable: net.elseland.xikage.MythicMobs.MCStats.MetricsLite$1
+	Synchronous?: false
+Task: #23: 
+	Owner: EnjinMinecraftPlugin
+	Runnable: com.enjin.officialplugin.threaded.UpdateHeadsThread
+	Synchronous?: false
+Task: #29: 
+	Owner: MythicMobs
+	Runnable: net.elseland.xikage.MythicMobs.Clock.MythicMobsClock
+	Synchronous?: true
+Task: #24: 
+	Owner: EnjinMinecraftPlugin
+	Runnable: com.enjin.officialplugin.threaded.Updater
+	Synchronous?: false
+Task: #21: 
+	Owner: EnjinMinecraftPlugin
+	Runnable: com.enjin.officialplugin.threaded.BanLister
+	Synchronous?: false
+Task: #14: 
+	Owner: HolographicDisplays
+	Runnable: com.gmail.filoghost.holographicdisplays.metrics.MetricsLite$1
+	Synchronous?: false
+Task: #4: 
+	Owner: NoSpawnChunksPlus
+	Runnable: net.dmulloy2.nospawnchunksplus.NoSpawnChunksPlus$1
+	Synchronous?: true
+Task: #3: 
+	Owner: Vault
+	Runnable: net.milkbowl.vault.Metrics$4
+	Synchronous?: false
+Task: #11: 
+	Owner: HolographicDisplays
+	Runnable: com.gmail.filoghost.holographicdisplays.bridge.bungeecord.BungeeServerTracker$1
+	Synchronous?: true
+
+================================
+Services
+================================
+
+net.milkbowl.vault.chat.Chat: net.milkbowl.vault.chat.plugins.Chat_bPermissions2@75970a93
+net.milkbowl.vault.permission.Permission: net.milkbowl.vault.permission.plugins.Permission_bPermissions2@f377535
+
+================================
+Worlds
+================================
+
+World Count: 1
+World: PZRebornNew: 
+	UUID: f93b4c7d-4c9a-4ebf-8bda-f38a43b76f4b
+	World Type: NORMAL
+	Environment: NORMAL
+	Chunk Generator: <Default>
+	Spawning: 
+		Animals?: true
+		Monsters?: true
+		Ambient Spawn Limit: 0
+		Animal Spawn Limit: 3
+		Monster Spawn Limit: 15
+		Water Creature Spawn Limit: 0
+	Configuration: 
+		Difficulty: NORMAL
+		Max Height: 256
+		Sea Level: 64
+	State: 
+		Spawn Location: Location{world=CraftWorld{name=PZRebornNew},x=-1518.0,y=86.0,z=-2169.0,pitch=0.0,yaw=0.0}
+		Full Time: 11720095
+		Weather Duration: 38395
+		Thunder Duration: 103239
+	Protection: 
+		PVP?: true
+		Game Rules: <Recursive>
+
+================================
+Performance
+================================
+
+World Count: 1
+World: PZRebornNew: 
+	Keep in Memory?: true
+	Entity Count: 316
+	Chunk Count: 441
+	Entity Distribution: 
+		CraftChicken: 6 [0.013605/chunk]
+		CraftPlayer: 1 [0.002268/chunk]
+		CraftCow: 7 [0.015873/chunk]
+		CraftItemFrame: 40 [0.090703/chunk]
+		CraftSpider: 4 [0.009070/chunk]
+		CraftSheep: 6 [0.013605/chunk]
+		CraftZombie: 113 [0.256236/chunk]
+		CraftPigZombie: 138 [0.312925/chunk]
+		CraftPainting: 1 [0.002268/chunk]
+
+================================
+WorldGuard Configuration
+================================
+
+Configuration: 
+	hasCommandBookGodMode: false
+	useRegionsCreatureSpawnEvent: true
+	activityHaltToggle: false
+	useGodPermission: false
+	useGodGroup: false
+	useAmphibiousGroup: false
+	usePlayerMove: true
+	usePlayerTeleports: true
+	deopOnJoin: false
+	blockInGameOp: false
+	migrateRegionsToUuid: false
+	keepUnresolvedNames: true
+World: PZRebornNew: 
+	UUID: f93b4c7d-4c9a-4ebf-8bda-f38a43b76f4b
+	Configuration: 
+		blacklistFile: plugins/WorldGuard/worlds/PZRebornNew/blacklist.txt
+		summaryOnStart: true
+		opPermissions: false
+		buildPermissions: false
+		buildPermissionDenyMessage: §eSorry, but you are not permitted to do that here.
+		fireSpreadDisableToggle: false
+		itemDurability: true
+		simulateSponge: true
+		spongeRadius: 2
+		disableExpDrops: true
+		blockPotions: []
+		blockPotionsAlways: false
+		pumpkinScuba: false
+		redstoneSponges: false
+		noPhysicsGravel: true
+		noPhysicsSand: true
+		ropeLadders: true
+		allowPortalAnywhere: false
+		preventWaterDamage: []
+		blockLighter: true
+		disableFireSpread: true
+		disableFireSpreadBlocks: []
+		preventLavaFire: true
+		allowedLavaSpreadOver: []
+		blockTNTExplosions: false
+		blockTNTBlockDamage: true
+		blockCreeperExplosions: false
+		blockCreeperBlockDamage: true
+		blockWitherExplosions: false
+		blockWitherBlockDamage: true
+		blockWitherSkullExplosions: false
+		blockWitherSkullBlockDamage: true
+		blockEnderDragonBlockDamage: true
+		blockEnderDragonPortalCreation: true
+		blockFireballExplosions: false
+		blockFireballBlockDamage: true
+		blockOtherExplosions: false
+		blockEntityPaintingDestroy: false
+		blockEntityItemFrameDestroy: false
+		blockPluginSpawning: false
+		blockGroundSlimes: true
+		blockZombieDoorDestruction: true
+		disableContactDamage: false
+		disableFallDamage: false
+		disableLavaDamage: false
+		disableFireDamage: false
+		disableLightningDamage: false
+		disableDrowningDamage: false
+		disableSuffocationDamage: false
+		teleportOnSuffocation: false
+		disableVoidDamage: false
+		teleportOnVoid: true
+		disableExplosionDamage: false
+		disableMobDamage: false
+		useRegions: true
+		highFreqFlags: false
+		checkLiquidFlow: false
+		regionWand: 334
+		blockCreatureSpawn: []
+		allowTamedSpawns: true
+		maxClaimVolume: 30000
+		claimOnlyInsideExistingRegions: false
+		maxRegionCountPerPlayer: 7
+		antiWolfDumbness: true
+		signChestProtection: false
+		disableSignChestProtectionCheck: false
+		removeInfiniteStacks: false
+		disableCreatureCropTrampling: true
+		disablePlayerCropTrampling: true
+		preventLightningFire: true
+		disallowedLightningBlocks: []
+		disableThunder: false
+		disableWeather: false
+		alwaysRaining: false
+		alwaysThundering: false
+		disablePigZap: false
+		disableCreeperPower: false
+		disableHealthRegain: false
+		disableMushroomSpread: true
+		disableIceMelting: true
+		disableSnowMelting: true
+		disableSnowFormation: false
+		disableIceFormation: true
+		disableLeafDecay: true
+		disableGrassGrowth: false
+		disableMyceliumSpread: false
+		disableVineGrowth: false
+		disableEndermanGriefing: true
+		disableSnowmanTrails: true
+		disableSoilDehydration: false
+		allowedSnowFallOver: [17, 35, 18, 159]
+		regionInvinciblityRemovesMobs: false
+		fakePlayerBuildOverride: true
+		explosionFlagCancellation: true
+		disableDeathMessages: true
+		disableObsidianGenerators: false
+		strictEntitySpawn: false
+		allowAllInteract: {}
+		blockUseAtFeet: {}
+		maxRegionCounts: {null=7}
+	Blacklist: 
+		Rule Count: 1
+		Whitelist Mode?: false
+	Regions: 
+		Region Count: 108
+		__global__: 
+			Type: GLOBAL
+			Priority: 0
+			Owners: {players={uuids=[], names=[]}, groups={names=[]}}
+			Members: {players={uuids=[], names=[]}, groups={names=[]}}
+			Flags: 
+				StateFlag{name='snow-melt'}: DENY
+				StateFlag{name='sleep'}: DENY
+				EnumFlag{name='game-mode'}: SURVIVAL
+				BuildFlag{name='build'}: DENY
+				SetFlag{name='allowed-cmds'}: /getpos
+				/helpop
+				/mail
+				/who
+				/ci
+				/r
+				/clearinventory
+				/ignore
+				/msg
+				/message
+				/list
+				/rules
+				/ping
+				/motd
+				/online
+				/suicide
+				StateFlag{name='entry'}: DENY
+				SetFlag{name='deny-spawn'}: CREEPER
+				SLIME
+				WITCH
+				SHEEP
+				SILVERFISH
+				SKELETON
+				StateFlag{name='chest-access'}: ALLOW
+				StateFlag{name='mob-spawning'}: DENY
+

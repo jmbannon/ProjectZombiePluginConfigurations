@@ -1,0 +1,203 @@
+# Head Hunter - Headshot increase
+head_hunter_i:
+    Display Name: 'Head Hunter I'
+    Color: AQUA
+    Quality: 'Stock'
+    Headshot Damage Modifier: 3.5
+    Headshot Damage Multiplier: 0.35
+head_hunter_ii:
+    Display Name: 'Head Hunter II'
+    Color: RED
+    Quality: 'Stock'
+    Headshot Damage Modifier: 4.5
+    Headshot Damage Multiplier: 0.45
+head_hunter_iii:
+    Display Name: 'Head Hunter III'
+    Color: DARK_RED
+    Quality: 'Stock'
+    Headshot Damage Modifier: 5.5
+    Headshot Damage Multiplier: 0.55
+
+# Gambler Attachments - Increased crit
+gambler_i:
+    Display Name: 'Gambler I'
+    Color: AQUA
+    Quality: 'Stock'
+    Crit Chance Modifier: 0.25
+    Crit Strike Multiplier: 0.1
+gambler_ii:
+    Display Name: 'Gambler II'
+    Color: RED
+    Quality: 'Stock'
+    Crit Chance Modifier: 0.35
+    Crit Strike Multiplier: 0.2
+gambler_iii:
+    Display Name: 'Gambler III'
+    Color: DARK_RED
+    Quality: 'Stock'
+    Crit Chance Modifier: 0.45
+    Crit Strike Multiplier: 0.3
+
+# Blood Reaper - Bleedout
+blood_reaper_i:
+    Display Name: 'Blood Reaper I'
+    Color: AQUA
+    Quality: 'Stock'
+    Bleedout Damage: 1.5
+    Bleedout Duration Multiplier: 0.2
+    Bleedout Duration Seconds: 3.5
+blood_reaper_ii:
+    Display Name: 'Blood Reaper II'
+    Color: RED
+    Quality: 'Stock'
+    Bleedout Damage: 2.3
+    Bleedout Duration Multiplier: 0.3
+    Bleedout Duration Seconds: 3.6
+blood_reaper_iii:
+    Display Name: 'Blood Reaper III'
+    Color: DARK_RED
+    Quality: 'Stock'
+    Bleedout Damage: 3.0
+    Bleedout Duration Multiplier: 0.4
+    Bleedout Duration Seconds: 3.7
+
+precision_i:
+  Display Name: 'Precision I'
+  Color: AQUA
+  Quality: 'Stock'
+  Bulletspread Multiplier: 0.12
+precision_ii:
+  Display Name: 'Precision II'
+  Color: RED
+  Quality: 'Stock'
+  Bulletspread Multiplier: 0.18
+precision_iii:
+  Display Name: 'Precision III'
+  Color: DARK_RED
+  Quality: 'Stock'
+  Bulletspread Multiplier: 0.24
+
+luck_of_the_marksman_i:
+  Display Name: 'Luck of the Marksman I'
+  Color: AQUA
+  Quality: 'Stock'
+  Bulletspread Multiplier: 0.12
+  Crit Chance Modifier: 0.05
+  Crit Strike Multiplier: 0.10
+luck_of_the_marksman_ii:
+  Display Name: 'Luck of the Marksman II'
+  Color: RED
+  Quality: 'Stock'
+  Bulletspread Multiplier: 0.18
+  Crit Chance Modifier: 0.10
+  Crit Strike Multiplier: 0.15
+luck_of_the_marksman_iii:
+  Display Name: 'Luck of the Marksman II'
+  Color: DARK_RED
+  Quality: 'Stock'
+  Bulletspread Multiplier: 0.24
+  Crit Chance Modifier: 0.15
+  Crit Strike Multiplier: 0.20
+
+gut_eater_i:
+  Display Name: 'Gut Eater I'
+  Color: AQUA
+  Quality: 'Stock'
+  Shrapnel Damage Modifier: 3.25
+  Shrapnel Damage Multiplier: 0.10
+  Bleedout Damage Multiplier from Shrapnel: 0.10
+gut_eater_ii:
+  Display Name: 'Gut Eater II'
+  Color: RED
+  Quality: 'Stock'
+  Shrapnel Damage Modifier: 3.5
+  Shrapnel Damage Multiplier: 0.15
+  Bleedout Damage Multiplier from Shrapnel: 0.15
+gut_eater_iii:
+  Display Name: 'Gut Eater III'
+  Color: DARK_RED
+  Quality: 'Stock'
+  Shrapnel Damage Modifier: 3.75
+  Shrapnel Damage Multiplier: 0.20
+  Bleedout Damage Multiplier from Shrapnel: 0.20
+
+burning_scar_i:
+  Display Name: 'Burning Scar I'
+  Color: AQUA
+  Quality: 'Stock'
+  Incendiary Damage Modifier: 4.0
+  Incendiary Damage Multiplier: 0.10
+burning_scar_ii:
+  Display Name: 'Burning Scar II'
+  Color: RED
+  Quality: 'Stock'
+  Incendiary Damage Modifier: 4.5
+  Incendiary Damage Multiplier: 0.15
+burning_scar_iii:
+  Display Name: 'Burning Scar III'
+  Color: DARK_RED
+  Quality: 'Stock'
+  Incendiary Damage Modifier: 5.0
+  Incendiary Damage Multiplier: 0.20
+
+crippling_burn_i:
+  Display Name: 'Crippling Burn I'
+  Color: AQUA
+  Quality: 'Stock'
+  Incendiary Damage Multiplier: 0.6
+crippling_burn_ii:
+  Display Name: 'Crippling Burn II'
+  Color: RED
+  Quality: 'Stock'
+  Incendiary Damage Multiplier: 0.65
+crippling_burn_iii:
+  Display Name: 'Crippling Burn III'
+  Color: DARK_RED
+  Quality: 'Stock'
+  Incendiary Damage Multiplier: 0.70
+
+witch_burner_i:
+  Display Name: 'Witch Burner I'
+  Color: AQUA
+  Quality: 'Stock'
+  Ignite Chance: 0.24
+  Ignite Duration: 0.85
+witch_burner_ii:
+  Display Name: 'Witch Burner II'
+  Color: RED
+  Quality: 'Stock'
+  Ignite Chance: 0.30
+  Ignite Duration: 1.0
+witch_burner_iii:
+  Display Name: 'Witch Burner III'
+  Color: DARK_RED
+  Quality: 'Stock'
+  Ignite Chance: 0.36
+  Ignite Duration: 1.15
+
+seeker_of_screams_i:
+  Display Name: 'Seeker of Screams I'
+  Color: AQUA
+  Quality: 'Stock'
+  Ignite Duration: 2.5
+seeker_of_screams_ii:
+  Display Name: 'Seeker of Screams II'
+  Color: RED
+  Quality: 'Stock'
+  Ignite Duration: 2.75
+seeker_of_screams_iii:
+  Display Name: 'Seeker of Screams III'
+  Color: DARK_RED
+  Quality: 'Stock'
+  Ignite Duration: 3.0
+
+stun_ignite:
+  Display Name: 'Stun Ignite'
+  Quality: 'Stock'
+  Color: GREEN
+  Ignite Chance: 1.0
+  Ignite Damage Multiplier From Base Damage: 1.0
+  Ignite Damage Multiplier From Incendiary Damage: 0.0
+  Ignite Duration: 2.0
+  Stun Chance: 1.0
+  Stun Duration: 4.0

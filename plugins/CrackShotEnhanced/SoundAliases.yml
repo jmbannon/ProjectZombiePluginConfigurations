@@ -1,0 +1,253 @@
+ENTITY_SHULKER_AMBIENT:
+  Alias: 'M16 Fire'
+  Volume: 7
+  Pitch: 1
+ENTITY_SQUID_AMBIENT:
+  Alias: 'Grenade Throw'
+  Volume: 1
+  Delay: 0
+  Pitch: 0
+ENTITY_SHULKER_DEATH:
+  Alias: 'AK47 Fire'
+  Volume: 7
+  Pitch: 1
+ENTITY_SHULKER_HURT:
+  Alias: 'MP5 Fire'
+  Volume: 6
+  Pitch: 1
+ENTITY_SQUID_DEATH:
+  Alias: 'G3 Fire'
+  Volume: 7
+  Pitch: 1
+ENTITY_BLAZE_AMBIENT:
+  Alias: 'AWP Fire'
+  Volume: 9
+  Pitch: 1
+ENTITY_SQUID_HURT:
+  Alias: 'Deagle Fire'
+  Volume: 6
+  Pitch: 1
+# P228 and USP Silenced Fire
+ENTITY_BLAZE_DEATH:
+  Alias: 'Silenced Fire 1'
+  Volume: 1
+  Pitch: 1
+# Scout, AUG, M16, Famas, M4A1 Silenced Fire
+ENTITY_SHULKER_HURT_CLOSED:
+  Alias: 'Silenced Fire 2'
+  Volume: 2
+  Pitch: 1
+ENTITY_BLAZE_HURT:
+  Alias: 'SAW Fire'
+  Volume: 9
+  Pitch: 1
+ENTITY_BLAZE_SHOOT:
+  Alias: 'Grenade Explosion'
+  Volume: 1
+  Delay: 0
+  Pitch: 0
+ENTITY_ELDER_GUARDIAN_AMBIENT:
+  Alias: 'Flashbang Victim'
+  Volume: 1
+  Delay: 0
+  Pitch: 0
+ENTITY_DONKEY_HURT:
+  Alias: 'Flashbang Explosion'
+  Volume: 1
+  Delay: 0
+  Pitch: 0
+# 44 Magnum and Dirty Frank Fire
+ENTITY_ELDER_GUARDIAN_CURSE:
+  Alias: 'Revolver Fire'
+  Volume: 7
+  Pitch: 1
+ENTITY_ELDER_GUARDIAN_DEATH:
+  Alias: 'AUG Fire'
+  Volume: 6
+  Pitch: 1
+ENTITY_DONKEY_ANGRY:
+  Alias: 'SG552 Fire'
+  Volume: 6
+  Pitch: 1
+ENTITY_ELDER_GUARDIAN_HURT:
+  Alias: 'Colt 45 Fire'
+  Volume: 5
+  Pitch: 1
+# Famas and M4A1 Fire
+ENTITY_SNOWMAN_DEATH:
+  Alias: 'Famas Fire'
+  Volume: 6
+  Pitch: 1
+BLOCK_NOTE_HAT:
+  Alias: 'Zoom In'
+  Volume: 1
+  Pitch: 1
+ENTITY_ENDERDRAGON_DEATH:
+  Alias: 'Galil Fire'
+  Volume: 7
+  Pitch: 1
+ENTITY_ENDERDRAGON_FLAP:
+  Alias: 'Olympia Fire'
+  Volume: 5
+  Pitch: 1
+ENTITY_ENDERDRAGON_GROWL:
+  Alias: 'XM1014 Fire'
+  Volume: 5
+  Pitch: 1
+ENTITY_ENDERDRAGON_HURT:
+  Alias: 'AA12 Fire'
+  Volume: 6
+  Pitch: 1
+ENTITY_SNOWMAN_HURT:
+  Alias: 'M3 Fire'
+  Volume: 5
+  Pitch: 1
+ENTITY_DONKEY_AMBIENT:
+  Alias: 'M60 Fire'
+  Volume: 1
+  Delay: 0
+  Pitch: 0
+ENTITY_GUARDIAN_AMBIENT:
+  Alias: 'Headshot Quiet'
+  Volume: 1
+  Delay: 0
+  Pitch: 0
+ENTITY_GUARDIAN_AMBIENT_LAND:
+  Alias: 'Bullet Flesh'
+  Volume: 1
+  Delay: 0
+  Pitch: 0
+ENTITY_GUARDIAN_ATTACK:
+  Alias: 'Headshot Loud'
+  Volume: 1
+  Delay: 0
+  Pitch: 0
+ENTITY_GUARDIAN_DEATH:
+  Alias: 'Shotgun Shell Reload'
+  Volume: 1
+  Pitch: 1
+# Colt, P228, USP, Mac10, Ump45, P90, MP5, TMP Reload
+ENTITY_GUARDIAN_DEATH_LAND:
+  Alias: 'Mag Reload 1'
+  Volume: 1
+  Pitch: 1
+# Scout, Awp, Dragonuv, SG552 Reload
+ENTITY_GUARDIAN_FLOP:
+  Alias: 'Mag Reload 2'
+  Volume: 1
+  Pitch: 1
+# Deagle Reload
+ENTITY_GUARDIAN_HURT:
+  Alias: 'Mag Reload 3'
+  Volume: 1
+  Pitch: 1
+# 44 Magnum, Dirty Frank Reload
+ENTITY_GUARDIAN_HURT_LAND:
+  Alias: 'Revolver Reload'
+  Volume: 1
+  Pitch: 1
+ENTITY_MAGMACUBE_DEATH:
+  Alias: 'Glock Fire'
+  Volume: 1
+  Delay: 0
+  Pitch: 0
+# P228, USP Unsilenced Pistol Fire
+ENTITY_SHULKER_BULLET_HIT:
+  Alias: 'Pistol Fire'
+  Volume: 4
+  Pitch: 1
+ENTITY_MAGMACUBE_JUMP:
+  Alias: 'Scout Fire'
+  Volume: 5
+  Pitch: 1
+# G3, AUG, AK, M16, Galil, Famas, M4A1 Reload
+ENTITY_MAGMACUBE_SQUISH:
+  Alias: 'Assault Rifle Reload'
+  Volume: 1
+  Pitch: 1
+# Remington, Springfield, Winchester Reload
+ENTITY_SILVERFISH_AMBIENT:
+  Alias: 'Hunting Rifle Reload'
+  Volume: 1
+  Pitch: 1
+ENTITY_SILVERFISH_DEATH:
+  Alias: 'Model 70 Shoot'
+  Volume: 6
+  Pitch: 1
+ENTITY_SILVERFISH_HURT:
+  Alias: 'Remington Shoot'
+  Volume: 6
+  Pitch: 1
+ENTITY_SILVERFISH_STEP:
+  Alias: 'Springfield Shoot'
+  Volume: 6
+  Pitch: 1
+ENTITY_SKELETON_HORSE_AMBIENT:
+  Alias: 'Dragonuv Fire'
+  Volume: 6
+  Pitch: 1
+ENTITY_SKELETON_HORSE_DEATH:
+  Alias: 'P90 Fire'
+  Volume: 6
+  Pitch: 1
+  # Mac10 and TMP Fire
+ENTITY_SKELETON_HORSE_HURT:
+  Alias: 'Mac-10 Fire'
+  Volume: 5
+  Pitch: 1
+ENTITY_SMALL_MAGMACUBE_DEATH:
+  Alias: 'UMP-45 Fire'
+  Volume: 6
+  Pitch: 1
+# Mac10, Ump45, MP5, TMP Silenced Fire
+ENTITY_SHULKER_SHOOT:
+  Alias: 'TMP Fire'
+  Volume: 1
+  Pitch: 1
+ENTITY_DONKEY_DEATH:
+  Alias: 'Bolt Open'
+  Volume: 1
+  Delay: 0
+  Pitch: 0
+ENTITY_SMALL_MAGMACUBE_SQUISH:
+  Alias: 'Bolt Close'
+  Volume: 1
+  Delay: 0
+  Pitch: 0
+ENTITY_WITCH_AMBIENT:
+  Alias: 'Shotgun Open'
+  Volume: 1
+  Delay: 0
+  Pitch: 0
+ENTITY_WITCH_DEATH:
+  Alias: 'Shotgun Pump'
+  Volume: 1
+  Delay: 0
+  Pitch: 0
+ENTITY_WITCH_DRINK:
+  Alias: 'AA12 Reload'
+  Volume: 1
+  Delay: 0
+  Pitch: 0
+ENTITY_WITCH_HURT:
+  Alias: 'LMG Reload'
+  Volume: 1
+  Pitch: 1
+ENTITY_WITCH_THROW:
+  Alias: 'RPG Fire'
+  Volume: 1
+  Delay: 0
+  Pitch: 0
+ENTITY_WITHER_AMBIENT:
+  Alias: 'RPG Reload'
+  Volume: 1
+  Delay: 0
+  Pitch: 0
+ENTITY_BAT_TAKEOFF:
+  Alias: 'Sound Acquired'
+  Volume: 1
+  Pitch: 1
+ENTITY_ITEM_BREAK:
+  Alias: 'Out of Ammo'
+  Volume: 1
+  Pitch: 1

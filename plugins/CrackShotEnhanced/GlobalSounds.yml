@@ -1,0 +1,6 @@
+default:
+  Sound Acquired: 'Sound Acquired'
+  Sound Toggle Zoom: 'Zoom In'
+  Sound Out Of Ammo: 'Out of Ammo'
+  Sound Headshot Victim: 'Headshot Loud'
+  Projectile Type: arrow

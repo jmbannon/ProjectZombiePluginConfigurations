@@ -1,0 +1,247 @@
+# Project Zombie Mob Configuration
+#
+# Faction:
+#  - HumanPrey
+#
+#  - AnimalsBear
+#  - AnimalsPrey
+#  - AnimalsRadiated
+#  - AnimalsWolves
+#
+#  - MobsMetro
+#  - MobsMilitary
+#
+#  - ZombiesAggro
+#  - ZombiesBeast
+#  - ZombiesNeutral
+#
+
+BasicAggro:
+  Type: ZOMBIE
+  Display: '&2Zombie'
+  Health: 10
+  Damage: 8
+  Faction: ZombiesAggro
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    ShowHealth: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Skills:
+    - message{m="&b<mob.name>&r<&co> <mob.hp>/<mob.mhp>"} @Trigger ~onDamaged
+  Equipment:
+    - Sunscreen:4
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+BasicAggroGroup:
+  Type: ZOMBIE
+  Display: '&2Zombie'
+  Health: 60
+  Damage: 12
+  Faction: ZombiesAggro
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Skills:
+    - summon{type=BasicAggro;amount=5;radius=3} @self ~onSpawn 1.0
+  Equipment:
+    - Sunscreen:4
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+BasicAggroAlpha:
+  Type: ZOMBIE
+  Display: '&2Alpha Zombie'
+  Health: 60
+  Damage: 12
+  Faction: ZombiesAggro
+  Drops:
+    - Stock 1 0.5
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.4
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Skills:
+    - summon{type=BasicAggro;amount=2;radius=10} @self ~onSpawn 1.0
+    - summon{type=BasicAggro;amount=1;radius=10} @self ~onSpawn 0.5
+    - summon{type=BasicAggro;amount=2;radius=10} @self ~onSpawn 0.25
+    - rally{types=BasicAggro;radius=60} @PlayersInRadius{r=60}
+  Equipment:
+    - Sunscreen:4
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Leather w/out helmet
+Defender:
+  Type: ZOMBIE
+  Display: '&2Defender'
+  Health: 40
+  Damage: 8
+  Faction: ZombiesAggro
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - Sunscreen:4
+    - leather_chestplate:3
+    - leather_leggings:2
+    - leather_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Leather w/helmet
+Leader:
+  Type: ZOMBIE
+  Display: '&2Leader'
+  Health: 40
+  Damage: 8
+  Faction: ZombiesAggro
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - sunscreen_leather_helmet:4
+    - leather_chestplate:3
+    - leather_leggings:2
+    - leather_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Gold w/out helmet
+Scientist:
+  Type: ZOMBIE
+  Display: '&2Scientist'
+  Health: 40
+  Damage: 8
+  Faction: ZombiesAggro
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - Sunscreen:4
+    - gold_chestplate:3
+    - gold_leggings:2
+    - gold_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Gold w/helmet
+FieldResearcher:
+  Type: ZOMBIE
+  Display: '&2Field Researcher'
+  Health: 40
+  Damage: 8
+  Faction: ZombiesAggro
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - sunscreen_gold_helmet:4
+    - gold_chestplate:3
+    - gold_leggings:2
+    - gold_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker

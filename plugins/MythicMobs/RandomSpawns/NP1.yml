@@ -1,0 +1,13 @@
+# North Pass Spawn Groups
+#   Entries are ordered by most difficult, descending.
+#
+# N0:
+# - remote_northpass_gas
+# - remote_northpass_lodge
+# - remote_northpass_church
+# - remote_northpass_riverhouse
+# - remote_dam
+# - remote_dam_walk
+# N1:
+# - remote_northpass_cabin 1..8
+# - remote_northpass_house 1..4

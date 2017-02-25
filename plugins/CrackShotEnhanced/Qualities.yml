@@ -1,0 +1,31 @@
+t0:
+  Display Name: '[0] Civilian'
+  Probability: 0.40
+  Color: YELLOW
+t1:
+  Display Name: '[1] Tactical'
+  Probability: 0.20
+  Color: YELLOW
+t2:
+  Display Name: '[2] Doomsday Prepper'
+  Probability: 0.10
+  Color: YELLOW
+t3:
+  Display Name: '[3] Military'
+  Probability: 0.05
+  Color: YELLOW
+t4:
+  Display Name: '[4] Special Forces'
+  Probability: 0.025
+  Color: YELLOW
+t5:
+  Display Name: '[5] Classified'
+  Probability: 0.0125
+  Color: YELLOW
+
+stock:
+  Display Name: "Stock"
+  Probability: 0.35
+  Color: YELLOW
+
+

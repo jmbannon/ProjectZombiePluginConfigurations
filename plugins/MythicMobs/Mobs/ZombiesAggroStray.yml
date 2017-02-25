@@ -1,0 +1,93 @@
+StrayAggro:
+  Type: STRAY
+  Display: '&2Stray'
+  Health: 20
+  Damage: 3
+  Faction: ZombiesAggro
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - Sunscreen:4
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Leather w/out helmet
+StrayDefender:
+  Type: STRAY
+  Display: '&2Stray Defender'
+  Health: 30
+  Damage: 5
+  Faction: ZombiesAggro
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - Sunscreen:4
+    - leather_chestplate:3
+    - leather_leggings:2
+    - leather_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Leather w/helmet
+StrayLeader:
+  Type: STRAY
+  Display: '&2Stray Leader'
+  Health: 40
+  Damage: 6
+  Faction: ZombiesAggro
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - sunscreen_leather_helmet:4
+    - leather_chestplate:3
+    - leather_leggings:2
+    - leather_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey

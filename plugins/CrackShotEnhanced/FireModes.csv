@@ -1,0 +1,8 @@
+display name,material,materialData,price,color,is burst fire,shots per burst,is automatic
+Semi-Auto,MONSTER_EGG,92,10,GREEN,FALSE,0,FALSE
+Burst,MONSTER_EGG,93,10,GREEN,TRUE,3,FALSE
+Automatic,MONSTER_EGG,94,10,GREEN,FALSE,0,TRUE
+Single Shot,NULL,0,10,GREEN,FALSE,0,FALSE
+Bolt-Action,NULL,0,10,GREEN,FALSE,0,FALSE
+Pump-Action,NULL,0,10,GREEN,FALSE,0,FALSE
+Over/Under,NULL,0,10,GREEN,FALSE,0,FALSE

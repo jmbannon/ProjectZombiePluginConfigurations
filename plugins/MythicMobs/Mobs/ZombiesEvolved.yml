@@ -1,0 +1,377 @@
+# Project Zombie Mob Configuration
+#
+# Faction:
+#  - HumanPrey
+#
+#  - AnimalsBear
+#  - AnimalsPrey
+#  - AnimalsRadiated
+#  - AnimalsWolves
+#
+#  - MobsMetro
+#  - MobsMilitary
+#
+#  - ZombiesAggro
+#  - ZombiesEvolved
+#  - ZombiesNeutral
+#
+
+EvolvedBasicAggro:
+  Type: PIG_ZOMBIE
+  Display: '&2Evolved Zombie'
+  Health: 40
+  Damage: 8
+  Faction: ZombiesEvolved
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.38
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - Sunscreen:4
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Leather w/out helmet
+EvolvedDefender:
+  Type: PIG_ZOMBIE
+  Display: '&2Evolved Defender'
+  Health: 40
+  Damage: 8
+  Faction: ZombiesEvolved
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.38
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - Sunscreen:4
+    - leather_chestplate:3
+    - leather_leggings:2
+    - leather_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Leather w/helmet
+EvolvedLeader:
+  Type: PIG_ZOMBIE
+  Display: '&2Evolved Leader'
+  Health: 40
+  Damage: 8
+  Faction: ZombiesEvolved
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.38
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - sunscreen_leather_helmet:4
+    - leather_chestplate:3
+    - leather_leggings:2
+    - leather_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Gold w/out helmet
+EvolvedScientist:
+  Type: PIG_ZOMBIE
+  Display: '&2Evolved Scientist'
+  Health: 40
+  Damage: 8
+  Faction: ZombiesEvolved
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.38
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - Sunscreen:4
+    - gold_chestplate:3
+    - gold_leggings:2
+    - gold_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Gold w/helmet
+EvolvedFieldResearcher:
+  Type: PIG_ZOMBIE
+  Display: '&2Evolved Field Researcher'
+  Health: 40
+  Damage: 8
+  Faction: ZombiesEvolved
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.38
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - sunscreen_gold_helmet:4
+    - gold_chestplate:3
+    - gold_leggings:2
+    - gold_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+
+# Chainmail w/out helmet
+EvolvedGrunt:
+  Type: PIG_ZOMBIE
+  Display: '&2Evolved Grunt'
+  Health: 40
+  Damage: 8
+  Faction: MobsMilitary
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.38
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - Sunscreen:4
+    - chainmail_chestplate:3
+    - chainmail_leggings:2
+    - chainmail_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Chainmail w/helmet
+EvolvedSoldier:
+  Type: PIG_ZOMBIE
+  Display: '&2Evolved Soldier'
+  Health: 40
+  Damage: 8
+  Faction: MobsMilitary
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.38
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - sunscreen_chainmail_helmet:4
+    - chainmail_chestplate:3
+    - chainmail_leggings:2
+    - chainmail_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Iron w/out helmet
+EvolvedArmoredSoldier:
+  Type: PIG_ZOMBIE
+  Display: '&2Evolved Armored Soldier'
+  Health: 110
+  Damage: 15
+  Faction: MobsMilitary
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.35
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - Sunscreen:4
+    - iron_chestplate:3
+    - iron_leggings:2
+    - iron_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Iron w/helmet
+EvolvedArmoredSergeant:
+  Type: PIG_ZOMBIE
+  Display: '&2Evolved Armored Sergeant'
+  Health: 110
+  Damage: 15
+  Faction: MobsMilitary
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.38
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - sunscreen_iron_helmet:4
+    - iron_chestplate:3
+    - iron_leggings:2
+    - iron_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Diamond w/out helmet
+EvolvedCommander:
+  Type: PIG_ZOMBIE
+  Display: '&2Evolved Commander'
+  Health: 120
+  Damage: 20
+  Faction: MobsMilitary
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.43
+    FollowRange: 75
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - Sunscreen:4
+    - diamond_chestplate:3
+    - diamond_leggings:2
+    - diamond_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Diamond w/helmet
+EvolvedGeneral:
+  Type: PIG_ZOMBIE
+  Display: '&2Evolved General'
+  Health: 150
+  Damage: 20
+  Faction: MobsMilitary
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.48
+    FollowRange: 75
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - sunscreen_diamond_helmet:4
+    - diamond_chestplate:3
+    - diamond_leggings:2
+    - diamond_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker

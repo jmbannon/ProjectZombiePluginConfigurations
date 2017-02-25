@@ -1,0 +1,7 @@
+Display Name (STR),Material (INT),Material Data (INT),Price (INT),Color (STR),Crackshot Zoom Amount (INT),Bullet Spread Multiplier (DBL),Zoom Bulletspread Multiplier (DBL)
+Iron Sight,NULL,0,10,GREEN,0,1,1
+Red Dot Sight,NULL,0,10,GREEN,0,0.95,1
+ACOG Scope,NULL,0,10,GREEN,4,1,1
+Tactical Scope,NULL,0,10,GREEN,5,1,1
+Sniper Scope,NULL,0,10,GREEN,10,1,1
+Broken Scope,NULL,0,10,GREEN,0,1,1

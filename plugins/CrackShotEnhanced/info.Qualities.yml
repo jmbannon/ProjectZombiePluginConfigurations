@@ -1,0 +1,49 @@
+'[0] Civilian':
+  material: PURPUR_BLOCK
+  id: 201
+  data: 0
+  lore:
+  - §7------------------------------§r§n§r§e§0§d§0§d§a§e§0§b§0§r§o§r
+  - §e[0] Civilian Crate
+'[1] Tactical':
+  material: PURPUR_BLOCK
+  id: 201
+  data: 0
+  lore:
+  - §7------------------------------§r§n§r§e§0§d§0§d§a§e§0§b§1§r§o§r
+  - §e[1] Tactical Crate
+'[2] Doomsday Prepper':
+  material: PURPUR_BLOCK
+  id: 201
+  data: 0
+  lore:
+  - §7------------------------------§r§n§r§e§0§d§0§d§a§e§0§b§2§r§o§r
+  - §e[2] Doomsday Prepper Crate
+'[3] Military':
+  material: PURPUR_BLOCK
+  id: 201
+  data: 0
+  lore:
+  - §7------------------------------§r§n§r§e§0§d§0§d§a§e§0§b§3§r§o§r
+  - §e[3] Military Crate
+'[4] Special Forces':
+  material: PURPUR_BLOCK
+  id: 201
+  data: 0
+  lore:
+  - §7------------------------------§r§n§r§e§0§d§0§d§a§e§0§b§4§r§o§r
+  - §e[4] Special Forces Crate
+'[5] Classified':
+  material: PURPUR_BLOCK
+  id: 201
+  data: 0
+  lore:
+  - §7------------------------------§r§n§r§e§0§d§0§d§a§e§0§b§5§r§o§r
+  - §e[5] Classified Crate
+Stock:
+  material: PURPUR_BLOCK
+  id: 201
+  data: 0
+  lore:
+  - §7------------------------------§r§n§r§e§0§d§0§d§a§e§0§b§6§r§o§r
+  - §eStock Crate

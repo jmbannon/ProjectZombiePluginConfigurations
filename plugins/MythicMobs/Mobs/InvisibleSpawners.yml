@@ -1,0 +1,11 @@
+test:
+  Type: ARMOR_STAND
+  Skills:
+    - summon{type=BasicAggro;amount=4;radius=5} @self ~onSpawn 1.0
+    - summon{type=BasicAggro;amount=2;radius=5} @self ~onSpawn 0.5
+    - remove{delay=1} @self ~onSpawn
+  Options:
+    Invisible: false
+    Invincible: true
+    HasGravity: false
+    Marker: true

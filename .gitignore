@@ -1,0 +1,22 @@
+# ignore everything
+/*
+
+# Whitelist repo files
+!.gitignore
+!README.md
+
+# Allow /plugins, but not any files within directory
+!/plugins/
+/plugins/*
+
+# Allow the following plugin configurations to be in the repo
+!/plugins/CrackShot
+!/plugins/CrackShotEnhanced
+!/plugins/MythicMobs
+!/plugins/WorldGuard
+
+
+# Ignore various files generated from editor programs
+*.~*#
+*.sqlite
+plugins/CrackShotEnhanced/example.*

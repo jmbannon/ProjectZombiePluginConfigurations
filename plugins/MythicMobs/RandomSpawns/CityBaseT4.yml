@@ -1,0 +1,89 @@
+#
+# City Spawns from west to east (T0, T1, ...), north to south
+#
+#
+#
+# T3:
+# - city_base_museum
+# - city_base_inner1
+# - city_base_inner2
+# - city_base_stadium
+#
+# T4:
+# - city_base_zoo
+# - city_base_auditorium
+# - city_base_waterfront
+# 
+#
+
+city_base_zoo_t4_rarest:
+  MobType: EvolvedGeneral
+  Chance: 0.15
+  Priority: 40
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playernotwithin 100
+    - inregion city_base_zoo
+    - height 13-30
+    - inblock AIR
+
+city_base_zoo_t4_rare:
+  MobType: EvolvedCommander
+  Chance: 0.30
+  Priority: 40
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playernotwithin 100
+    - inregion city_base_zoo
+    - height 13-30
+    - inblock AIR
+
+city_base_auditorium_t4_rarest:
+  MobType: EvolvedGeneral
+  Chance: 0.15
+  Priority: 40
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playernotwithin 100
+    - inregion city_base_auditorium
+    - height 13-30
+    - inblock AIR
+
+city_base_auditorium_t4_rare:
+  MobType: EvolvedCommander
+  Chance: 0.30
+  Priority: 40
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playernotwithin 100
+    - inregion city_base_auditorium
+    - height 13-30
+    - inblock AIR
+
+city_base_waterfront_t4_rarest:
+  MobType: EvolvedGeneral
+  Chance: 0.15
+  Priority: 40
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playernotwithin 100
+    - inregion city_base_waterfront
+    - height 13-30
+    - inblock AIR
+
+city_base_waterfront_t4_rare:
+  MobType: EvolvedCommander
+  Chance: 0.30
+  Priority: 40
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playernotwithin 100
+    - inregion city_base_waterfront
+    - height 13-30
+    - inblock AIR

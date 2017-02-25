@@ -1,0 +1,997 @@
+#
+# The naming convention for weapons is <weapon>_<tier>
+# where <tier> represents the following Qualities:
+#
+# 0: [0] Civilian
+# 1: [1] Tactical
+# 2: [2] Doomsday Prepper
+# 3: [3] Military
+# 4: [4] Special Forces
+# 5: [5] Classified
+#
+
+#################################################
+#     PISTOLS
+#################################################
+
+# Default
+deagle_2:
+  Display Name: 'Desert Eagle'
+  Quality: '[2] Doomsday Prepper'
+  Weapon Type: 'Pistol'
+  Modifier Set: 'PISTOL_1'
+  Material ID: 293
+  Material Data: 0
+  Sound Shoot: 'Deagle Fire'
+  Sound Reload: 'Mag Reload 3'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 15
+  Delay Between Shots: 7
+  Durability Max: 300
+  Initial Bullet Spread: 1.35
+  Knockback Multiplier: 1.0
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 7
+  Reload Bullets Individually: false
+  Reload Duration: 40
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.5
+
+# All stats slightly incremented
+deagle_3:
+  Display Name: 'Modified Desert Eagle'
+  Quality: '[3] Military'
+  Weapon Type: 'Pistol'
+  Modifier Set: 'PISTOL_1'
+  Material ID: 293
+  Material Data: 0
+  Sound Shoot: 'Deagle Fire'
+  Sound Reload: 'Mag Reload 3'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 18
+  Delay Between Shots: 6
+  Durability Max: 300
+  Initial Bullet Spread: 1.35
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 7
+  Reload Bullets Individually: false
+  Reload Duration: 30
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.10
+
+# Default
+colt45_0:
+  Display Name: 'Colt 45'
+  Quality: '[0] Civilian'
+  Weapon Type: 'Pistol'
+  Modifier Set: 'PISTOL_1'
+  Material ID: 338
+  Material Data: 0
+  Sound Shoot: 'Colt 45 Fire'
+  Sound Reload: 'Mag Reload 1'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 12
+  Delay Between Shots: 5
+  Durability Max: 300
+  Initial Bullet Spread: 1.32
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 7
+  Reload Bullets Individually: false
+  Reload Duration: 30
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.25
+
+# Accuracy increase
+colt45_1:
+  Display Name: 'Deadeye Colt 45'
+  Quality: '[1] Tactical'
+  Weapon Type: 'Pistol'
+  Modifier Set: 'PISTOL_1'
+  Material ID: 338
+  Material Data: 0
+  Sound Shoot: 'Colt 45 Fire'
+  Sound Reload: 'Mag Reload 1'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 12
+  Delay Between Shots: 5
+  Durability Max: 300
+  Initial Bullet Spread: 1.12
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 7
+  Reload Bullets Individually: false
+  Reload Duration: 30
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.25
+
+# Default
+p228_0:
+  Display Name: 'P228'
+  Quality: '[0] Civilian'
+  Weapon Type: 'Pistol'
+  Modifier Set: 'PISTOL_2'
+  Material ID: 351
+  Material Data: 8
+  Sound Shoot: 'Pistol Fire'
+  Sound Reload: 'Mag Reload 3'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 10.0
+  Delay Between Shots: 5
+  Durability Max: 300
+  Initial Bullet Spread: 1.19
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 15
+  Reload Bullets Individually: false
+  Reload Duration: 30
+  Sound Silenced: 'Silenced Fire 1'
+  Speed Running Multiplier: 0.30
+
+# Extended Magazine
+p228_1:
+  Display Name: 'Extended P228'
+  Quality: '[1] Tactical'
+  Weapon Type: 'Pistol'
+  Modifier Set: 'PISTOL_2'
+  Material ID: 351
+  Material Data: 8
+  Sound Shoot: 'Pistol Fire'
+  Sound Reload: 'Mag Reload 3'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 10.0
+  Delay Between Shots: 5
+  Durability Max: 300
+  Initial Bullet Spread: 1.19
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 20
+  Reload Bullets Individually: false
+  Reload Duration: 30
+  Sound Silenced: 'Silenced Fire 1'
+  Speed Running Multiplier: 0.30
+
+# Default
+usp_0:
+  Display Name: 'USP'
+  Quality: '[1] Tactical'
+  Weapon Type: 'Pistol'
+  Modifier Set: 'PISTOL_2'
+  Material ID: 292
+  Material Data: 0
+  Sound Shoot: 'Pistol Fire'
+  Sound Reload: 'Mag Reload 1'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 10.0
+  Delay Between Shots: 5
+  Durability Max: 300
+  Initial Bullet Spread: 1.32
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 15
+  Reload Bullets Individually: false
+  Reload Duration: 30
+  Sound Silenced: 'Silenced Fire 1'
+  Speed Running Multiplier: 0.35
+
+# Lightweight
+usp_1:
+  Display Name: 'Lightweight USP'
+  Quality: '[2] Doomsday Prepper'
+  Weapon Type: 'Pistol'
+  Modifier Set: 'PISTOL_2'
+  Material ID: 292
+  Material Data: 0
+  Sound Shoot: 'Pistol Fire'
+  Sound Reload: 'Mag Reload 1'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 10.0
+  Delay Between Shots: 5
+  Durability Max: 300
+  Initial Bullet Spread: 1.32
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 15
+  Reload Bullets Individually: false
+  Reload Duration: 30
+  Sound Silenced: 'Silenced Fire 1'
+  Speed Running Multiplier: 0.42
+
+#################################################
+#     REVOLVERS
+#################################################
+
+# Default
+44mag_2:
+  # Default
+  Display Name: '44 Magnum'
+  Quality: '[2] Doomsday Prepper'
+  Weapon Type: 'Revolver'
+  Modifier Set: 'REVOLVER_1'
+  Material ID: 294
+  Material Data: 0
+  Sound Shoot: 'Revolver Fire'
+  Sound Reload: 'Revolver Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 22
+  Delay Between Shots: 9
+  Durability Max: 300
+  Initial Bullet Spread: 1.52
+  Particle Shoot: 'FLAMES-1'
+  Recoil Amount: 0
+  Reload Amount: 6
+  Reload Bullets Individually: false
+  Reload Duration: 72
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.10
+
+# Fast reload
+44mag_3:
+  Display Name: 'Fast Fingers 44 Magnum'
+  Quality: '[3] Military'
+  Weapon Type: 'Revolver'
+  Modifier Set: 'REVOLVER_1'
+  Material ID: 294
+  Material Data: 0
+  Sound Shoot: 'Revolver Fire'
+  Sound Reload: 'Revolver Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 22
+  Delay Between Shots: 9
+  Durability Max: 300
+  Initial Bullet Spread: 1.52
+  Particle Shoot: 'FLAMES-1'
+  Recoil Amount: 0
+  Reload Amount: 6
+  Reload Bullets Individually: false
+  Reload Duration: 36
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.10
+
+# Default
+dirtyfrank_2:
+  # Default
+  Display Name: 'Dirty Frank'
+  Quality: '[2] Doomsday Prepper'
+  Weapon Type: 'Revolver'
+  Modifier Set: 'REVOLVER_2'
+  Material ID: 336
+  Material Data: 0
+  Sound Shoot: 'Revolver Fire'
+  Sound Reload: 'Revolver Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 24
+  Delay Between Shots: 9
+  Durability Max: 300
+  Initial Bullet Spread: 1.42
+  Particle Shoot: 'FLAMES-1'
+  Recoil Amount: 0
+  Reload Amount: 6
+  Reload Bullets Individually: false
+  Reload Duration: 72
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.10
+
+# Better accuracy
+dirtyfrank_3:
+  Display Name: 'Dirty Harry'
+  Quality: '[3] Military'
+  Weapon Type: 'Revolver'
+  Modifier Set: 'REVOLVER_2'
+  Material ID: 336
+  Material Data: 0
+  Sound Shoot: 'Revolver Fire'
+  Sound Reload: 'Revolver Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 24
+  Delay Between Shots: 9
+  Durability Max: 300
+  Initial Bullet Spread: 1.27
+  Particle Shoot: 'FLAMES-1'
+  Recoil Amount: 0
+  Reload Amount: 6
+  Reload Bullets Individually: false
+  Reload Duration: 72
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.10
+
+#################################################
+#     BOLT SNIPER RIFLES
+#################################################
+
+# Default
+scout_3:
+  Display Name: 'Scout'
+  Quality: '[3] Military'
+  Weapon Type: 'Sniper'
+  Modifier Set: 'BOLT_SNIPER_1'
+  Material ID: 351
+  Material Data: 9
+  Sound Shoot: 'Scout Fire'
+  Sound Reload: 'Mag Reload 2'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 15
+  Delay Between Shots: 0
+  Durability Max: 300
+  Initial Bullet Spread: 1.19
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 10
+  Reload Bullets Individually: false
+  Reload Duration: 40
+  Sound Silenced: 'Silenced Fire 2'
+  Speed Running Multiplier: -0.10
+
+# Lightweight
+scout_4:
+  Display Name: 'Lightweight Scout'
+  Quality: '[4] Special Forces'
+  Weapon Type: 'Sniper'
+  Modifier Set: 'BOLT_SNIPER_1'
+  Material ID: 351
+  Material Data: 9
+  Sound Shoot: 'Scout Fire'
+  Sound Reload: 'Mag Reload 2'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 15
+  Delay Between Shots: 0
+  Durability Max: 300
+  Initial Bullet Spread: 1.19
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 10
+  Reload Bullets Individually: false
+  Reload Duration: 40
+  Sound Silenced: 'Silenced Fire 2'
+  Speed Running Multiplier: 0.5
+
+# Default
+awp_4:
+  Display Name: 'AWP'
+  Quality: '[4] Special Forces'
+  Weapon Type: 'Sniper'
+  Modifier Set: 'BOLT_SNIPER_1'
+  Material ID: 278
+  Material Data: 0
+  Sound Shoot: 'AWP Fire'
+  Sound Reload: 'Mag Reload 2'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 30
+  Delay Between Shots: 0
+  Durability Max: 300
+  Initial Bullet Spread: 1.19
+  Particle Shoot: 'FLAMES-1'
+  Recoil Amount: 1
+  Reload Amount: 5
+  Reload Bullets Individually: false
+  Reload Duration: 40
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: -0.25
+
+# More damage
+awp_5:
+  Display Name: 'AWP+'
+  Quality: '[5] Classified'
+  Weapon Type: 'Sniper'
+  Modifier Set: 'BOLT_SNIPER_1'
+  Material ID: 278
+  Material Data: 0
+  Sound Shoot: 'AWP Fire'
+  Sound Reload: 'Mag Reload 2'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 40
+  Delay Between Shots: 0
+  Durability Max: 300
+  Initial Bullet Spread: 1.19
+  Particle Shoot: 'FLAMES-1'
+  Recoil Amount: 1
+  Reload Amount: 5
+  Reload Bullets Individually: false
+  Reload Duration: 40
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: -0.25
+
+#################################################
+#     SEMI SNIPERS
+#################################################
+
+# Default
+g3:
+  Display Name: 'G3SG1'
+  Quality: '[3] Military'
+  Weapon Type: 'Auto Sniper'
+  Modifier Set: 'SEMI_SNIPER_1'
+  Material ID: 277
+  Material Data: 0
+  Sound Shoot: 'G3 Fire'
+  Sound Reload: 'Assault Rifle Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 12
+  Delay Between Shots: 11
+  Durability Max: 300
+  Initial Bullet Spread: 1.19
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 20
+  Reload Bullets Individually: false
+  Reload Duration: 55
+  Sound Silenced: 'Silenced Fire 2'
+  Speed Running Multiplier: -0.1
+
+# Default
+dragonuv:
+  Display Name: 'Dragonuv'
+  Quality: '[3] Military'
+  Weapon Type: 'Auto Sniper'
+  Modifier Set: 'SEMI_SNIPER_1'
+  Material ID: 351
+  Material Data: 14
+  Sound Shoot: 'Dragonuv Fire'
+  Sound Reload: 'Mag Reload 2'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 14
+  Delay Between Shots: 17
+  Durability Max: 300
+  Initial Bullet Spread: 1.19
+  Particle Shoot: 'FLAMES-1'
+  Recoil Amount: 0
+  Reload Amount: 20
+  Reload Bullets Individually: false
+  Reload Duration: 40
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: -0.1
+
+#################################################
+#     HUNTING BOLT SNIPERS
+#################################################
+
+# Default
+remington:
+  Display Name: 'Remington 700'
+  Quality: '[0] Civilian'
+  Weapon Type: 'Hunting'
+  Modifier Set: 'BOLT_SNIPER_1'
+  Material ID: 351
+  Material Data: 12
+  Sound Shoot: 'Remington Shoot'
+  Sound Reload: 'Hunting Rifle Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 13
+  Delay Between Shots: 0
+  Durability Max: 300
+  Initial Bullet Spread: 1.19
+  Particle Shoot: 'FLAMES-1'
+  Recoil Amount: 0
+  Reload Amount: 6
+  Reload Bullets Individually: true
+  Reload Duration: 13
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.0
+
+# Default
+springfield:
+  Display Name: 'M1903 Springfield'
+  Quality: '[0] Civilian'
+  Weapon Type: 'Hunting'
+  Modifier Set: 'BOLT_SNIPER_1'
+  Material ID: 351
+  Material Data: 13
+  Sound Shoot: 'Springfield Shoot'
+  Sound Reload: 'Hunting Rifle Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 13
+  Delay Between Shots: 0
+  Durability Max: 300
+  Initial Bullet Spread: 1.19
+  Particle Shoot: 'FLAMES-1'
+  Recoil Amount: 0
+  Reload Amount: 6
+  Reload Bullets Individually: true
+  Reload Duration: 13
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.0
+
+# Default
+winchester:
+  Display Name: 'Winchester Model 70'
+  Quality: '[0] Civilian'
+  Weapon Type: 'Hunting'
+  Modifier Set: 'BOLT_SNIPER_1'
+  Material ID: 279
+  Material Data: 0
+  Sound Shoot: 'Model 70 Shoot'
+  Sound Reload: 'Hunting Rifle Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 13
+  Delay Between Shots: 0
+  Durability Max: 300
+  Initial Bullet Spread: 1.19
+  Particle Shoot: 'FLAMES-1'
+  Recoil Amount: 0
+  Reload Amount: 5
+  Reload Bullets Individually: true
+  Reload Duration: 13
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.0
+
+#################################################
+#     SMG
+#################################################
+
+# Default
+mac10:
+  Display Name: 'Mac-10'
+  Quality: '[1] Tactical'
+  Weapon Type: 'SMG'
+  Modifier Set: 'SMG_1'
+  Material ID: 351
+  Material Data: 6
+  Sound Shoot: 'Mac-10 Fire'
+  Sound Reload: 'Mag Reload 1'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 12
+  Delay Between Shots: 4
+  Durability Max: 300
+  Initial Bullet Spread: 1.25
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 30
+  Reload Bullets Individually: false
+  Reload Duration: 30
+  Sound Silenced: 'TMP Fire'
+  Speed Running Multiplier: 0.2
+
+# Default
+ump:
+  Display Name: 'UMP-45'
+  Quality: '[2] Doomsday Prepper'
+  Weapon Type: 'SMG'
+  Modifier Set: 'SMG_1'
+  Material ID: 351
+  Material Data: 10
+  Sound Shoot: 'UMP-45 Fire'
+  Sound Reload: 'Mag Reload 1'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 12
+  Delay Between Shots: 6
+  Durability Max: 300
+  Initial Bullet Spread: 0.99
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 30
+  Reload Bullets Individually: false
+  Reload Duration: 40
+  Sound Silenced: 'TMP Fire'
+  Speed Running Multiplier: 0.1
+
+# Default
+p90:
+  Display Name: 'P90'
+  Quality: '[2] Doomsday Prepper'
+  Weapon Type: 'SMG'
+  Modifier Set: 'SMG_3'
+  Material ID: 351
+  Material Data: 7
+  Sound Shoot: 'P90 Fire'
+  Sound Reload: 'Mag Reload 1'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 10
+  Delay Between Shots: 4
+  Durability Max: 300
+  Initial Bullet Spread: 1.16
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 50
+  Reload Bullets Individually: false
+  Reload Duration: 40
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.05
+
+# Default
+mp5:
+  Display Name: 'MP5'
+  Quality: '[1] Tactical'
+  Weapon Type: 'SMG'
+  Modifier Set: 'SMG_2'
+  Material ID: 285
+  Material Data: 0
+  Sound Shoot: 'MP5 Fire'
+  Sound Reload: 'Mag Reload 1'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 12
+  Delay Between Shots: 5
+  Durability Max: 300
+  Initial Bullet Spread: 0.93
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 30
+  Reload Bullets Individually: false
+  Reload Duration: 40
+  Sound Silenced: 'TMP Fire'
+  Speed Running Multiplier: 0.1
+
+# Default
+tmp:
+  Display Name: 'TMP'
+  Quality: '[1] Tactical'
+  Weapon Type: 'SMG'
+  Modifier Set: 'SMG_1'
+  Material ID: 284
+  Material Data: 0
+  Sound Shoot: 'Mac-10 Fire'
+  Sound Reload: 'Mag Reload 1'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 10
+  Delay Between Shots: 4
+  Durability Max: 300
+  Initial Bullet Spread: 1.105
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 30
+  Reload Bullets Individually: false
+  Reload Duration: 30
+  Sound Silenced: 'TMP Fire'
+  Speed Running Multiplier: 0.2
+
+#################################################
+#     ASSAULT
+#################################################
+
+# Default
+sg552:
+  Display Name: 'SG552'
+  Quality: '[2] Doomsday Prepper'
+  Weapon Type: 'Assault'
+  Modifier Set: 'ASSAULT_2'
+  Material ID: 351
+  Material Data: 11
+  Sound Shoot: 'SG552 Fire'
+  Sound Reload: 'Mag Reload 2'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 18
+  Delay Between Shots: 5
+  Durability Max: 300
+  Initial Bullet Spread: 0.61
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 30
+  Reload Bullets Individually: false
+  Reload Duration: 45
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.0
+
+# Default
+aug:
+  Display Name: 'AUG'
+  Quality: '[3] Military'
+  Weapon Type: 'Assault'
+  Modifier Set: 'ASSAULT_1'
+  Material ID: 348
+  Material Data: 0
+  Sound Shoot: 'AUG Fire'
+  Sound Reload: 'Assault Rifle Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 15
+  Delay Between Shots: 6
+  Durability Max: 300
+  Initial Bullet Spread: 0.55
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 30
+  Reload Bullets Individually: false
+  Reload Duration: 45
+  Sound Silenced: 'Silenced Fire 2'
+  Speed Running Multiplier: 0.0
+
+# Default
+ak47:
+  Display Name: 'AK-47'
+  Quality: '[2] Doomsday Prepper'
+  Weapon Type: 'Assault'
+  Modifier Set: 'ASSAULT_2'
+  Material ID: 281
+  Material Data: 0
+  Sound Shoot: 'AK47 Fire'
+  Sound Reload: 'Assault Rifle Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 18
+  Delay Between Shots: 5
+  Durability Max: 500
+  Initial Bullet Spread: 0.765
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 30
+  Reload Bullets Individually: false
+  Reload Duration: 40
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.0
+
+# Default
+m16:
+  Display Name: 'M16'
+  Quality: '[3] Military'
+  Weapon Type: 'Assault'
+  Modifier Set: 'ASSAULT_1'
+  Material ID: 362
+  Material Data: 0
+  Sound Shoot: 'M16 Fire'
+  Sound Reload: 'Assault Rifle Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 14
+  Delay Between Shots: 6
+  Durability Max: 300
+  Initial Bullet Spread: 0.598
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 30
+  Reload Bullets Individually: false
+  Reload Duration: 40
+  Sound Silenced: 'Silenced Fire 2'
+  Speed Running Multiplier: 0.0
+
+# Default
+galil:
+  Display Name: 'Galil'
+  Quality: '[1] Tactical'
+  Weapon Type: 'Assault'
+  Modifier Set: 'ASSAULT_2'
+  Material ID: 351
+  Material Data: 2
+  Sound Shoot: 'Galil Fire'
+  Sound Reload: 'Assault Rifle Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 15
+  Delay Between Shots: 5
+  Durability Max: 120
+  Initial Bullet Spread: 0.85
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 30
+  Reload Bullets Individually: false
+  Reload Duration: 45
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.0
+
+# Default
+famas:
+  Display Name: 'Famas'
+  Quality: '[1] Tactical'
+  Weapon Type: 'Assault'
+  Modifier Set: 'ASSAULT_1'
+  Material ID: 351
+  Material Data: 4
+  Sound Shoot: 'Famas Fire'
+  Sound Reload: 'Assault Rifle Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 13
+  Delay Between Shots: 6
+  Durability Max: 300
+  Initial Bullet Spread: 0.697
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 30
+  Reload Bullets Individually: false
+  Reload Duration: 45
+  Sound Silenced: 'Silenced Fire 2'
+  Speed Running Multiplier: 0.0
+
+# Default
+m4a1:
+  Display Name: 'M4A1'
+  Quality: '[2] Doomsday Prepper'
+  Weapon Type: 'Assault'
+  Modifier Set: 'ASSAULT_1'
+  Material ID: 271
+  Material Data: 0
+  Sound Shoot: 'Famas Fire'
+  Sound Reload: 'Assault Rifle Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 14
+  Delay Between Shots: 6
+  Durability Max: 300
+  Initial Bullet Spread: 0.704
+  Particle Shoot: 'NULL'
+  Recoil Amount: 0
+  Reload Amount: 30
+  Reload Bullets Individually: false
+  Reload Duration: 40
+  Sound Silenced: 'Silenced Fire 2'
+  Speed Running Multiplier: 0.0
+
+# Default
+saw:
+  Display Name: 'SAW'
+  Quality: '[3] Military'
+  Weapon Type: 'Assault'
+  Modifier Set: 'ASSAULT_3'
+  Material ID: 274
+  Material Data: 0
+  Sound Shoot: 'SAW Fire'
+  Sound Reload: 'LMG Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 13
+  Delay Between Shots: 4
+  Durability Max: 500
+  Initial Bullet Spread: 1.215
+  Particle Shoot: 'FLAMES-1'
+  Recoil Amount: 0
+  Reload Amount: 100
+  Reload Bullets Individually: false
+  Reload Duration: 120
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: -0.35
+
+#################################################
+#     SHOTGUNS
+#################################################
+
+# Default
+olympia:
+  Display Name: 'Olympia'
+  Quality: '[0] Civilian'
+  Weapon Type: 'Break Shotgun'
+  Modifier Set: 'SHOTGUN_1'
+  Material ID: 291
+  Material Data: 0
+  Sound Shoot: 'Olympia Fire'
+  Sound Reload: 'Shotgun Shell Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 6
+  Delay Between Shots: 3
+  Durability Max: 250
+  Initial Bullet Spread: 2.43
+  Particle Shoot: 'FLAMES-1'
+  Recoil Amount: 0
+  Reload Amount: 2
+  Reload Bullets Individually: true
+  Reload Duration: 12
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.25
+
+# Default
+aa12:
+  Display Name: 'AA-12'
+  Quality: '[2] Doomsday Prepper'
+  Weapon Type: 'Slide Shotgun'
+  Modifier Set: 'SHOTGUN_2'
+  Material ID: 286
+  Material Data: 0
+  Sound Shoot: 'AA12 Fire'
+  Sound Reload: 'Shotgun Shell Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 4
+  Delay Between Shots: 3
+  Durability Max: 300
+  Initial Bullet Spread: 2.0
+  Particle Shoot: 'FLAMES-1'
+  Recoil Amount: 0
+  Reload Amount: 8
+  Reload Bullets Individually: false
+  Reload Duration: 40
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.0
+
+# Default
+m3:
+  Display Name: 'M3'
+  Quality: '[0] Civilian'
+  Weapon Type: 'Pump Shotgun'
+  Modifier Set: 'SHOTGUN_3'
+  Material ID: 351
+  Material Data: 5
+  Sound Shoot: 'M3 Fire'
+  Sound Reload: 'Shotgun Shell Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 7
+  Delay Between Shots: 15
+  Durability Max: 300
+  Initial Bullet Spread: 1.88
+  Particle Shoot: 'FLAMES-1'
+  Recoil Amount: 0
+  Reload Amount: 6
+  Reload Bullets Individually: true
+  Reload Duration: 12
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.05
+
+# Default
+xm:
+  Display Name: 'XM1014'
+  Quality: '[1] Tactical'
+  Weapon Type: 'Break Shotgun'
+  Modifier Set: 'SHOTGUN_4'
+  Material ID: 290
+  Material Data: 0
+  Sound Shoot: 'XM1014 Fire'
+  Sound Reload: 'Shotgun Shell Reload'
+  Bullet Spread Crouching Multiplier: 0.0
+  Bullet Spread Running Multiplier: 0.0
+  Bullet Spread Standing Multiplier: 0.0
+  Damage: 5
+  Delay Between Shots: 4
+  Durability Max: 300
+  Initial Bullet Spread: 2.2
+  Particle Shoot: 'FLAMES-1'
+  Recoil Amount: 0
+  Reload Amount: 6
+  Reload Bullets Individually: true
+  Reload Duration: 12
+  Sound Silenced: 'NULL'
+  Speed Running Multiplier: 0.1
+

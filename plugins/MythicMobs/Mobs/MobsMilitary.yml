@@ -1,0 +1,267 @@
+# Project Zombie Mob Configuration
+#
+# Faction:
+#  - HumanPrey
+#
+#  - AnimalsBear
+#  - AnimalsPrey
+#  - AnimalsRadiated
+#  - AnimalsWolves
+#
+#  - MobsMetro
+#  - MobsMilitary
+#
+#  - ZombiesAggro
+#  - ZombiesBeast
+#  - ZombiesNeutral
+#
+
+CleanserBroken:
+  Type: IRON_GOLEM
+  Display: '&bBroken Cleansing Unit'
+  Health: 40
+  Damage: 10
+  Faction: MobsMilitary
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.4
+    FollowRange: 40
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Skills:
+    - explosion{y=0.013} @self ~onDeath
+    - effect:particles{p=smoke;y=1.5;amount=60;hs=2.0;vs=2.0;s=0.03} @self ~onDeath
+    - effect:particles{p=smoke;y=1.3;amount=30;hs=0.9;vs=0.9;s=0.03} @self ~onTimer:10
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 OtherFaction
+
+Cleanser:
+  Type: IRON_GOLEM
+  Display: '&bCleansing Unit'
+  Health: 80
+  Damage: 20
+  Faction: MobsMilitary
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.4
+    FollowRange: 40
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 OtherFaction
+
+# Chainmail w/out helmet
+Grunt:
+  Type: ZOMBIE
+  Display: '&2Grunt'
+  Health: 40
+  Damage: 8
+  Faction: MobsMilitary
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - Sunscreen:4
+    - chainmail_chestplate:3
+    - chainmail_leggings:2
+    - chainmail_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Chainmail w/helmet
+Soldier:
+  Type: ZOMBIE
+  Display: '&2Soldier'
+  Health: 40
+  Damage: 8
+  Faction: MobsMilitary
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - sunscreen_chainmail_helmet:4
+    - chainmail_chestplate:3
+    - chainmail_leggings:2
+    - chainmail_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Iron w/out helmet
+ArmoredSoldier:
+  Type: ZOMBIE
+  Display: '&2Armored Soldier'
+  Health: 40
+  Damage: 8
+  Faction: MobsMilitary
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - Sunscreen:4
+    - iron_chestplate:3
+    - iron_leggings:2
+    - iron_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Iron w/helmet
+ArmoredSergeant:
+  Type: ZOMBIE
+  Display: '&2Armored Sergeant'
+  Health: 40
+  Damage: 8
+  Faction: MobsMilitary
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - sunscreen_iron_helmet:4
+    - iron_chestplate:3
+    - iron_leggings:2
+    - iron_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Diamond w/out helmet
+Commander:
+  Type: ZOMBIE
+  Display: '&2Commander'
+  Health: 40
+  Damage: 8
+  Faction: MobsMilitary
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - Sunscreen:4
+    - diamond_chestplate:3
+    - diamond_leggings:2
+    - diamond_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Diamond w/helmet
+General:
+  Type: ZOMBIE
+  Display: '&2General'
+  Health: 40
+  Damage: 8
+  Faction: MobsMilitary
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - sunscreen_diamond_helmet:4
+    - diamond_chestplate:3
+    - diamond_leggings:2
+    - diamond_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker

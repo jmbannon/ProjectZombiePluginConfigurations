@@ -1,0 +1,172 @@
+# Project Zombie Mob Configuration
+#
+# Faction:
+#  - HumanPrey
+#
+#  - AnimalsBear
+#  - AnimalsPrey
+#  - AnimalsRadiated
+#  - AnimalsWolves
+#
+#  - MobsMetro
+#  - MobsMilitary
+#
+#  - ZombiesAggro
+#  - ZombiesBeast
+#  - ZombiesNeutral
+#
+
+AlphaBear:
+  Type: POLAR_BEAR
+  Display: '&2Alpha Bear'
+  Health: 60
+  Damage: 20
+  Faction: AnimalsBear
+  Drops:
+    - BearMeat 1 0.5
+  Skills:
+    - summon{type=AdultBear;amount=1;radius=10} @self ~onSpawn 1.0
+    - summon{type=AdultBear;amount=1;radius=10} @self ~onSpawn 0.5
+    - rally{types=AdultBear;radius=60} @PlayersInRadius{r=60}
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.45
+    FollowRange: 60
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 OtherFaction
+
+MotherBear:
+  Type: POLAR_BEAR
+  Display: '&2Mother Bear'
+  Health: 40
+  Damage: 8
+  Faction: AnimalsBear
+  Drops:
+    - BearMeat 1 0.5
+  Options:
+    MovementSpeed: 0.4
+    FollowRange: 60
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Skills:
+    - summon{type=BabyBear;amount=1;radius=7} @self ~onSpawn 0.5
+    - summon{type=BabyBear;amount=2;radius=7} @self ~onSpawn 1.0
+    - rally{types=BabyBear;radius=40} @PlayersInRadius{r=40}
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 OtherFaction
+
+AdultBear:
+  Type: POLAR_BEAR
+  Display: '&2Bear'
+  Health: 40
+  Damage: 8
+  Faction: AnimalsBear
+  Drops:
+    - BearMeat 1 0.5
+  Options:
+    MovementSpeed: 0.4
+    FollowRange: 60
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 OtherFaction
+
+BabyBear:
+  Type: POLAR_BEAR
+  Display: '&2Baby Bear'
+  Health: 30
+  Damage: 8
+  Faction: AnimalsBear
+  Drops:
+    - BearMeat 1 0.5
+  Options:
+    MovementSpeed: 0.4
+    FollowRange: 40
+    Age: -1
+    AgeLock: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 OtherFaction
+
+RadiationAdultBear:
+  Type: POLAR_BEAR
+  Display: '&2Radiated Bear'
+  Health: 40
+  Damage: 8
+  Faction: AnimalsRadiated
+  Drops:
+    - BearMeat 1 0.5
+  Options:
+    MovementSpeed: 0.4
+    FollowRange: 40
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Skills:
+    - effect:particles{p=mobSpell;amount=20;hs=0.6;vs=0.6;s=0.1;color=#CC9911} @self ~onTimer:10
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 OtherFaction
+
+RadiationBabyBear:
+  Type: POLAR_BEAR
+  Display: '&2Radiated Baby Bear'
+  Health: 40
+  Damage: 8
+  Faction: AnimalsRadiated
+  Drops:
+    - BearMeat 1 0.5
+  Options:
+    MovementSpeed: 0.4
+    FollowRange: 40
+    Age: -1
+    AgeLock: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Skills:
+    - effect:particles{p=mobSpell;amount=12;hs=0.3;vs=0.3;s=0.1;color=#CC9911} @self ~onTimer:10
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 OtherFaction

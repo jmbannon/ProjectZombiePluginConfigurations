@@ -1,0 +1,7 @@
+Display Name (STR),Material (INT),Material Data (INT),Price (INT),Color (STR),Bullet Spread Multiplier (DBL),Running Bullet Spread Multiplier (DBL),Running Speed Modifier (DBL)
+Ivory Grip,NULL,0,10,GREEN,0.98,1,1
+Folding Stock,NULL,0,10,GREEN,0.97,1,1
+Recoil Absorber,NULL,0,10,GREEN,0.96,1,1
+Tactical Stock,NULL,0,10,GREEN,0.95,1,1
+Fiberglass Stock,NULL,0,10,GREEN,0.94,1,1
+Synthetic Stock,NULL,0,10,GREEN,0.93,1,1

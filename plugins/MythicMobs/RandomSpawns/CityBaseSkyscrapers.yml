@@ -1,0 +1,14 @@
+city_base_buildings_common:
+  MobType: BasicAggroGroup
+  Chance: 0.6
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - mobsinchunck <1
+    - playerwithin 30
+    - playernotwithin 10
+    - inregion city_base
+    - inside true
+    - targetinlineofsight false
+    - height 20-256

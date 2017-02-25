@@ -1,0 +1,8 @@
+lubed_bolt:
+  Display Name: 'Lubed Bolt'
+  Quality: 'Stock'
+  Bolt Duration Multiplier: 0.6
+polished_bolt:
+  Display Name: 'Polished Bolt'
+  Quality: 'Stock'
+  Bolt Duration Multiplier: 0.5

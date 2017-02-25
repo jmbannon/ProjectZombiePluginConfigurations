@@ -1,0 +1,15 @@
+# Airport Spawn Groups
+#   Entries are ordered by most difficult, descending.
+# 
+# A0:
+# - airport
+# - airport_old
+# - airport_runway
+#
+# A1:
+# - airport_coast_road
+#
+# A2:
+# - airport_woods
+# - airport_mtns
+# - airport_runway_mtns

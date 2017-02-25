@@ -1,0 +1,32 @@
+# 
+# This example file shows you how to set up special items
+# for your mobs to equip or drop.
+Sunscreen:
+  Id: 332
+  Options:
+    Unbreakable: true
+
+sunscreen_leather_helmet:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+
+sunscreen_gold_helmet:
+  Id: gold_helmet
+  Options:
+    Unbreakable: true
+
+sunscreen_chainmail_helmet:
+  Id: chainmail_helmet
+  Options:
+    Unbreakable: true
+
+sunscreen_iron_helmet:
+  Id: iron_helmet
+  Options:
+    Unbreakable: true
+
+sunscreen_diamond_helmet:
+  Id: diamond_helmet
+  Options:
+    Unbreakable: true

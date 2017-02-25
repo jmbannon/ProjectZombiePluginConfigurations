@@ -1,0 +1,555 @@
+#################################################
+#
+#     PISTOLS
+#
+#################################################
+
+pistol_1:
+  Set Name: "PISTOL_1"
+  Attachments:
+    - 'Head Hunter I'
+    - 'Head Hunter II'
+    - 'Head Hunter III'
+    - 'Gambler I'
+    - 'Gambler II'
+    - 'Gambler III'
+    - 'Blood Reaper I'
+    - 'Blood Reaper II'
+    - 'Blood Reaper III'
+  Barrels:
+    - "Multiple Projectiles I"
+  Bolts: 'NULL'
+  FireModes:
+    - 'Semi-Auto'
+  Magazines:
+    - 'Quick Mag'
+    - 'Fast Mag'
+  Sights:
+    - 'Iron Sight'
+    - 'Red Dot Sight'
+    - 'ACOG Scope'
+  Stocks:
+    - 'Ivory Grip'
+
+pistol_2:
+  Set Name: "PISTOL_2"
+  Attachments:
+    - 'Head Hunter I'
+    - 'Head Hunter II'
+    - 'Head Hunter III'
+    - 'Gambler I'
+    - 'Gambler II'
+    - 'Gambler III'
+    - 'Blood Reaper I'
+    - 'Blood Reaper II'
+    - 'Blood Reaper III'
+    - 'Stun Ignite'
+  Barrels:
+    - 'Suppressor'
+    - "Multiple Projectiles I"
+  Bolts: 'NULL'
+  FireModes:
+    - 'Semi-Auto'
+  Magazines:
+    - 'Quick Mag'
+    - 'Fast Mag'
+  Sights:
+    - 'Iron Sight'
+    - 'Red Dot Sight'
+    - 'ACOG Scope'
+  Stocks:
+    - 'Ivory Grip'
+
+#################################################
+#
+#     REVOLVERS
+#
+#################################################
+
+revolver_1:
+  Set Name: "REVOLVER_1"
+  Attachments:
+    - 'Head Hunter I'
+    - 'Head Hunter II'
+    - 'Head Hunter III'
+    - 'Gambler I'
+    - 'Gambler II'
+    - 'Gambler III'
+    - 'Blood Reaper I'
+    - 'Blood Reaper II'
+    - 'Blood Reaper III'
+  Barrels:
+    - "Multiple Projectiles I"
+  FireModes:
+    - 'Semi-Auto'
+  Magazines:
+    - 'Quick Mag'
+    - 'Fast Mag'
+  Sights:
+    - 'Iron Sight'
+    - 'Red Dot Sight'
+    - 'ACOG Scope'
+  Stocks:
+    - 'Ivory Grip'
+
+revolver_2:
+  Set Name: "REVOLVER_2"
+  Attachments:
+    - 'Head Hunter I'
+    - 'Head Hunter II'
+    - 'Head Hunter III'
+    - 'Gambler I'
+    - 'Gambler II'
+    - 'Gambler III'
+    - 'Blood Reaper I'
+    - 'Blood Reaper II'
+    - 'Blood Reaper III'
+  Barrels:
+    - 'Suppressor'
+    - "Multiple Projectiles I"
+  FireModes:
+    - 'Semi-Auto'
+  Magazines:
+    - 'Quick Mag'
+    - 'Fast Mag'
+  Sights:
+    - 'Iron Sight'
+    - 'Red Dot Sight'
+    - 'ACOG Scope'
+  Stocks:
+    - 'Ivory Grip'
+
+#################################################
+#
+#     BOLT SNIPERS
+#
+#################################################
+
+bolt_sniper_1:
+  Set Name: "BOLT_SNIPER_1"
+  Attachments:
+    - 'Head Hunter I'
+    - 'Head Hunter II'
+    - 'Head Hunter III'
+    - 'Gambler I'
+    - 'Gambler II'
+    - 'Gambler III'
+    - 'Blood Reaper I'
+    - 'Blood Reaper II'
+    - 'Blood Reaper III'
+  Barrels:
+    - 'Suppressor'
+    - "Multiple Projectiles I"
+  Bolts:
+    - "Lubed Bolt"
+    - "Polished Bolt"
+  FireModes:
+    - 'Bolt Action'
+  Magazines:
+    - 'Quick Mag'
+    - 'Fast Mag'
+    - 'Altered Mag'
+    - 'Extended Mag'
+  Sights:
+    - 'Broken Scope'
+    - 'ACOG Scope'
+    - 'Tactical Scope'
+    - 'Sniper Scope'
+  Stocks:
+    - 'Recoil Absorber'
+    - 'Tactical Stock'
+    - 'Fiberglass Stock'
+    - 'Synthetic Stock'
+
+#################################################
+#
+#     SEMI SNIPERS
+#
+#################################################
+
+semi_sniper_1:
+  Set Name: "SEMI_SNIPER_1"
+  Attachments:
+    - 'Head Hunter I'
+    - 'Head Hunter II'
+    - 'Head Hunter III'
+    - 'Gambler I'
+    - 'Gambler II'
+    - 'Gambler III'
+    - 'Blood Reaper I'
+    - 'Blood Reaper II'
+    - 'Blood Reaper III'
+  Barrels:
+    - 'Suppressor'
+    - "Multiple Projectiles I"
+  FireModes:
+    - 'Semi-Auto'
+  Magazines:
+    - 'Quick Mag'
+    - 'Fast Mag'
+    - 'Altered Mag'
+    - 'Extended Mag'
+  Sights:
+    - 'Broken Scope'
+    - 'ACOG Scope'
+    - 'Tactical Scope'
+    - 'Sniper Scope'
+  Stocks:
+    - 'Recoil Absorber'
+    - 'Tactical Stock'
+    - 'Fiberglass Stock'
+    - 'Synthetic Stock'
+
+#################################################
+#
+#     SMG
+#
+#################################################
+
+smg_short_distance:
+  Set Name: "SMG_1"
+  Attachments:
+    - 'Head Hunter I'
+    - 'Head Hunter II'
+    - 'Head Hunter III'
+    - 'Gambler I'
+    - 'Gambler II'
+    - 'Gambler III'
+    - 'Blood Reaper I'
+    - 'Blood Reaper II'
+    - 'Blood Reaper III'
+  Barrels:
+    - 'Suppressor'
+    - "Multiple Projectiles I"
+  FireModes:
+    - 'Semi-Auto'
+    - 'Burst'
+    - 'Automatic'
+  Magazines:
+    - 'Quick Mag'
+    - 'Fast Mag'
+    - 'Altered Mag'
+    - 'Extended Mag'
+  Sights:
+    - 'Iron Sight'
+    - 'Red Dot Sight'
+    - 'ACOG Scope'
+  Stocks:
+    - 'Recoil Absorber'
+    - 'Tactical Stock'
+    - 'Fiberglass Stock'
+    - 'Synthetic Stock'
+
+smg_long_distance:
+  Set Name: "SMG_2"
+  Attachments:
+    - 'Head Hunter I'
+    - 'Head Hunter II'
+    - 'Head Hunter III'
+    - 'Gambler I'
+    - 'Gambler II'
+    - 'Gambler III'
+    - 'Blood Reaper I'
+    - 'Blood Reaper II'
+    - 'Blood Reaper III'
+  Barrels:
+    - 'Suppressor'
+    - "Multiple Projectiles I"
+  FireModes:
+    - 'Semi-Auto'
+    - 'Burst'
+    - 'Automatic'
+  Magazines:
+    - 'Quick Mag'
+    - 'Fast Mag'
+    - 'Altered Mag'
+    - 'Extended Mag'
+  Sights:
+    - 'Iron Sight'
+    - 'Red Dot Sight'
+    - 'ACOG Scope'
+    - 'Tactical Scope'
+  Stocks:
+    - 'Recoil Absorber'
+    - 'Tactical Stock'
+    - 'Fiberglass Stock'
+    - 'Synthetic Stock'
+
+smg_large_mag:
+  Set Name: "SMG_3"
+  Attachments:
+    - 'Head Hunter I'
+    - 'Head Hunter II'
+    - 'Head Hunter III'
+    - 'Gambler I'
+    - 'Gambler II'
+    - 'Gambler III'
+    - 'Blood Reaper I'
+    - 'Blood Reaper II'
+    - 'Blood Reaper III'
+  Barrels:
+    - 'Suppressor'
+    - "Multiple Projectiles I"
+  FireModes:
+    - 'Semi-Auto'
+    - 'Burst'
+    - 'Automatic'
+  Magazines:
+    - 'Quick Mag'
+    - 'Fast Mag'
+    - 'Altered Mag'
+    - 'Extended Mag'
+    - 'Drum Mag'
+    - 'Bandolier'
+  Sights:
+    - 'Iron Sight'
+    - 'Red Dot Sight'
+    - 'ACOG Scope'
+  Stocks:
+    - 'Recoil Absorber'
+    - 'Tactical Stock'
+    - 'Fiberglass Stock'
+    - 'Synthetic Stock'
+
+#################################################
+#
+#     ASSAULT
+#
+#################################################
+
+assault_1:
+  Set Name: "ASSAULT_1"
+  Attachments:
+    - 'Head Hunter I'
+    - 'Head Hunter II'
+    - 'Head Hunter III'
+    - 'Gambler I'
+    - 'Gambler II'
+    - 'Gambler III'
+    - 'Blood Reaper I'
+    - 'Blood Reaper II'
+    - 'Blood Reaper III'
+  Barrels:
+    - 'Suppressor'
+    - "Multiple Projectiles I"
+  FireModes:
+    - 'Semi-Auto'
+    - 'Burst'
+    - 'Automatic'
+  Magazines:
+    - 'Quick Mag'
+    - 'Fast Mag'
+    - 'Altered Mag'
+    - 'Extended Mag'
+  Sights:
+    - 'Iron Sight'
+    - 'Red Dot Sight'
+    - 'ACOG Scope'
+    - 'Tactical Scope'
+  Stocks:
+    - 'Recoil Absorber'
+    - 'Tactical Stock'
+    - 'Fiberglass Stock'
+    - 'Synthetic Stock'
+
+assault_large_ammo:
+  Set Name: "ASSAULT_2"
+  Attachments:
+    - 'Head Hunter I'
+    - 'Head Hunter II'
+    - 'Head Hunter III'
+    - 'Gambler I'
+    - 'Gambler II'
+    - 'Gambler III'
+    - 'Blood Reaper I'
+    - 'Blood Reaper II'
+    - 'Blood Reaper III'
+  Barrels:
+    - 'Suppressor'
+    - "Multiple Projectiles I"
+  FireModes:
+    - 'Semi-Auto'
+    - 'Burst'
+    - 'Automatic'
+  Magazines:
+    - 'Quick Mag'
+    - 'Fast Mag'
+    - 'Altered Mag'
+    - 'Extended Mag'
+    - 'Drum Mag'
+    - 'Bandolier'
+  Sights:
+    - 'Iron Sight'
+    - 'Red Dot Sight'
+    - 'ACOG Scope'
+    - 'Tactical Scope'
+  Stocks:
+    - 'Recoil Absorber'
+    - 'Tactical Stock'
+    - 'Fiberglass Stock'
+    - 'Synthetic Stock'
+
+assault_long_distance:
+  Set Name: "ASSAULT_3"
+  Attachments:
+    - 'Head Hunter I'
+    - 'Head Hunter II'
+    - 'Head Hunter III'
+    - 'Gambler I'
+    - 'Gambler II'
+    - 'Gambler III'
+    - 'Blood Reaper I'
+    - 'Blood Reaper II'
+    - 'Blood Reaper III'
+  Barrels:
+    - 'Suppressor'
+    - "Multiple Projectiles I"
+  FireModes:
+    - 'Semi-Auto'
+    - 'Burst'
+    - 'Automatic'
+  Magazines:
+    - 'Quick Mag'
+    - 'Fast Mag'
+    - 'Altered Mag'
+    - 'Extended Mag'
+    - 'Drum Mag'
+    - 'Bandolier'
+  Sights:
+    - 'Iron Sight'
+    - 'Red Dot Sight'
+    - 'ACOG Scope'
+    - 'Tactical Scope'
+    - 'Sniper Scope'
+  Stocks:
+    - 'Recoil Absorber'
+    - 'Tactical Stock'
+    - 'Fiberglass Stock'
+    - 'Synthetic Stock'
+
+#################################################
+#
+#     SHOTGUNS
+#
+#################################################
+shotgun_single_shot:
+  Set Name: "SHOTGUN_1"
+  Attachments:
+    - 'Head Hunter I'
+    - 'Head Hunter II'
+    - 'Head Hunter III'
+    - 'Gambler I'
+    - 'Gambler II'
+    - 'Gambler III'
+    - 'Blood Reaper I'
+    - 'Blood Reaper II'
+    - 'Blood Reaper III'
+  Barrels:
+    - 'Suppressor'
+    - "Multiple Projectiles I"
+  FireModes:
+    - 'Single Shot'
+  Magazines:
+    - 'Quick Mag'
+    - 'Fast Mag'
+    - 'Altered Mag'
+  Sights:
+    - 'Iron Sight'
+    - 'Red Dot Sight'
+  Stocks:
+    - 'Recoil Absorber'
+    - 'Tactical Stock'
+    - 'Fiberglass Stock'
+    - 'Synthetic Stock'
+
+shotgun_semi_auto_ammo:
+  Set Name: "SHOTGUN_2"
+  Attachments:
+    - 'Head Hunter I'
+    - 'Head Hunter II'
+    - 'Head Hunter III'
+    - 'Gambler I'
+    - 'Gambler II'
+    - 'Gambler III'
+    - 'Blood Reaper I'
+    - 'Blood Reaper II'
+    - 'Blood Reaper III'
+  Barrels:
+    - 'Suppressor'
+    - "Multiple Projectiles I"
+  FireModes:
+    - 'Semi-Auto'
+  Magazines:
+    - 'Quick Mag'
+    - 'Fast Mag'
+    - 'Altered Mag'
+    - 'Extended Mag'
+    - 'Drum Mag'
+  Sights:
+    - 'Iron Sight'
+    - 'Red Dot Sight'
+  Stocks:
+    - 'Recoil Absorber'
+    - 'Tactical Stock'
+    - 'Fiberglass Stock'
+    - 'Synthetic Stock'
+
+shotgun_pump:
+  Set Name: "SHOTGUN_3"
+  Attachments:
+    - 'Head Hunter I'
+    - 'Head Hunter II'
+    - 'Head Hunter III'
+    - 'Gambler I'
+    - 'Gambler II'
+    - 'Gambler III'
+    - 'Blood Reaper I'
+    - 'Blood Reaper II'
+    - 'Blood Reaper III'
+  Barrels:
+    - 'Suppressor'
+    - "Multiple Projectiles I"
+  FireModes:
+    - 'Pump Action'
+  Magazines:
+    - 'Quick Mag'
+    - 'Fast Mag'
+    - 'Altered Mag'
+  Sights:
+    - 'Iron Sight'
+    - 'Red Dot Sight'
+  Stocks:
+    - 'Recoil Absorber'
+    - 'Tactical Stock'
+    - 'Fiberglass Stock'
+    - 'Synthetic Stock'
+
+shotgun_semi_less_ammo:
+  Set Name: "SHOTGUN_4"
+  Attachments:
+    - 'Head Hunter I'
+    - 'Head Hunter II'
+    - 'Head Hunter III'
+    - 'Gambler I'
+    - 'Gambler II'
+    - 'Gambler III'
+    - 'Blood Reaper I'
+    - 'Blood Reaper II'
+    - 'Blood Reaper III'
+  Barrels:
+    - 'Suppressor'
+    - "Multiple Projectiles I"
+  FireModes:
+    - 'Semi-Auto'
+  Magazines:
+    - 'Quick Mag'
+    - 'Fast Mag'
+    - 'Altered Mag'
+  Sights:
+    - 'Iron Sight'
+    - 'Red Dot Sight'
+  Stocks:
+    - 'Recoil Absorber'
+    - 'Tactical Stock'
+    - 'Fiberglass Stock'
+    - 'Synthetic Stock'

@@ -1,0 +1,33 @@
+# Project Zombie Mob Configuration
+#
+# Faction:
+#  - HumanPrey
+#
+#  - AnimalsBear
+#  - AnimalsPrey
+#  - AnimalsRadiated
+#  - AnimalsWolves
+#
+#  - MobsMetro
+#  - MobsMilitary
+#
+#  - ZombiesAggro
+#  - ZombiesBeast
+#  - ZombiesNeutral
+#
+
+HopelessCitizen:
+  Type: VILLAGER
+  Display: '&2Hopeless Citizen'
+  Health: 8
+  Damage: 2
+  Faction: HumanPrey
+  Drops:
+    - Stock 1 0.1
+  Options:
+    MovementSpeed: 0.75
+    FollowRange: 70
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0

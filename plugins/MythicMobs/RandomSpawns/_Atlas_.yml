@@ -1,0 +1,101 @@
+#
+#
+# North Pass Spawn Groups
+#   Entries are ordered by most difficult, descending.
+#
+# N0:
+# - remote_northpass_gas
+# - remote_northpass_lodge
+# - remote_northpass_church
+# - remote_northpass_riverhouse
+# - remote_dam
+# - remote_dam_walk
+# N1:
+# - remote_northpass_cabin 1..8
+# - remote_northpass_house 1..4
+#
+#
+# College Spawn Groups
+#   Entried are ordered by most difficult, descending.
+#
+# C0:
+# - college_campus
+# - college_power
+# C1:
+# - college_suburbs
+# - city_suburbs
+# - ski_resort
+# - city_canterwood
+# C2:
+# - city_hill
+# C3:
+# - city_woods
+# - ski_woods
+# - city_slopes
+#
+#
+# Airport Spawn Groups
+#   Entries are ordered by most difficult, descending.
+# 
+# A0:
+# - airport
+# - airport_old
+# - airport_runway
+#
+# A1:
+# - airport_coast_road
+#
+# A2:
+# - airport_woods
+# - airport_mtns
+# - airport_runway_mtns
+#
+#
+# City Spawn Groups
+#   Groups are ordered by most difficult (T0, T1, ...).
+#   Entries are ordered north to south descending.
+#
+# C0:
+# - city_base_auditorium
+# - city_base_waterfront
+# - city_base_stadium
+# C1:
+# - city_base_zoo
+# - city_base_inner1
+# - city_base_inner2
+# - city_base_hotels
+# C2:
+# - city_base_museum
+# - city_park_outskirt
+# - city_park_district
+# C3:
+# - city_old
+# - city_bank
+# - city_orig
+# - city_minetech
+# C4:
+# - city_edge
+# - city_mall
+# C5:
+# - city_edge
+# - city_historic
+# - city_loading_dock
+#
+#
+#
+# University Spawn Groups
+#
+# UNI0:
+#  - college_campus
+#  - college_power
+# UNI1:
+# - college_suburbs
+# - city_suburbs
+# - ski_resort
+# - city_canterwood
+# UNI2:
+#  - city_hill
+# UNI3:
+#  - city_woods
+#  - ski_woods
+#  - city_slopes

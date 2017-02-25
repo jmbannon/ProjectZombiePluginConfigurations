@@ -1,0 +1,24 @@
+ivory_grip:
+  Display Name: "Ivory Grip"
+  Quality: 'Stock'
+  Bullet Spread Multiplier: 0.02
+folding_stock:
+  Display Name: "Folding Stock"
+  Quality: 'Stock'
+  Bullet Spread Multiplier: 0.03
+recoil_absorber:
+  Display Name: "Recoil Absorber"
+  Quality: 'Stock'
+  Bullet Spread Multiplier: 0.04
+tactical_stock:
+  Display Name: "Tactical Stock"
+  Quality: 'Stock'
+  Bullet Spread Multiplier: 0.05
+fiberglass_stock:
+  Display Name: "Fiberglass Stock"
+  Quality: 'Stock'
+  Bullet Spread Multiplier: 0.06
+synthetic_stock:
+  Display Name: "Synthetic Stock"
+  Quality: 'Stock'
+  Bullet Spread Multiplier: 0.07

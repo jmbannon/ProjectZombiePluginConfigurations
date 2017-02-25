@@ -1,0 +1,75 @@
+suppressor:
+  Display Name: 'Suppressor'
+  Quality: 'Stock'
+  Silencer: true
+  Bullet Spread Modifier: 0.15
+
+silent_spray_i:
+  Display Name: 'Silent Spray I'
+  Quality: 'Stock'
+  Silencer: true
+  Bullet Spread Modifier: 0.32
+  Projectile Additional Per Shot: 1
+  Projectile Range Multiplier: -0.15
+silent_spray_ii:
+  Display Name: 'Silent Spray II'
+  Quality: 'Stock'
+  Silencer: true
+  Bullet Spread Modifier: 0.49
+  Projectile Additional Per Shot: 2
+  Projectile Range Multiplier: -0.30
+silent_spray_iii:
+  Display Name: 'Silent Spray III'
+  Quality: 'Stock'
+  Silencer: true
+  Bullet Spread Modifier: 0.70
+  Projectile Additional Per Shot: 3
+  Projectile Range Multiplier: -0.45
+
+scolding_barrel_i:
+  Display Name: 'Scolding Barrel I'
+  Quality: 'Stock'
+  Incendiary Damage Multiplier: 0.0
+  Incendiary Damage Value: 2.0
+scolding_barrel_ii:
+  Display Name: 'Scolding Barrel II'
+  Quality: 'Stock'
+  Incendiary Damage Multiplier: 0.15
+  Incendiary Damage Value: 3.0
+scolding_barrel_iii:
+  Display Name: 'Scolding Barrel III'
+  Quality: 'Stock'
+  Incendiary Damage Multiplier: 0.30
+  Incendiary Damage Value: 0.4
+
+multiple_projectiles_i:
+  Display Name: "Multiple Projectiles I"
+  Quality: 'Stock'
+  Bullet Spread Modifier: 0.25
+  Projectile Additional Per Shot: 1
+multiple_projectiles_ii:
+  Display Name: "Multiple Projectiles II"
+  Quality: 'Stock'
+  Bullet Spread Modifier: 0.40
+  Projectile Additional Per Shot: 2
+multiple_projectiles_iii:
+  Display Name: "Multiple Projectiles III"
+  Quality: 'Stock'
+  Bullet Spread Modifier: 0.55
+  Projectile Additional Per Shot: 3
+
+capital_punishment_i:
+  Display Name: "Capital Punishment I"
+  Quality: 'Stock'
+  Headshot Modifier: 3.0
+  Headshot Multiplier: 0.0
+capital_punishment_ii:
+  Display Name: "Capital Punishment II"
+  Quality: 'Stock'
+  Headshot Modifier: 4.5
+  Headshot Multiplier: .15
+capital_punishment_iii:
+  Display Name: "Capital Punishment III"
+  Quality: 'Stock'
+  Headshot Modifier: 6.0
+  Headshot Multiplier: 0.30

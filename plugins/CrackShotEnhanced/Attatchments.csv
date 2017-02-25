@@ -1,0 +1,18 @@
+Display Name (STR),Material (INT),Material Data (INT),Price (INT),Color (STR),Bulletspread Multiplier (DBL),Damage Modifier (DBL),Damage Multiplier (DBL),Headshot Damage Modifier (DBL),Headshot Damage Multiplier (DBL),Crit Chance Modifier (DBL),Crit Strike Multiplier (DBL),Bleedout Duration Seconds (DBL),Bleedout Duration Multiplier (DBL),Bleedout Damage (DBL),Bleedout Damage Multiplier from Base Damage (DBL),Bleedout Damage Multiplier from Shrapnel (DBL),Fire Damage Modifier (DBL),Fire Damage Multiplier (DBL),Ignite Chance (DBL),Ignite Duration (DBL),Ignite Damage Multiplier From Fire Damage (DBL),Ignite Damage Multiplier From Base Damage (DBL),Shrapnel Damage Modifier (DBL),Shrapnel Damage Multiplier (DBL),Stun Chance (DBL),Stun Duration (DBL)
+Head Hunter,4,0,10,GREEN,0,0,0,3.5,0.35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gambler,4,0,10,GREEN,0,0,0,0,0,0.25,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Blood Reaper,4,0,10,GREEN,0,0,0,0,0,0,0,3.5,0.2,1.5,0,0,0,0,0,0,0,0,0,0,0,0
+Precision,4,0,10,GREEN,0.12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Luck of the Marksman,4,0,10,GREEN,0.21,0,0,0,0,0.15,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gut Eater,4,0,10,GREEN,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0,0,0,3.25,0.15,0,0
+Marksman's Thirst,4,0,10,GREEN,0.23,0,0,0,0,0,0,0,0,0,0,0.25,0,0,0,0,0,0,2,0,0,0
+Burning Scar,4,0,10,GREEN,0,0,0,0,0,0,0,0,0,0,0,0,4,0.1,0,0,0,0,0,0,0,0
+Crippling Burn,4,0,10,GREEN,0,0,0,0,0,0,0,0,0,0,0,0,0,0.6,0,0,0,0,0,0,0,0
+Witch Burner,4,0,10,GREEN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.24,0.85,0,0,0,0,0,0
+Seeker of Screams,4,0,10,GREEN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.25,0,0,0,0,0,0
+Highway Man's Charm,4,0,10,GREEN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.13,0.3
+Apprentice of Death,4,0,10,GREEN,0,2,0.1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Journeyman of Death,4,0,10,GREEN,0,2.8,0.13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Expert of Death,4,0,10,GREEN,0,3.5,0.18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Master of Death,4,0,10,GREEN,0,2.9,0.23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Incendiary Rounds,4,0,10,GREEN,0,0,0,0,0,0,0,0,0,0,0,0,2.5,0,0,0,0,0,0,0,0,0

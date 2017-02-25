@@ -1,0 +1,44 @@
+sniper_bolt:
+  Display Name: 'Sniper Bolt'
+  CS Firearm Action Type: 'bolt'
+  Duration Open Ticks: 20
+  Duration Close Ticks: 16
+  Duration Close Shoot Delay Ticks: 6
+  Sound Open: 'Bolt Open'
+  Sound Close: 'Bolt Close'
+hunting_bolt:
+  Display Name: 'Hunting Bolt'
+  CS Firearm Action Type: 'bolt'
+  Duration Open Ticks: 20
+  Duration Close Ticks: 16
+  Duration Close Shoot Delay Ticks: 6
+  Sound Open: 'Bolt Open'
+  Sound Close: 'Bolt Close'
+smg_slide:
+  Display Name: 'SMG Slide'
+  CS Firearm Action Type: 'slide'
+  Duration Open Ticks: 0
+  Duration Close Ticks: 7
+  Duration Close Shoot Delay Ticks: 11
+slide:
+  Display Name: 'Slide'
+  CS Firearm Action Type: 'slide'
+  Duration Open Ticks: 0
+  Duration Close Ticks: 10
+  Duration Close Shoot Delay Ticks: 12
+break:
+  Display Name: 'Break'
+  CS Firearm Action Type: 'break'
+  Duration Open Ticks: 0
+  Duration Close Ticks: 12
+  Duration Close Shoot Delay Ticks: 12
+  Sound Open: 'Shotgun Open'
+  Sound Close: 'Shotgun Open'
+pump:
+  Display Name: 'Pump'
+  CS Firearm Action Type: 'pump'
+  Duration Open Ticks: 0
+  Duration Close Ticks: 12
+  Duration Close Shoot Delay Ticks: 12
+  Sound Open: 'Shotgun Open'
+  Sound Close: 'Shotgun Pump'

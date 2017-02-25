@@ -1,0 +1,29 @@
+quick_mag:
+  Display Name: "Quick Mag"
+  Quality: 'Stock'
+  Reload Speed Multiplier: 0.15
+fast_mag:
+  Display Name: "Fast Mag"
+  Quality: 'Stock'
+  Reload Speed Multiplier: 0.25
+altered_mag:
+  Display Name: "Altered Mag"
+  Quality: 'Stock'
+  Magazine Modifier: 5
+extended_mag:
+  Display Name: "Extended Mag"
+  Quality: 'Stock'
+  Magazine Modifier: 10
+drum_mag:
+  Display Name: "Drum Mag"
+  Quality: 'Stock'
+  Magazine Modifier: 30
+lazy_reload:
+  Display Name: "Lazy Reload"
+  Quality: 'Stock'
+  Magazine Multiplier: -0.5
+  Reload Speed Multiplier: 0.5
+bandolier:
+  Display Name: "Bandolier"
+  Quality: 'Stock'
+  Magazine Multiplier: 0.25

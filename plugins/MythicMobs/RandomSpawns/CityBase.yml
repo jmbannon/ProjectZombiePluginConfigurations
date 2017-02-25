@@ -1,0 +1,65 @@
+#
+# City Spawns from west to east (T0, T1, ...), north to south
+#
+#
+#
+# T3:
+# - city_base_museum
+# - city_base_inner1
+# - city_base_inner_2
+# - city_base_stadium
+#
+# T4:
+# - city_base_zoo
+# - city_base_auditorium
+# - city_base_waterfront
+# 
+#
+
+city_base_common:
+  MobType: BasicAggro
+  Chance: 0.6
+  Priority: 2
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playernotwithin 100
+    - inregion city_base
+    - height 13-30
+    - inblock AIR
+
+
+city_base_passive:
+  MobType: AimlessNeutral,AimlessNeutralChild,HopelessCitizen
+  Chance: 0.15
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playernotwithin 60
+    - mobsinchunck <1
+    - inregion city_base
+    - height 13-30
+    - inblock AIR
+
+city_base_cleanser:
+  MobType: Cleanser
+  Chance: 0.010
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playernotwithin 100
+    - inregion city_base
+    - height 13-30
+
+city_base_cleanser_broken:
+  MobType: CleanserBroken
+  Chance: 0.005
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playernotwithin 100
+    - inregion city_base
+    - height 13-30

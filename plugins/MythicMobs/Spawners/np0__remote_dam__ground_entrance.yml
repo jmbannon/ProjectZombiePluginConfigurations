@@ -1,0 +1,30 @@
+np0__remote_dam__ground_entrance:
+  SpawnerGroup: remote_dam
+  MobName: BasicAggro
+  World: PZRebornNew
+  X: -2576
+  Y: 54
+  Z: -657
+  Radius: 0
+  UseTimer: true
+  MaxMobs: 1
+  MobLevel: 1
+  MobsPerSpawn: 1
+  Cooldown: 0
+  CooldownTimer: 0
+  Warmup: 0
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 150
+  LeashRange: 32
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions:
+  - playerwithin 150
+  - playernotwithin 120
+  - playerwithin 10
+  - playernotwithin 5
+  - playerwithin 150
+  ActiveMobs: 0

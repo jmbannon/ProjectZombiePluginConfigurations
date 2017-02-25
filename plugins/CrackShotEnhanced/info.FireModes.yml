@@ -1,0 +1,62 @@
+'null':
+  display: §4n/a
+  material: EGG
+  id: 344
+  data: 0
+Semi-Auto:
+  display: §aSemi-Auto
+  material: EGG
+  id: 344
+  data: 0
+  lore:
+  - §7----- §cStats§7 ------------------§r§n§r§e§0§d§0§d§a§e§0§c§6§c§9§d§2§c§5§c§d§c§f§c§4§c§5§e§0§b§1§r§o§r
+  - §7§o  Semi-Automatic
+Burst:
+  display: §aBurst
+  material: EGG
+  id: 344
+  data: 0
+  lore:
+  - §7----- §cStats§7 ------------------§r§n§r§e§0§d§0§d§a§e§0§c§6§c§9§d§2§c§5§c§d§c§f§c§4§c§5§e§0§b§2§r§o§r
+  - §7§o  +3 shots per burst
+  - §7§o  Burst-fire
+Automatic:
+  display: §aAutomatic
+  material: EGG
+  id: 344
+  data: 0
+  lore:
+  - §7----- §cStats§7 ------------------§r§n§r§e§0§d§0§d§a§e§0§c§6§c§9§d§2§c§5§c§d§c§f§c§4§c§5§e§0§b§3§r§o§r
+  - §7§o  Automatic
+Single Shot:
+  display: §aSingle Shot
+  material: EGG
+  id: 344
+  data: 0
+  lore:
+  - §7----- §cStats§7 ------------------§r§n§r§e§0§d§0§d§a§e§0§c§6§c§9§d§2§c§5§c§d§c§f§c§4§c§5§e§0§b§4§r§o§r
+  - §7§o  Semi-Automatic
+Bolt Action:
+  display: §aBolt Action
+  material: EGG
+  id: 344
+  data: 0
+  lore:
+  - §7----- §cStats§7 ------------------§r§n§r§e§0§d§0§d§a§e§0§c§6§c§9§d§2§c§5§c§d§c§f§c§4§c§5§e§0§b§5§r§o§r
+  - §7§o  Semi-Automatic
+Pump Action:
+  display: §aPump Action
+  material: EGG
+  id: 344
+  data: 0
+  lore:
+  - §7----- §cStats§7 ------------------§r§n§r§e§0§d§0§d§a§e§0§c§6§c§9§d§2§c§5§c§d§c§f§c§4§c§5§e§0§b§6§r§o§r
+  - §7§o  Semi-Automatic
+Over-Under:
+  display: §aOver-Under
+  material: EGG
+  id: 344
+  data: 0
+  lore:
+  - §7----- §cStats§7 ------------------§r§n§r§e§0§d§0§d§a§e§0§c§6§c§9§d§2§c§5§c§d§c§f§c§4§c§5§e§0§b§7§r§o§r
+  - §7§o  Semi-Automatic

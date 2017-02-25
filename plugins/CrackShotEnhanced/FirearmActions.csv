@@ -1,0 +1,7 @@
+Display Name (STR),CS Firearm Action Type (STR),Sound Open (STR),Sound Close (STR),Open Duration (INT),Close Duration (INT),Close Shoot Delay (INT)
+Sniper Bolt,bolt,VILLAGER_DEATH-1-1-0,VILLAGER_HAGGLE-1-1-0,20,16,6
+Hunting Bolt,bolt,VILLAGER_DEATH-1-1-0,VILLAGER_HAGGLE-1-1-0,20,16,6
+SMG Slide,slide,NULL,NULL,0,7,11
+Slide,slide,NULL,NULL,0,10,12
+Break,break,AMBIENCE_THUNDER-1-1-0,AMBIENCE_THUNDER-1-1-0,0,12,12
+Pump,pump,AMBIENCE_THUNDER-1-1-0,HORSE_ANGRY-1-1-0,0,12,12

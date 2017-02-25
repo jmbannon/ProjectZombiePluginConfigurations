@@ -1,0 +1,123 @@
+# Project Zombie Mob Configuration
+#
+# Faction:
+#  - HumanPrey
+#
+#  - AnimalsBear
+#  - AnimalsPrey
+#  - AnimalsRadiated
+#  - AnimalsWolves
+#
+#  - MobsMetro
+#  - MobsMilitary
+#
+#  - ZombiesAggro
+#  - ZombiesBeast
+#  - ZombiesNeutral
+#
+
+AlphaWolf:
+  Type: WOLF
+  Display: '&2Alpha Wolf'
+  Health: 35
+  Damage: 15
+  Faction: AnimalsWolves
+  Drops:
+    - RabbitMeat 2 1.0
+    - RabbitMeat 1 0.5
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.5
+    FollowRange: 70
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Skills:
+    - summon{type=AdultWolf;amount=2;radius=10} @self ~onSpawn 1.0
+    - summon{type=AdultWolf;amount=1;radius=10} @self ~onSpawn 0.5
+    - summon{type=AdultWolf;amount=2;radius=10} @self ~onSpawn 0.25
+    - rally{types=AdultWolf;radius=60} @PlayersInRadius{r=60}
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 OtherFaction
+
+MotherWolf:
+  Type: WOLF
+  Display: '&2Mother Wolf'
+  Health: 25
+  Damage: 10
+  Faction: AnimalsWolves
+  Drops:
+    - RabbitMeat 2 1.0
+    - RabbitMeat 1 0.5
+  Options:
+    MovementSpeed: 0.5
+    FollowRange: 70
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Skills:
+    - summon{type=BabyWolf;amount=2;radius=10} @self ~onSpawn 0.25
+    - summon{type=BabyWolf;amount=1;radius=10} @self ~onSpawn 0.5
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 OtherFaction
+
+AdultWolf:
+  Type: WOLF
+  Display: '&2Wolf'
+  Health: 20
+  Damage: 7
+  Faction: AnimalsWolves
+  Drops:
+    - RabbitMeat 1 1.0
+    - RabbitMeat 1 0.5
+  Options:
+    MovementSpeed: 0.4
+    FollowRange: 70
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 OtherFaction
+
+BabyWolf:
+  Type: WOLF
+  Display: '&2Baby Wolf'
+  Health: 12
+  Damage: 3
+  Faction: AnimalsWolves
+  Drops:
+    - RabbitMeat 1 0.75
+  Options:
+    MovementSpeed: 0.35
+    FollowRange: 55
+    Age: -1
+    AgeLock: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 OtherFaction

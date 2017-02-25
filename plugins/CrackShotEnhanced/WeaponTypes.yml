@@ -1,0 +1,109 @@
+pistol:
+  Display Name: "Pistol"
+  Ammo Name: "Pistol Bullets"
+  Ammo ID: 372
+  Ammo Data: 0
+  Firearm Action Name: 'NULL'
+  Inventory Control: 'Group_Sidearm'
+  Projectile Amount: 1
+  Projectile Range: 100
+  Projectile Speed: 100
+
+revolver:
+  Display Name: "Revolver"
+  Ammo Name: "Revolver Bullets"
+  Ammo ID: 351
+  Ammo Data: 0
+  Firearm Action Name: 'NULL'
+  Inventory Control: 'Group_Sidearm'
+  Projectile Amount: 1
+  Projectile Range: 120
+  Projectile Speed: 85
+
+hunting:
+  Display Name: "Hunting"
+  Ammo Name: "Hunting Rifle Bullets"
+  Ammo ID: 318
+  Ammo Data: 0
+  Firearm Action Name: 'Hunting Bolt'
+  Inventory Control: 'Group_Primary'
+  Projectile Amount: 1
+  Projectile Range: 150
+  Projectile Speed: 85
+
+break_shotgun:
+  Display Name: "Break Shotgun"
+  Ammo Name: "Shotgun Shells"
+  Ammo ID: 295
+  Ammo Data: 0
+  Firearm Action Name: 'Break'
+  Inventory Control: 'Group_Primary'
+  Projectile Amount: 10
+  Projectile Range: 50
+  Projectile Speed: 35
+
+pump_shotgun:
+  Display Name: "Pump Shotgun"
+  Ammo Name: "Shotgun Shells"
+  Ammo ID: 295
+  Ammo Data: 0
+  Firearm Action Name: 'Pump'
+  Inventory Control: 'Group_Primary'
+  Projectile Amount: 10
+  Projectile Range: 50
+  Projectile Speed: 35
+
+slide_shotgun:
+  Display Name: "Slide Shotgun"
+  Ammo Name: "Shotgun Shells"
+  Ammo ID: 295
+  Ammo Data: 0
+  Firearm Action Name: 'Slide'
+  Inventory Control: 'Group_Primary'
+  Projectile Amount: 10
+  Projectile Range: 50
+  Projectile Speed: 35
+
+smg:
+  Display Name: "SMG"
+  Ammo Name: "SMG Rounds"
+  Ammo ID: 371
+  Ammo Data: 0
+  Firearm Action Name: 'SMG Slide'
+  Inventory Control: 'Group_Primary'
+  Projectile Amount: 1
+  Projectile Range: 100
+  Projectile Speed: 100
+
+assault:
+  Display Name: "Assault"
+  Ammo Name: "Assault Rifle Rounds"
+  Ammo ID: 361
+  Ammo Data: 0
+  Firearm Action Name: 'Slide'
+  Inventory Control: 'Group_Primary'
+  Projectile Amount: 1
+  Projectile Range: 130
+  Projectile Speed: 115
+
+auto_sniper:
+  Display Name: "Auto Sniper"
+  Ammo Name: "Auto-Sniper Rounds"
+  Ammo ID: 351
+  Ammo Data: 1
+  Firearm Action Name: 'Slide'
+  Inventory Control: 'Group_Primary'
+  Projectile Amount: 1
+  Projectile Range: 160
+  Projectile Speed: 120
+
+sniper:
+  Display Name: "Sniper"
+  Ammo Name: "Sniper Bullets"
+  Ammo ID: 337
+  Ammo Data: 0
+  Firearm Action Name: 'Sniper Bolt'
+  Inventory Control: 'Group_Primary'
+  Projectile Amount: 1
+  Projectile Range: 180
+  Projectile Speed: 130

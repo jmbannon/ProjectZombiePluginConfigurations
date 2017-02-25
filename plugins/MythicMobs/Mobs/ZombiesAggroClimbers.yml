@@ -1,0 +1,155 @@
+# Project Zombie Mob Configuration
+#
+# Faction:
+#  - HumanPrey
+#
+#  - AnimalsBear
+#  - AnimalsPrey
+#  - AnimalsRadiated
+#  - AnimalsWolves
+#
+#  - MobsMetro
+#  - MobsMilitary
+#
+#  - ZombiesAggro
+#  - ZombiesBeast
+#  - ZombiesNeutral
+#
+
+Crawler:
+  Type: SPIDER
+  Display: '&2Crawler'
+  Health: 40
+  Damage: 0.5
+  Faction: ZombiesAggro
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.35
+    FollowRange: 65
+    Silent: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Equipment:
+    - Sunscreen:4
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Leather w/out helmet
+Crawler1:
+  Type: SPIDER
+  Display: '&2Crawler'
+  Health: 40
+  Damage: 8
+  Faction: ZombiesAggro
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    Silent: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Disguise:
+    Type: babyzombie
+  Equipment:
+    - Sunscreen:4
+    - leather_chestplate:3
+    - leather_leggings:2
+    - leather_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Leather w/helmet
+Crawler2:
+  Type: SPIDER
+  Display: '&2Crawler'
+  Health: 40
+  Damage: 8
+  Faction: ZombiesAggro
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 65
+    Silent: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Disguise:
+    Type: babyzombie
+  Equipment:
+    - sunscreen_leather_helmet:4
+    - leather_chestplate:3
+    - leather_leggings:2
+    - leather_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker
+
+# Predator
+Predator:
+  Type: SPIDER
+  Display: '&2Crawler'
+  Health: 40
+  Damage: 8
+  Faction: ZombiesAggro
+  Drops:
+    - Stock 1 0.5
+  Options:
+    MovementSpeed: 0.45
+    FollowRange: 65
+    Silent: false
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventMobKillDrops: true
+    NoDamageTicks: 0
+  Disguise:
+    Type: babyzombie
+  Equipment:
+    - sunscreen_leather_helmet:4
+    - leather_chestplate:3
+    - leather_leggings:2
+    - leather_boots:1
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+    - 2 randomstroll
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 SpecificFaction AnimalsPrey
+    - 3 SpecificFaction AnimalsWolves
+    - 4 SpecificFaction HumanPrey
+    - 5 attacker

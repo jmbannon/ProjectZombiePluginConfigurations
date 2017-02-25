@@ -1,0 +1,279 @@
+#
+# The naming convention for weapons is <name>_<tier>
+# where <tier> represents the following Qualities:
+#
+# 0: [0] Civilian
+# 1: [1] Tactical
+# 2: [2] Doomsday Prepper
+# 3: [3] Military
+# 4: [4] Special Forces
+# 5: [5] Classified
+#
+
+#################################################
+#     T0
+#################################################
+
+  #################################################
+  #       ALL WEAPON TYPES
+  #################################################
+
+# Bulletspread
+
+# Base damage increase
+punisher_0:
+  Display Name: 'Punisher I'
+  Color: AQUA
+  Quality: 'Civilian'
+  Damage Modifier: 2.0
+  Damage Multiplier: 0.1
+
+punisher_1:
+  Display Name: 'Punisher II'
+  Color: AQUA
+  Quality: 'Tactical'
+  Damage Modifier: 3.0
+  Damage Multiplier: 0.15
+
+punisher_2:
+  Display Name: 'Punisher III'
+  Color: AQUA
+  Quality: 'Doomsday Prepper'
+  Damage Modifier: 4.0
+  Damage Multiplier: 0.20
+
+# Headshot increase
+head_hunter_0:
+  Display Name: 'Head Hunter I'
+  Color: AQUA
+  Quality: 'Civilian'
+  Headshot Damage Modifier: 3.5
+  Headshot Damage Multiplier: 0.35
+
+head_hunter_1:
+  Display Name: 'Head Hunter II'
+  Color: RED
+  Quality: 'Tactical'
+  Headshot Damage Modifier: 4.5
+  Headshot Damage Multiplier: 0.45
+
+head_hunter_2:
+  Display Name: 'Head Hunter III'
+  Color: DARK_RED
+  Quality: 'Doomsday Prepper'
+  Headshot Damage Modifier: 5.5
+  Headshot Damage Multiplier: 0.55
+
+# Shrapnel increase
+devour_0:
+  Display Name: 'Devour I'
+  Color: AQUA
+  Quality: 'Civilian'
+  Shrapnel Damage Modifier: 2.0
+  Shrapnel Damage Multiplier: 0.2
+
+devour_1:
+  Display Name: 'Devour II'
+  Color: AQUA
+  Quality: 'Tactical'
+  Shrapnel Damage Modifier: 3.0
+  Shrapnel Damage Multiplier: 0.25
+
+devour_2:
+  Display Name: 'Devour III'
+  Color: AQUA
+  Quality: 'Doomsday Prepper'
+  Shrapnel Damage Modifier: 4.0
+  Shrapnel Damage Multiplier: 0.3
+
+# Crit chance + strike increase
+gambler_0:
+  Display Name: 'Gambler I'
+  Color: AQUA
+  Quality: 'Civilian'
+  Crit Chance Modifier: 0.25
+  Crit Strike Multiplier: 0.1
+
+gambler_1:
+  Display Name: 'Gambler II'
+  Color: RED
+  Quality: 'Tactical'
+  Crit Chance Modifier: 0.35
+  Crit Strike Multiplier: 0.2
+
+gambler_2:
+  Display Name: 'Gambler III'
+  Color: DARK_RED
+  Quality: 'Doomsday Prepper'
+  Crit Chance Modifier: 0.45
+  Crit Strike Multiplier: 0.3
+
+# Bleedout damage + duration increase
+blood_reaper_0:
+  Display Name: 'Blood Reaper I'
+  Color: AQUA
+  Quality: 'Civilian'
+  Bleedout Damage: 1.5
+  Bleedout Duration Multiplier: 0.2
+  Bleedout Duration Seconds: 3.5
+
+blood_reaper_1:
+  Display Name: 'Blood Reaper II'
+  Color: RED
+  Quality: 'Tactical'
+  Bleedout Damage: 2.3
+  Bleedout Duration Multiplier: 0.3
+  Bleedout Duration Seconds: 3.6
+
+blood_reaper_2:
+  Display Name: 'Blood Reaper III'
+  Color: DARK_RED
+  Quality: 'Doomsday Prepper'
+  Bleedout Damage: 3.0
+  Bleedout Duration Multiplier: 0.4
+  Bleedout Duration Seconds: 3.7
+
+# Incendiary damage increase
+singe_0:
+  Display Name: 'Singe I'
+  Color: AQUA
+  Quality: 'Civilian'
+  Incendiary Damage Modifier: 2.0
+  Incendiary Damage Multiplier: 0.2
+
+singe_1:
+  Display Name: 'Singe II'
+  Color: AQUA
+  Quality: 'Tactical'
+  Incendiary Damage Modifier: 3.0
+  Incendiary Damage Multiplier: 0.25
+
+singe_2:
+  Display Name: 'Singe III'
+  Color: AQUA
+  Quality: 'Doomsday Prepper'
+  Incendiary Damage Modifier: 4.0
+  Incendiary Damage Multiplier: 0.3
+
+# Bleedout duration
+open_wound_0:
+  Display Name: 'Open Wound I'
+  Color: AQUA
+  Quality: 'Civilian'
+  Bleedout Duration Multiplier: 0.1
+  Bleedout Duration Seconds: 1.5
+
+open_wound_1:
+  Display Name: 'Open Wound II'
+  Color: AQUA
+  Quality: 'Tactical'
+  Bleedout Duration Multiplier: 0.2
+  Bleedout Duration Seconds: 2.0
+
+open_wound_2:
+  Display Name: 'Open Wound III'
+  Color: AQUA
+  Quality: 'Doomsday Prepper'
+  Bleedout Duration Multiplier: 0.3
+  Bleedout Duration Seconds: 3.0
+
+# Bleedout damage from Base
+blood_thirst_0:
+  Display Name: 'Blood Thirst I'
+  Color: AQUA
+  Quality: 'Civilian'
+  Bleedout Damage Multiplier from Base Damage: 0.05
+
+blood_thirst_1:
+  Display Name: 'Blood Thirst II'
+  Color: AQUA
+  Quality: 'Tactical'
+  Bleedout Damage Multiplier from Base Damage: 0.10
+
+blood_thirst_2:
+  Display Name: 'Blood Thirst III'
+  Color: AQUA
+  Quality: 'Doomsday Prepper'
+  Bleedout Damage Multiplier from Base Damage: 0.15
+
+# Bleedout damage from Shrapnel + Shrapnel
+gut_eater_0:
+  Display Name: 'Gut Eater I'
+  Color: AQUA
+  Quality: 'Civilian'
+  Shrapnel Damage Modifier: 2.0
+  Bleedout Damage Multiplier from Shrapnel: 0.30
+
+gut_eater_1:
+  Display Name: 'Gut Eater II'
+  Color: AQUA
+  Quality: 'Tactical'
+  Shrapnel Damage Modifier: 3.0
+  Bleedout Damage Multiplier from Shrapnel: 0.40
+
+gut_eater_2:
+  Display Name: 'Gut Eater III'
+  Color: AQUA
+  Quality: 'Doomsday Prepper'
+  Shrapnel Damage Modifier: 4.0
+  Bleedout Damage Multiplier from Shrapnel: 0.50
+
+# Ignite Chance + Duration
+conjuration_0:
+  Display Name: 'Conjuration I'
+  Color: AQUA
+  Quality: 'Civilian'
+  Ignite Chance: 0.2
+  Ignite Duration: 2.0
+
+conjuration_1:
+  Display Name: 'Conjuration II'
+  Color: AQUA
+  Quality: 'Tactical'
+  Ignite Chance: 0.3
+  Ignite Duration: 3.0
+
+conjuration_2:
+  Display Name: 'Conjuration III'
+  Color: AQUA
+  Quality: 'Doomsday Prepper'
+  Ignite Chance: 0.4
+  Ignite Duration: 4.0
+
+# Ignite from Base
+# TODO
+
+# Ignite from Incendiary
+# TODO
+
+# TO TEST
+stun_ignite:
+  Display Name: 'Stun Ignite'
+  Quality: 'Stock'
+  Bleedout Damage: 0.0
+  Bleedout Damage Multiplier: 0.0
+  Bleedout Damage Multiplier from Base Damage: 0.0
+  Bleedout Damage Multiplier from Shrapnel: 0.0
+  Bleedout Duration Multiplier: 0.0
+  Bleedout Duration Seconds: 0.0
+  Bulletspread Multiplier: 0.0
+  Color: GREEN
+  Crit Chance Modifier: 0.0
+  Crit Strike Multiplier: 0.0
+  Damage Modifier: 0.0
+  Damage Multiplier: 0.0
+  Headshot Damage Modifier: 0.0
+  Headshot Damage Multiplier: 0.0
+  Ignite Chance: 1.0
+  Ignite Damage Multiplier From Base Damage: 1.0
+  Ignite Damage Multiplier From Incendiary Damage: 0.0
+  Ignite Duration: 2.0
+  Incendiary Damage Modifier: 0.0
+  Incendiary Damage Multiplier: 0.0
+  Material: 4
+  Material Data: 0
+  Price: 0
+  Shrapnel Damage Modifier: 0.0
+  Shrapnel Damage Multiplier: 0.0
+  Stun Chance: 1.0
+  Stun Duration: 4.0

@@ -1,0 +1,89 @@
+#################################################
+#     Remote Outskirts,Wild
+#################################################
+
+small_prey:
+  MobType: AdultRabbit,BabyRabbit
+  Chance: 0.08
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 45
+    - onblock grass
+    - inregion remote_outskirts,remote_wild
+    - targetinlineofsight false
+    - height 20-256
+medium_prey:
+  MobType: MotherRabbit
+  Chance: 0.04
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 45
+    - onblock grass
+    - inregion remote_outskirts,remote_wild
+    - targetinlineofsight false
+    - height 20-256
+
+small_predator:
+  MobType: AdultWolf,BabyWolf
+  Chance: 0.05
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 60
+    - onblock grass
+    - inregion remote_outskirts,remote_wild
+    - targetinlineofsight false
+    - height 20-256
+medium_predator:
+  MobType: MotherWolf
+  Chance: 0.04
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 60
+    - onblock grass
+    - inregion remote_outskirts,remote_wild
+    - targetinlineofsight false
+    - height 20-256
+
+#################################################
+#     Remote Wild
+#################################################
+
+large_predator:
+  MobType: AdultBear,AlphaWolf
+  Chance: 0.03
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 60
+    - onblock grass
+    - inregion remote_wild
+    - targetinlineofsight false
+    - height 20-220
+
+extreme_predator:
+  MobType: AlphaBear
+  Chance: 0.02
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 60
+    - onblock grass
+    - inregion remote_wild
+    - targetinlineofsight false
+    - height 20-220

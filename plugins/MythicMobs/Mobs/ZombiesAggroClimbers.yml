@@ -32,6 +32,9 @@ Crawler:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - Sunscreen:4
   AIGoalSelectors:
@@ -63,6 +66,9 @@ Crawler1:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Disguise:
     Type: babyzombie
   Equipment:
@@ -101,6 +107,9 @@ Crawler2:
     NoDamageTicks: 0
   Disguise:
     Type: babyzombie
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - sunscreen_leather_helmet:4
     - leather_chestplate:3
@@ -137,6 +146,9 @@ Predator:
     NoDamageTicks: 0
   Disguise:
     Type: babyzombie
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - sunscreen_leather_helmet:4
     - leather_chestplate:3

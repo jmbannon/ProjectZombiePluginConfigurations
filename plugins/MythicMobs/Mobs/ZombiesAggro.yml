@@ -33,7 +33,8 @@ BasicAggro:
     PreventMobKillDrops: true
     NoDamageTicks: 0
   Skills:
-    - message{m="&b<mob.name>&r<&co> <mob.hp>/<mob.mhp>"} @Trigger ~onDamaged
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - Sunscreen:4
   AIGoalSelectors:
@@ -64,6 +65,8 @@ BasicAggroGroup:
     PreventMobKillDrops: true
     NoDamageTicks: 0
   Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
     - summon{type=BasicAggro;amount=5;radius=3} @self ~onSpawn 1.0
   Equipment:
     - Sunscreen:4
@@ -96,6 +99,8 @@ BasicAggroAlpha:
     PreventMobKillDrops: true
     NoDamageTicks: 0
   Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
     - summon{type=BasicAggro;amount=2;radius=10} @self ~onSpawn 1.0
     - summon{type=BasicAggro;amount=1;radius=10} @self ~onSpawn 0.5
     - summon{type=BasicAggro;amount=2;radius=10} @self ~onSpawn 0.25
@@ -130,6 +135,9 @@ Defender:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - Sunscreen:4
     - leather_chestplate:3
@@ -163,6 +171,9 @@ Leader:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - sunscreen_leather_helmet:4
     - leather_chestplate:3
@@ -196,6 +207,9 @@ Scientist:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - Sunscreen:4
     - gold_chestplate:3
@@ -229,6 +243,9 @@ FieldResearcher:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - sunscreen_gold_helmet:4
     - gold_chestplate:3

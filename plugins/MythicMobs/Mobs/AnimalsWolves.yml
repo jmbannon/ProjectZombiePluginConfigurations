@@ -34,6 +34,8 @@ AlphaWolf:
     PreventMobKillDrops: true
     NoDamageTicks: 0
   Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
     - summon{type=AdultWolf;amount=2;radius=10} @self ~onSpawn 1.0
     - summon{type=AdultWolf;amount=1;radius=10} @self ~onSpawn 0.5
     - summon{type=AdultWolf;amount=2;radius=10} @self ~onSpawn 0.25
@@ -63,6 +65,8 @@ MotherWolf:
     PreventMobKillDrops: true
     NoDamageTicks: 0
   Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
     - summon{type=BabyWolf;amount=2;radius=10} @self ~onSpawn 0.25
     - summon{type=BabyWolf;amount=1;radius=10} @self ~onSpawn 0.5
   AIGoalSelectors:
@@ -89,6 +93,9 @@ AdultWolf:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   AIGoalSelectors:
     - 0 clear
     - 1 meleeattack
@@ -114,6 +121,9 @@ BabyWolf:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   AIGoalSelectors:
     - 0 clear
     - 1 meleeattack

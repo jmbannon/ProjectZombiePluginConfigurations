@@ -31,6 +31,9 @@ EvolvedBasicAggro:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - Sunscreen:4
   AIGoalSelectors:
@@ -61,6 +64,9 @@ EvolvedDefender:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - Sunscreen:4
     - leather_chestplate:3
@@ -94,6 +100,9 @@ EvolvedLeader:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - sunscreen_leather_helmet:4
     - leather_chestplate:3
@@ -127,6 +136,9 @@ EvolvedScientist:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - Sunscreen:4
     - gold_chestplate:3
@@ -160,6 +172,9 @@ EvolvedFieldResearcher:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - sunscreen_gold_helmet:4
     - gold_chestplate:3
@@ -194,6 +209,9 @@ EvolvedGrunt:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - Sunscreen:4
     - chainmail_chestplate:3
@@ -227,6 +245,9 @@ EvolvedSoldier:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - sunscreen_chainmail_helmet:4
     - chainmail_chestplate:3
@@ -260,6 +281,9 @@ EvolvedArmoredSoldier:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - Sunscreen:4
     - iron_chestplate:3
@@ -293,6 +317,9 @@ EvolvedArmoredSergeant:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - sunscreen_iron_helmet:4
     - iron_chestplate:3
@@ -326,6 +353,9 @@ EvolvedCommander:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - Sunscreen:4
     - diamond_chestplate:3
@@ -359,6 +389,9 @@ EvolvedGeneral:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - sunscreen_diamond_helmet:4
     - diamond_chestplate:3

@@ -31,6 +31,9 @@ AimlessNeutral:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - Sunscreen:4
   AIGoalSelectors:
@@ -56,6 +59,9 @@ AimlessNeutralChild:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   Equipment:
     - Sunscreen:4
   AIGoalSelectors:

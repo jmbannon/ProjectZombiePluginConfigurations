@@ -34,6 +34,8 @@ MotherRabbit:
     PreventMobKillDrops: true
     NoDamageTicks: 0
   Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
     - summon{type=BabyRabbit;amount=2;radius=10} @self ~onSpawn 0.25
     - summon{type=BabyRabbit;amount=1;radius=10} @self ~onSpawn 0.5
   AIGoalSelectors:
@@ -56,6 +58,9 @@ AdultRabbit:
     PreventOtherDrops: true
     FollowRange: 40
     RabbitType: WHITE
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   AIGoalSelectors:
     - 0 clear
     - 1 fleeplayers
@@ -80,6 +85,9 @@ BabyRabbit:
     PreventRandomEquipment: true
     PreventMobKillDrops: true
     NoDamageTicks: 0
+  Skills:
+    - actionmessage{m="<mob.name> &c<mob.hp>&4<&heart>"} @trigger ~onDamaged
+    - actionmessage{m="<mob.name> &4Slain"} @trigger ~onDeath
   AIGoalSelectors:
     - 0 clear
     - 1 fleeplayers

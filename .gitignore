@@ -20,3 +20,4 @@
 *.~*#
 *.sqlite
 plugins/CrackShotEnhanced/example.*
+plugins/CrackShotEnhanced/info.*

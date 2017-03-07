@@ -23,8 +23,7 @@ AlphaWolf:
   Damage: 15
   Faction: AnimalsWolves
   Drops:
-    - RabbitMeat 2 1.0
-    - RabbitMeat 1 0.5
+    - RabbitMeat 1 0.1
   Options:
     AlwaysShowName: true
     MovementSpeed: 0.5
@@ -55,8 +54,7 @@ MotherWolf:
   Damage: 10
   Faction: AnimalsWolves
   Drops:
-    - RabbitMeat 2 1.0
-    - RabbitMeat 1 0.5
+    - RabbitMeat 1 0.2
   Options:
     MovementSpeed: 0.5
     FollowRange: 70
@@ -84,8 +82,7 @@ AdultWolf:
   Damage: 7
   Faction: AnimalsWolves
   Drops:
-    - RabbitMeat 1 1.0
-    - RabbitMeat 1 0.5
+    - RabbitMeat 1 0.1
   Options:
     MovementSpeed: 0.4
     FollowRange: 70
@@ -111,7 +108,7 @@ BabyWolf:
   Damage: 3
   Faction: AnimalsWolves
   Drops:
-    - RabbitMeat 1 0.75
+    - RabbitMeat 1 0.05
   Options:
     MovementSpeed: 0.35
     FollowRange: 55

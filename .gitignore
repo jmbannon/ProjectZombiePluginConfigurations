@@ -15,6 +15,9 @@
 !/plugins/MythicMobs
 !/plugins/WorldGuard
 
+# Allow the script folder
+!/scripts
+!/resources
 
 # Ignore various files generated from editor programs
 *.~*#

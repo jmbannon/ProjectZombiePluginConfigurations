@@ -1,26 +1,99 @@
-large_predator:
-  MobType: AdultBear,AlphaWolf
-  Chance: 0.03
+remote_wild_baby_prey:
+  MobType: BabyRabbit
+  Chance: 0.005
   Priority: 1
   Action: ADD
   Worlds: PZRebornNew
   Conditions:
     - playerwithin 75
-    - playernotwithin 60
+    - playernotwithin 65
     - onblock grass
+    - lightlevelabove 13
     - inregion remote_wild
     - targetinlineofsight false
-    - height 20-220
+    - height 20-256
 
-extreme_predator:
-  MobType: AlphaBear
+remote_wild_small_prey:
+  MobType: AdultRabbit
+  Chance: 0.008
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 65
+    - onblock grass
+    - lightlevelabove 13
+    - inregion remote_wild
+    - targetinlineofsight false
+    - height 20-256
+
+remote_wild_medium_prey:
+  MobType: MotherRabbit
+  Chance: 0.003
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 65
+    - onblock grass
+    - lightlevelabove 13
+    - inregion remote_wild
+    - targetinlineofsight false
+    - height 20-256
+
+remote_wild_small_predator:
+  MobType: AdultWolf,BabyWolf
   Chance: 0.02
   Priority: 1
   Action: ADD
   Worlds: PZRebornNew
   Conditions:
     - playerwithin 75
-    - playernotwithin 60
+    - playernotwithin 65
+    - onblock grass
+    - inregion remote_wild 
+    - targetinlineofsight false
+    - height 20-256
+
+remote_wild_medium_predator:
+  MobType: StrayAggro,AdultWolf,MotherWolf
+  Chance: 0.01
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 65
+    - onblock grass
+    - inregion remote_wild
+    - targetinlineofsight false
+    - height 20-256
+
+remote_wild_large_predator:
+  MobType: AdultBear,AlphaWolf
+  Chance: 0.008
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 65
+    - onblock grass
+    - inregion remote_wild
+    - targetinlineofsight false
+    - height 20-220
+
+remote_wild_extreme_predator:
+  MobType: AlphaBear
+  Chance: 0.005
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 65
     - onblock grass
     - inregion remote_wild
     - targetinlineofsight false

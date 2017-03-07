@@ -1,0 +1,86 @@
+remote_cross_baby_prey:
+  MobType: BabyRabbit
+  Chance: 0.01
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 65
+    - onblock grass
+    - lightlevelabove 13
+    - inregion remote_cross
+    - targetinlineofsight false
+    - height 20-256
+
+remote_cross_small_prey:
+  MobType: AdultRabbit
+  Chance: 0.08
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 65
+    - onblock grass
+    - lightlevelabove 13
+    - inregion remote_cross
+    - targetinlineofsight false
+    - height 20-256
+
+remote_cross_medium_prey:
+  MobType: MotherRabbit
+  Chance: 0.08
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 65
+    - onblock grass
+    - lightlevelabove 13
+    - inregion remote_cross
+    - targetinlineofsight false
+    - height 20-256
+
+remote_cross_small_predator:
+  MobType: AdultWolf,BabyWolf
+  Chance: 0.08
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 65
+    - onblock grass
+    - inregion remote_cross 
+    - targetinlineofsight false
+    - height 20-256
+
+remote_cross_medium_predator:
+  MobType: StrayAggro,AdultWolf,MotherWolf
+  Chance: 0.04
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 65
+    - onblock grass
+    - inregion remote_cross
+    - targetinlineofsight false
+    - height 20-256
+
+remote_cross_large_predator:
+  MobType: AlphaWolf
+  Chance: 0.002
+  Priority: 1
+  Action: ADD
+  Worlds: PZRebornNew
+  Conditions:
+    - playerwithin 75
+    - playernotwithin 65
+    - onblock grass
+    - inregion remote_cross
+    - targetinlineofsight false
+    - height 20-220

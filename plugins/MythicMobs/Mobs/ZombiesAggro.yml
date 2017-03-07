@@ -89,7 +89,7 @@ BasicAggroAlpha:
   Damage: 12
   Faction: ZombiesAggro
   Drops:
-    - Stock 1 0.5
+    - Civilian 1 0.5
   Options:
     AlwaysShowName: true
     MovementSpeed: 0.4

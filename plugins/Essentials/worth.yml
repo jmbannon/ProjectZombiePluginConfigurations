@@ -1,0 +1,61 @@
+worth:
+  diamondhoe:
+    '0': 20.0
+  sugarcane:
+    '0': 4.0
+  inksack:
+    '8': 9.0
+    '3': 10.0
+    '13': 5.0
+    '12': 10.0
+    '5': 10.0
+    '6': 11.0
+    '10': 20.0
+    '7': 30.0
+    '2': 15.0
+    '4': 30.0
+    '11': 29.0
+    '9': 22.0
+    '14': 34.0
+  ironhoe:
+    '0': 10.0
+  goldhoe:
+    '0': 15.0
+  claybrick:
+    '0': 25.0
+  diamondaxe:
+    '0': 8.0
+  stonehoe:
+    '0': 6.0
+  woodhoe:
+    '0': 10.0
+  goldaxe:
+    '0': 30.0
+  goldpickaxe:
+    '0': 16.0
+  goldspade:
+    '0': 11.0
+  bowl:
+    '0': 19.0
+  melonseeds:
+    '0': 35.0
+  woodaxe:
+    '0': 22.0
+  glowstonedust:
+    '0': 34.0
+  diamondspade:
+    '0': 45.0
+  diamondpickaxe:
+    '0': 45.0
+  stonepickaxe:
+    '0': 34.0
+  stoneaxe:
+    '0': 40.0
+  goldsword:
+    '0': 1.0
+  woodsword:
+    '0': 4.0
+  stonesword:
+    '0': 6.0
+  ironsword:
+    '0': 7.0

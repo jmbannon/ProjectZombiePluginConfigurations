@@ -1,0 +1,33 @@
+Axe:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: true
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §eAxe§e
+        lore:
+        - §eKills zombies in two hits
+        - §e130 durability
+    Probability: 100.0
+  - ==: Money
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  - ==: Experience
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  Name: Axe
+  Reset:
+    Hours: 3
+    Days: 0
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

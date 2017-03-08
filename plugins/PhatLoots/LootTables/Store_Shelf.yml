@@ -1,0 +1,46 @@
+Store_Shelf:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: APPLE
+    Probability: 15.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: COOKIE
+    Probability: 20.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: CARROT_ITEM
+    Probability: 20.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: ROTTEN_FLESH
+    Probability: 20.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: POISONOUS_POTATO
+    Probability: 20.0
+  - ==: Money
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  - ==: Experience
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  Name: Store_Shelf
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 0
+    Minutes: 15
+  RoundDownTime: false

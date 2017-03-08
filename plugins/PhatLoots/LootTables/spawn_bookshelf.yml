@@ -1,0 +1,38 @@
+spawn_bookshelf:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      amount: 6
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      amount: 3
+    Probability: 100.0
+  - ==: Money
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  - ==: Experience
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  Name: spawn_bookshelf
+  Reset:
+    Hours: 0
+    Days: 7
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

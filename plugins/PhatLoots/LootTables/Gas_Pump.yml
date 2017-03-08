@@ -1,0 +1,26 @@
+Gas_Pump:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: true
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: COAL
+    Probability: 30.0
+  - ==: Money
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  - ==: Experience
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  Name: Gas_Pump
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 0
+    Minutes: 30
+  RoundDownTime: false

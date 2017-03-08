@@ -1,0 +1,51 @@
+Mini_Fridge:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: true
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: POTATO_ITEM
+    Probability: 20.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: RAW_BEEF
+    Probability: 10.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: RAW_FISH
+    Probability: 20.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: BREAD
+    Probability: 15.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SPIDER_EYE
+    Probability: 10.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: POISONOUS_POTATO
+    Probability: 10.0
+  - ==: Money
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  - ==: Experience
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  Name: Mini_Fridge
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 0
+    Minutes: 50
+  RoundDownTime: false

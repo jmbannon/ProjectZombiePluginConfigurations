@@ -1,0 +1,27 @@
+spawn_cash:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+      amount: 2
+    Probability: 100.0
+  - ==: Money
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  - ==: Experience
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  Name: spawn_cash
+  Reset:
+    Hours: 0
+    Days: 7
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

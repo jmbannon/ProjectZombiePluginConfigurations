@@ -1,0 +1,271 @@
+Petty_Crate:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: true
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: INK_SACK
+          damage: 2
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eGalil§e ▪ «30»
+            lore:
+            - '§eAmmo: Assault Rifle Bullets'
+            - '§eAccuracy: 93.00'
+            - '§eDesc: Common, decent accuracy'
+            - §eRight click to shoot
+        Probability: 100.0
+      - ==: Item
+        BonusAmount: 10
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: PUMPKIN_SEEDS
+          amount: 5
+        Probability: 100.0
+      LowerNumberOfLoots: 2
+      Name: Galil
+      Probability: 4.0
+      UpperNumberOfLoots: 2
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 20
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: GOLD_NUGGET
+          amount: 5
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: GOLD_SPADE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eSuppressed TMP§e ▪ «30»
+            lore:
+            - '§eAmmo: SMG Bullets'
+            - '§eAccuracy: 84.80'
+            - '§eDesc: Silenced, good for sneaking'
+            - §eRight click to shoot
+        Probability: 100.0
+      LowerNumberOfLoots: 2
+      Name: TMP
+      Probability: 6.0
+      UpperNumberOfLoots: 2
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: GOLD_BOOTS
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: GOLD_LEGGINGS
+        Probability: 100.0
+      LowerNumberOfLoots: 2
+      Name: Armor2
+      Probability: 10.0
+      UpperNumberOfLoots: 2
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: INK_SACK
+          damage: 5
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eM3§e ▪ «6»
+            lore:
+            - '§eAmmo: Shotgun Shells'
+            - '§eBB Spread: 75.00'
+            - '§eDesc: Pump, decent accuracy'
+            - §eRight click to shoot
+        Probability: 100.0
+      - ==: Item
+        BonusAmount: 10
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: SEEDS
+          amount: 5
+        Probability: 100.0
+      LowerNumberOfLoots: 2
+      Name: M3
+      Probability: 10.0
+      UpperNumberOfLoots: 2
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: INK_SACK
+          damage: 6
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eMac10§e ▪ «30»
+            lore:
+            - '§eAmmo: SMG Bullets'
+            - '§eAccuracy: 85.00'
+            - '§eDesc: Common, poor accuracy'
+            - §eRight click to shoot
+        Probability: 100.0
+      - ==: Item
+        BonusAmount: 20
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: GOLD_NUGGET
+          amount: 5
+        Probability: 100.0
+      LowerNumberOfLoots: 2
+      Name: Mac10
+      Probability: 10.0
+      UpperNumberOfLoots: 2
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: INK_SACK
+          damage: 12
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eRemington 700§e ▪ «5»
+            lore:
+            - '§eAmmo: Hunting Rifle Bullets'
+            - '§eZoomed-in accuracy: 98.10'
+            - '§eDesc: Bolt action, good accuracy'
+            - §eRight click to shoot
+            - §eLeft click to zoom
+        Probability: 100.0
+      - ==: Item
+        BonusAmount: 10
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: FLINT
+          amount: 5
+        Probability: 100.0
+      LowerNumberOfLoots: 2
+      Name: Remington
+      Probability: 10.0
+      UpperNumberOfLoots: 2
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: STRING
+          amount: 2
+        Probability: 100.0
+      LowerNumberOfLoots: 2
+      Name: Misc
+      Probability: 10.0
+      UpperNumberOfLoots: 2
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: SLIME_BALL
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eFrag Grenade§e
+            lore:
+            - §eExplodes three seconds after launch.
+        Probability: 100.0
+      - ==: Item
+        BonusAmount: 1
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: NETHER_BRICK_ITEM
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eFlashbang§e
+            lore:
+            - §eDisorientates the target upon detonation.
+        Probability: 100.0
+      LowerNumberOfLoots: 2
+      Name: Nades
+      Probability: 10.0
+      UpperNumberOfLoots: 2
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: GOLD_CHESTPLATE
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: GOLD_HELMET
+        Probability: 100.0
+      LowerNumberOfLoots: 2
+      Name: Armor1
+      Probability: 10.0
+      UpperNumberOfLoots: 2
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 10
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: EMERALD
+          amount: 5
+        Probability: 100.0
+      LowerNumberOfLoots: 2
+      Name: Money
+      Probability: 10.0
+      UpperNumberOfLoots: 2
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: STONE_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eAxe§e
+            lore:
+            - §eKills zombies in two hits
+            - §e130 durability
+        Probability: 100.0
+      LowerNumberOfLoots: 2
+      Name: Melee
+      Probability: 10.0
+      UpperNumberOfLoots: 2
+    LowerNumberOfLoots: 1
+    Name: OneSet
+    Probability: 100.0
+    UpperNumberOfLoots: 1
+  - ==: Money
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  - ==: Experience
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  Name: Petty_Crate
+  Reset:
+    Hours: 2
+    Days: 0
+    Seconds: 0
+    Minutes: 30
+  RoundDownTime: false

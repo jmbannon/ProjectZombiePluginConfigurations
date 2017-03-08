@@ -1,0 +1,164 @@
+Lockbox:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: true
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      BonusAmount: 5
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        amount: 5
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_HOE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e.44 Magnum§e «6»
+          lore:
+          - '§eAmmo: Revolver Bullets'
+          - '§eAccuracy: 84.85'
+          - '§eDesc: Loud, very strong'
+          - §eRight click to shoot
+      Probability: 100.0
+    LowerNumberOfLoots: 0
+    Name: 44mag
+    Probability: 1.0
+    UpperNumberOfLoots: 0
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      BonusAmount: 5
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: NETHER_STALK
+        amount: 5
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 8
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eP228§e «15»
+          lore:
+          - '§eAmmo: Pistol Bullets'
+          - '§eAccuracy: 83.50'
+          - '§eDesc: Reliable, large mag'
+          - §eRight click to shoot
+      Probability: 100.0
+    LowerNumberOfLoots: 0
+    Name: P228
+    Probability: 8.0
+    UpperNumberOfLoots: 0
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      BonusAmount: 5
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: NETHER_STALK
+        amount: 5
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eGlock§e «17»
+          lore:
+          - '§eAmmo: Pistol Bullets'
+          - '§eAccuracy: 83.75'
+          - '§eDesc: Very large mag'
+          - §eRight click to shoot
+      Probability: 100.0
+    LowerNumberOfLoots: 0
+    Name: Glock
+    Probability: 4.0
+    UpperNumberOfLoots: 0
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      BonusAmount: 5
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: NETHER_STALK
+        amount: 5
+      Probability: 100.0
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SUGAR_CANE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eM1911 Colt 45§e «7»
+          lore:
+          - '§eAmmo: Pistol Bullets'
+          - '§eAccuracy: 83.50'
+          - '§eDesc: Common, easy to find'
+          - §eRight click to shoot
+      Probability: 100.0
+    LowerNumberOfLoots: 0
+    Name: Colt
+    Probability: 12.0
+    UpperNumberOfLoots: 0
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      BonusAmount: 5
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SEEDS
+        amount: 0
+      Probability: 25.0
+    - ==: Item
+      BonusAmount: 5
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: NETHER_STALK
+        amount: 0
+      Probability: 25.0
+    - ==: Item
+      BonusAmount: 3
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+      Probability: 25.0
+    - ==: Item
+      BonusAmount: 5
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: FLINT
+        amount: 0
+      Probability: 25.0
+    LowerNumberOfLoots: 2
+    Name: Misc
+    Probability: 70.0
+    UpperNumberOfLoots: 2
+  - ==: Money
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  - ==: Experience
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  Name: Lockbox
+  Reset:
+    Hours: 1
+    Days: 0
+    Seconds: 0
+    Minutes: 20
+  RoundDownTime: false

@@ -1,0 +1,75 @@
+LockboxTest:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAA12§e ▪ «8»
+          lore:
+          - '§eAmmo: Shotgun Shells'
+          - '§eBB Spread: 75.00'
+          - '§eDesc: Fully auto, decent accuracy'
+          - §eRight click to shoot
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 5
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: SEEDS
+        amount: 10
+      Probability: 100.0
+    LowerNumberOfLoots: 2
+    Name: Collection1
+    Probability: 50.0
+    UpperNumberOfLoots: 2
+  - ==: LootCollection
+    LootList:
+    - ==: Item
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOWL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eAK-47§e ▪ «27»
+          lore:
+          - '§eAmmo: Assault Rifle Bullets'
+          - '§eAccuracy: 93.60'
+          - '§eDesc: Strong, good accuracy'
+          - §eRight click to shoot
+      Probability: 100.0
+    - ==: Item
+      BonusAmount: 10
+      ItemStack:
+        ==: org.bukkit.inventory.ItemStack
+        type: PUMPKIN_SEEDS
+        amount: 20
+      Probability: 100.0
+    LowerNumberOfLoots: 2
+    Name: Collection2
+    Probability: 50.0
+    UpperNumberOfLoots: 2
+  - ==: Money
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  - ==: Experience
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  Name: LockboxTest
+  Reset:
+    Hours: 2
+    Days: 0
+    Seconds: 30
+    Minutes: 30
+  RoundDownTime: false

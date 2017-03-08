@@ -1,0 +1,9 @@
+&4******************************
+&4* &6Welcome, {PLAYER}&6
+&4* &6A list of commands can be found at any safezone.
+&4* &6Players online:&c {ONLINE} &6- Unique Players:&c {UNIQUE}
+&4* &6
+&4* &6Update March 19, 2015:
+&4* &6Please download the latest resource pack from the website!
+&bhttp://www.minetexas.com/minecraft-server-forum/showthread.php?tid=199
+&4******************************

@@ -1,0 +1,62 @@
+spawn_gunsafe:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHER_STALK
+      amount: 5
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      amount: 7
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SUGAR_CANE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §eM1911 Colt 45§e «7»
+        lore:
+        - '§eAmmo: Pistol Bullets'
+        - '§eAccuracy: 83.50'
+        - '§eDesc: Common, easy to find'
+        - §eRight click to shoot
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §eWinchester Model 70§e ▪ «4»
+        lore:
+        - '§eAmmo: Hunting Rifle Bullets'
+        - '§eZoomed-in accuracy: 97.40'
+        - '§eDesc: Bolt action, decent accuracy'
+        - §eRight click to shoot
+        - §eLeft click to zoom
+    Probability: 100.0
+  - ==: Money
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  - ==: Experience
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  Name: spawn_gunsafe
+  Reset:
+    Hours: 0
+    Days: 7
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false

@@ -1,0 +1,61 @@
+Bookshelf:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: true
+  LootList:
+  - ==: Item
+    BonusAmount: 4
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FEATHER
+    Probability: 50.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMPTY_MAP
+    Probability: 25.0
+  - ==: Item
+    BonusAmount: 5
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      amount: 5
+    Probability: 100.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOOK_AND_QUILL
+    Probability: 50.0
+  - ==: Item
+    BonusAmount: 1
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    Probability: 3.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: STICK
+    Probability: 25.0
+  - ==: Item
+    BonusAmount: 2
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+    Probability: 13.0
+  - ==: Money
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  - ==: Experience
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  Name: Bookshelf
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 0
+    Minutes: 15
+  RoundDownTime: false

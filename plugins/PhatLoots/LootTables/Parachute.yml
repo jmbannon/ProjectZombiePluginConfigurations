@@ -1,0 +1,26 @@
+Parachute:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: STRING
+    Probability: 100.0
+  - ==: Money
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  - ==: Experience
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  Name: Parachute
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 0
+    Minutes: 30
+  RoundDownTime: false

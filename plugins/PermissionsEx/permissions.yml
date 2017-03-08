@@ -1,0 +1,4004 @@
+groups:
+  Wanderer:
+    permissions:
+    - -modifyworld.items.craft.*
+    - modifyworld.login
+    - modifyworld.chat
+    - modifyworld.sneak
+    - modifyworld.sprint
+    - modifyworld.chat.*
+    - modifyworld.digestion
+    - modifyworld.blocks.*
+    - modifyworld.items.drop.*
+    - modifyworld.items.have.*
+    - modifyworld.items.hold.*
+    - modifyworld.items.pickup.*
+    - modifyworld.items.use.*
+    - modifyworld.items.throw.*
+    - modifyworld.items.take.*
+    - modifyworld.items.put.*
+    - modifyworld.damage.*
+    - modifyworld.mobtarget.*
+    - modifyworld.interact.*
+    - modifyworld.tame.*
+    - -essentials.fly
+    - essentials.getpos
+    - essentials.helpop
+    - essentials.home
+    - essentials.ignore
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.motd
+    - essentials.chat.shout
+    - essentials.msg
+    - essentials.rules
+    - essentials.sell
+    - essentials.sethome
+    - essentials.suicide
+    - essentials.clearinventory
+    - essentials.ping
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.warp.list
+    - essentials.warp
+    - essentials.warp.stanley
+    - essentials.warp.heli
+    - friendme.user
+    - skydiver.parachute.*
+    - crackshot.use.all
+    - shop.open.*
+    - autosneak.auto
+    - citizens.npc.talk
+    options:
+      rank: '1000'
+      prefix: '&8Wanderer&7 '
+      default: true
+  Refugee:
+    inheritance:
+    - Wanderer
+    options:
+      rank: '800'
+      prefix: '&6Refugee&7 '
+  Mercenary:
+    inheritance:
+    - Refugee
+    options:
+      rank: '600'
+      prefix: '&2Mercenary&7 '
+  Messiah:
+    inheritance:
+    - Mercenary
+    options:
+      rank: '400'
+      prefix: '&3Messiah&7 '
+  Savior:
+    inheritance:
+    - Messiah
+    options:
+      rank: '200'
+      prefix: '&9Savior&7 '
+  Builder:
+    permissions:
+    - '*'
+    options:
+      rank: '3'
+      prefix: '&dBuilder&7 '
+  Admin:
+    permissions:
+    - '*'
+    options:
+      rank: '2'
+      prefix: '&cAdmin&7 '
+  Owner:
+    permissions:
+    - '*'
+    options:
+      rank: '1'
+      prefix: '&4Owner&7 '
+users:
+  gaiaderoxy:
+    group:
+    - Mercenary
+  estero500:
+    group:
+    - Mercenary
+  nitromunkey:
+    group:
+    - Mercenary
+  rocky84:
+    group:
+    - Refugee
+  shaw101:
+    group:
+    - Refugee
+  slapacookie:
+    group:
+    - Refugee
+  ltundeadmedic:
+    group:
+    - Refugee
+  lesslash:
+    group:
+    - Refugee
+  minecraftgods:
+    group:
+    - Mercenary
+  bigbuilder18:
+    group:
+    - Mercenary
+  reidh:
+    group:
+    - Refugee
+  kibaman123:
+    group:
+    - Mercenary
+  mannet:
+    group:
+    - Refugee
+  gladosdan:
+    group:
+    - Refugee
+  sparkle_ninja:
+    group:
+    - Refugee
+  m4rk90me:
+    group:
+    - Refugee
+  smarmyjoe:
+    group:
+    - Refugee
+  ismokechildren:
+    group:
+    - Refugee
+  freez907:
+    group:
+    - Mercenary
+  electricalman4:
+    group:
+    - Refugee
+  minimosh23:
+    group:
+    - Refugee
+  vultureofculture:
+    group:
+    - Refugee
+  deniz280:
+    group:
+    - Mercenary
+  starsyder:
+    group:
+    - Refugee
+  hansbrinker:
+    group:
+    - Mercenary
+  saxkid16:
+    group:
+    - Refugee
+  uhhidk:
+    group:
+    - Refugee
+  mentalgold101:
+    group:
+    - Refugee
+  hevflbzvrtd:
+    group:
+    - Refugee
+  strawberrykun:
+    group:
+    - Mercenary
+  bluebird2012:
+    group:
+    - Refugee
+  zorrosteele:
+    group:
+    - Mercenary
+  mattius456:
+    group:
+    - Refugee
+  zozobra:
+    group:
+    - Refugee
+  lololol1:
+    group:
+    - Mercenary
+  trylone:
+    group:
+    - Mercenary
+  zxphenom:
+    group:
+    - Mercenary
+  samofto:
+    group:
+    - Messiah
+  illogical:
+    group:
+    - Refugee
+  logan0125:
+    group:
+    - Refugee
+  jaytee9:
+    group:
+    - Refugee
+  suomenlippis:
+    group:
+    - Mercenary
+  jordancrowley:
+    group:
+    - Refugee
+  lolcatfire:
+    group:
+    - Mercenary
+  markusg:
+    group:
+    - Refugee
+  brenston:
+    group:
+    - Refugee
+  cbearguy:
+    group:
+    - Mercenary
+  molepepper:
+    group:
+    - Refugee
+  avoid1999:
+    group:
+    - Refugee
+  itzrerun:
+    group:
+    - Refugee
+  danny3433:
+    group:
+    - Mercenary
+  cfvgbh:
+    group:
+    - Mercenary
+  chazpants:
+    group:
+    - Mercenary
+  mattstrick13:
+    group:
+    - Mercenary
+  smd8061:
+    group:
+    - Refugee
+  trevorstruck:
+    group:
+    - Refugee
+  sewil:
+    group:
+    - Refugee
+  aronie:
+    group:
+    - Mercenary
+  jbx8z2:
+    group:
+    - Mercenary
+  ninja_fruit:
+    group:
+    - Mercenary
+  vegaspro:
+    group:
+    - Mercenary
+  bentindall101112:
+    group:
+    - Mercenary
+  lemmzes:
+    group:
+    - Refugee
+  wesleyc:
+    group:
+    - Refugee
+  soneclipse:
+    group:
+    - Refugee
+  armyman12345:
+    group:
+    - Mercenary
+  sheik:
+    group:
+    - Refugee
+  dicken:
+    group:
+    - Refugee
+  brightwolfz:
+    group:
+    - Refugee
+  dagersh:
+    group:
+    - Refugee
+  x4mple:
+    group:
+    - Mercenary
+  trackitdown:
+    group:
+    - Mercenary
+  rojat:
+    group:
+    - Mercenary
+  omar1296:
+    group:
+    - Mercenary
+  xxcharrahcxx:
+    group:
+    - Refugee
+  aglaves:
+    group:
+    - Refugee
+  mrarkansas870:
+    group:
+    - Refugee
+  niall_kennedy:
+    group:
+    - Refugee
+  xxcyroccoxx:
+    group:
+    - Refugee
+  supahsaiyan:
+    group:
+    - Refugee
+  voxnex:
+    group:
+    - Refugee
+  alex504405:
+    group:
+    - Refugee
+  pauldbest1:
+    group:
+    - Mercenary
+  noah:
+    group:
+    - Refugee
+  uberhaxorsly:
+    group:
+    - Refugee
+  alex6296:
+    group:
+    - Mercenary
+  twodudes:
+    group:
+    - Refugee
+  monkeyfarm:
+    group:
+    - Mercenary
+  bobthedudeman:
+    group:
+    - Refugee
+  tacoyum6:
+    group:
+    - Refugee
+  shandr:
+    group:
+    - Refugee
+  vepsekongen:
+    group:
+    - Mercenary
+  marcus3213:
+    group:
+    - Refugee
+  starselect3:
+    group:
+    - Mercenary
+  kbur316:
+    group:
+    - Refugee
+  sape231:
+    group:
+    - Mercenary
+  corysmart:
+    group:
+    - Mercenary
+  andr140d:
+    group:
+    - Refugee
+  nonanix:
+    group:
+    - Refugee
+  zoejohnson:
+    group:
+    - Refugee
+  sidewinderxps:
+    group:
+    - Refugee
+  chad_magic:
+    group:
+    - Mercenary
+  reca117:
+    group:
+    - Mercenary
+  hypnomatic:
+    group:
+    - Refugee
+  zelgos:
+    group:
+    - Messiah
+  darkbladeric:
+    group:
+    - Refugee
+  xicaerusix:
+    group:
+    - Refugee
+  blfish:
+    group:
+    - Refugee
+  stefanyounie:
+    group:
+    - Refugee
+  killer420107:
+    group:
+    - Refugee
+  shadowseer92:
+    group:
+    - Refugee
+  juanluisc:
+    group:
+    - Refugee
+  tenderlion99:
+    group:
+    - Refugee
+  jonhalo:
+    group:
+    - Refugee
+  galakticus:
+    group:
+    - Mercenary
+  dragon_zombie007:
+    group:
+    - Messiah
+  jumbojuicefrog:
+    group:
+    - Mercenary
+  jeffthebuilder:
+    group:
+    - Mercenary
+  elmer320:
+    group:
+    - Mercenary
+  superhomunculus:
+    group:
+    - Mercenary
+  subeen:
+    group:
+    - Mercenary
+  nicho2012:
+    group:
+    - Refugee
+  horzaborza:
+    group:
+    - Refugee
+  petertramp:
+    group:
+    - Mercenary
+  azn_mind_tricks:
+    group:
+    - Mercenary
+  jackson30007:
+    group:
+    - Refugee
+  49677severman:
+    group:
+    - Refugee
+  samtheadventurer:
+    group:
+    - Mercenary
+  shinkoyou:
+    group:
+    - Mercenary
+  fetalgnat:
+    group:
+    - Mercenary
+  gamher:
+    group:
+    - Refugee
+  saengle:
+    group:
+    - Mercenary
+  bjusko:
+    group:
+    - Mercenary
+  molokozor:
+    group:
+    - Mercenary
+  michaelaclarke:
+    group:
+    - Refugee
+  loz9051:
+    group:
+    - Refugee
+  kittenofpain:
+    group:
+    - Refugee
+  heroguy49:
+    group:
+    - Refugee
+  p1x3lwarr1or:
+    group:
+    - Mercenary
+  kylekylenoonan17:
+    group:
+    - Mercenary
+  tjbilli123:
+    group:
+    - Refugee
+  zoomwar:
+    group:
+    - Mercenary
+  carthxx:
+    group:
+    - Mercenary
+  lashman:
+    group:
+    - Refugee
+  laskar5:
+    group:
+    - Mercenary
+  misterp30:
+    group:
+    - Mercenary
+  mrfreak7:
+    group:
+    - Mercenary
+  bangstun:
+    group:
+    - Refugee
+  gfisher41:
+    group:
+    - Refugee
+  domenicc:
+    group:
+    - Refugee
+  fiesergremlin:
+    group:
+    - Refugee
+  superdan09:
+    group:
+    - Refugee
+  pika100chu:
+    group:
+    - Mercenary
+  nikk2009:
+    group:
+    - Refugee
+  marsden97:
+    group:
+    - Mercenary
+  toxicpug:
+    group:
+    - Mercenary
+  girlikescake:
+    group:
+    - Mercenary
+  pietersen9:
+    group:
+    - Refugee
+  bluecolorman:
+    group:
+    - Refugee
+  walrusman500:
+    group:
+    - Mercenary
+  emilyhrose:
+    group:
+    - Refugee
+  aldrae909:
+    group:
+    - Refugee
+  xsuperonion:
+    group:
+    - Mercenary
+  anaaal:
+    group:
+    - Refugee
+  snipealife:
+    group:
+    - Mercenary
+  dandaze:
+    group:
+    - Refugee
+  thatguy25:
+    group:
+    - Refugee
+  biobasher:
+    group:
+    - Mercenary
+  grizzlybear007:
+    group:
+    - Mercenary
+  wolflife99:
+    group:
+    - Mercenary
+  dan9999:
+    group:
+    - Refugee
+  halohenke:
+    group:
+    - Refugee
+  flaredrag:
+    group:
+    - Mercenary
+  diorite:
+    group:
+    - Refugee
+  codymullet:
+    group:
+    - Refugee
+  jubalm:
+    group:
+    - Refugee
+  jolos99:
+    group:
+    - Refugee
+  werty130:
+    group:
+    - Mercenary
+  mounties4life:
+    group:
+    - Refugee
+  sulfain:
+    group:
+    - Refugee
+  shield_me:
+    group:
+    - Refugee
+  znlgaming1996:
+    group:
+    - Refugee
+  snaz101:
+    group:
+    - Refugee
+  mikkelstovgaard:
+    group:
+    - Refugee
+  xdeadmanhd:
+    group:
+    - Refugee
+  ailien14:
+    group:
+    - Mercenary
+  damatt:
+    group:
+    - Mercenary
+  pekingpandy:
+    group:
+    - Refugee
+  vodi:
+    group:
+    - Refugee
+  kylesut7124:
+    group:
+    - Refugee
+  thomkayyy:
+    group:
+    - Mercenary
+  killjoy445:
+    group:
+    - Mercenary
+  cpt_cookies:
+    group:
+    - Refugee
+  lilpayaso012:
+    group:
+    - Mercenary
+  snipekiller1000:
+    group:
+    - Mercenary
+  bradlehwilleh:
+    group:
+    - Refugee
+  timothy6976:
+    group:
+    - Mercenary
+  jaggegnx:
+    group:
+    - Refugee
+  extramrdo:
+    group:
+    - Mercenary
+  killedby_alex:
+    group:
+    - Refugee
+  123happyguy123:
+    group:
+    - Refugee
+  orangepilot:
+    group:
+    - Refugee
+  lurin:
+    group:
+    - Refugee
+  maxalexander:
+    group:
+    - Mercenary
+  newt183:
+    group:
+    - Refugee
+  gkpuschnigg17:
+    group:
+    - Mercenary
+  destroyerofboxes:
+    group:
+    - Refugee
+  abickblackguy159:
+    group:
+    - Mercenary
+  lkryger:
+    group:
+    - Mercenary
+  caprisunnyd:
+    group:
+    - Mercenary
+  connorferrett:
+    group:
+    - Messiah
+  mr_cool_dark:
+    group:
+    - Mercenary
+  lordbodak:
+    group:
+    - Refugee
+  sk8ermatt233:
+    group:
+    - Refugee
+  zeitzmaster:
+    group:
+    - Mercenary
+  mikey10298:
+    group:
+    - Mercenary
+  griffy98:
+    group:
+    - Refugee
+  ryeguy1236:
+    group:
+    - Refugee
+  zeldakid46:
+    group:
+    - Mercenary
+  djarne85:
+    group:
+    - Mercenary
+  itayhadad:
+    group:
+    - Refugee
+  tanjcal:
+    group:
+    - Refugee
+  milofishooks:
+    group:
+    - Mercenary
+  tim_b_dixon:
+    group:
+    - Refugee
+  rybug15:
+    group:
+    - Mercenary
+  kaybug:
+    group:
+    - Mercenary
+  monkski456:
+    group:
+    - Refugee
+  evansrs:
+    group:
+    - Refugee
+  ostafo:
+    group:
+    - Mercenary
+  clancyz:
+    group:
+    - Refugee
+  meyerkn:
+    group:
+    - Mercenary
+  roblee1998:
+    group:
+    - Refugee
+  error_37:
+    group:
+    - Mercenary
+  rollercoasters:
+    group:
+    - Refugee
+  lavaiscool2131:
+    group:
+    - Mercenary
+  big_smurf21:
+    group:
+    - Refugee
+  ricebum:
+    group:
+    - Refugee
+  ultimedman:
+    group:
+    - Refugee
+  royalxsweets:
+    group:
+    - Mercenary
+  sirbitbyte:
+    group:
+    - Mercenary
+  mehitsastart:
+    group:
+    - Refugee
+  metalmine:
+    group:
+    - Refugee
+  lotuselusa:
+    group:
+    - Refugee
+  warninig:
+    group:
+    - Mercenary
+  weddlaspartan:
+    group:
+    - Refugee
+  ahrgeman:
+    group:
+    - Refugee
+  asome180:
+    group:
+    - Refugee
+  ramboman468:
+    group:
+    - Refugee
+  americanator:
+    group:
+    - Refugee
+  connlaoifruit:
+    group:
+    - Mercenary
+  g15logi:
+    group:
+    - Mercenary
+  colombiano97:
+    group:
+    - Refugee
+  shredder1153:
+    group:
+    - Messiah
+  etu80:
+    group:
+    - Mercenary
+  tomcatfort:
+    group:
+    - Refugee
+  zazzo33:
+    group:
+    - Mercenary
+  hurst123:
+    group:
+    - Refugee
+  micmumc:
+    group:
+    - Refugee
+  wgsimon:
+    group:
+    - Refugee
+  lj149:
+    group:
+    - Mercenary
+  cjpole:
+    group:
+    - Mercenary
+  danny3942:
+    group:
+    - Refugee
+  rob3312:
+    group:
+    - Mercenary
+  zomxd:
+    group:
+    - Refugee
+  cjgordon3:
+    group:
+    - Refugee
+  whitehawkok:
+    group:
+    - Mercenary
+  elibhax:
+    group:
+    - Mercenary
+  wgwolanski:
+    group:
+    - Mercenary
+  cinemagfx_alex:
+    group:
+    - Refugee
+  knight_hamalot:
+    group:
+    - Refugee
+  dirtypeter:
+    group:
+    - Refugee
+  foxtrotjosh:
+    group:
+    - Refugee
+  calcaldude:
+    group:
+    - Mercenary
+  891smile:
+    group:
+    - Mercenary
+  goosejuice54:
+    group:
+    - Messiah
+  con__man:
+    group:
+    - Refugee
+  nickyfitz:
+    group:
+    - Refugee
+  fredman111:
+    group:
+    - Refugee
+  mynameisearl96:
+    group:
+    - Refugee
+  lhartnett123:
+    group:
+    - Mercenary
+  xxelaalexx19:
+    group:
+    - Refugee
+  mister_schulace:
+    group:
+    - Refugee
+  thrillrules:
+    group:
+    - Mercenary
+  zaphir162:
+    group:
+    - Mercenary
+  microlink:
+    group:
+    - Refugee
+  misterjoshua:
+    group:
+    - Refugee
+  sweetride643:
+    group:
+    - Refugee
+  manthateatspigz:
+    group:
+    - Refugee
+  fastkatjr:
+    group:
+    - Refugee
+  salty0123:
+    group:
+    - Mercenary
+  yugiz:
+    group:
+    - Refugee
+  chabott:
+    group:
+    - Refugee
+  darrenstark:
+    group:
+    - Refugee
+  x_monstaz_x:
+    group:
+    - Mercenary
+    - Refugee
+  xstund:
+    group:
+    - Mercenary
+  1meand:
+    group:
+    - Refugee
+  djdonk:
+    group:
+    - Refugee
+  alfred1santos:
+    group:
+    - Mercenary
+  mathewmu:
+    group:
+    - Refugee
+  atmanemilio:
+    group:
+    - Mercenary
+  xxxquadraxxx:
+    group:
+    - Mercenary
+  boxhead21:
+    group:
+    - Mercenary
+  zdanielz:
+    group:
+    - Refugee
+  dumbfoundead:
+    group:
+    - Refugee
+  the4ork:
+    group:
+    - Mercenary
+  kauffmanator:
+    group:
+    - Refugee
+  bigbadjakey500:
+    group:
+    - Mercenary
+  gililore:
+    group:
+    - Mercenary
+  d3adm4nw4lk1ng:
+    group:
+    - Refugee
+  gabemaster:
+    group:
+    - Refugee
+  xdog60:
+    group:
+    - Refugee
+  wormquake1:
+    group:
+    - Mercenary
+  aktrout:
+    group:
+    - Refugee
+  jaden9447:
+    group:
+    - Mercenary
+  creeperpunch:
+    group:
+    - Refugee
+  thesword1995:
+    group:
+    - Mercenary
+  mastergruntr75:
+    group:
+    - Refugee
+  uberdad:
+    group:
+    - Mercenary
+  charzar:
+    group:
+    - Refugee
+  yelir133:
+    group:
+    - Messiah
+  person100:
+    group:
+    - Refugee
+  deathxunlimited:
+    group:
+    - Refugee
+  jpizzle1997:
+    group:
+    - Refugee
+  satyrshadow:
+    group:
+    - Refugee
+  im_high:
+    group:
+    - Refugee
+  curtisfogle:
+    group:
+    - Refugee
+  seanhughes96:
+    group:
+    - Refugee
+  bconnerly:
+    group:
+    - Refugee
+  dayleh:
+    group:
+    - Refugee
+  suicidesixz:
+    group:
+    - Refugee
+  beneddar:
+    group:
+    - Mercenary
+  shadow729:
+    group:
+    - Mercenary
+  dude5870:
+    group:
+    - Refugee
+  stardustmn11:
+    group:
+    - Guest
+  junbucket:
+    group:
+    - Refugee
+  panface1:
+    group:
+    - Mercenary
+  reziful:
+    group:
+    - Mercenary
+  globstar700:
+    group:
+    - Mercenary
+  rop181:
+    group:
+    - Mercenary
+  chris530:
+    group:
+    - Refugee
+  boks123:
+    group:
+    - Mercenary
+  mrmoo24:
+    group:
+    - Refugee
+  lemming17:
+    group:
+    - Refugee
+  buddy560:
+    group:
+    - Mercenary
+  sigvecofo:
+    group:
+    - Refugee
+  kbot5000:
+    group:
+    - Refugee
+  xdrfvgyhn16:
+    group:
+    - Mercenary
+  khalul96:
+    group:
+    - Refugee
+  irwinmaga30:
+    group:
+    - Mercenary
+  barelyclothed:
+    group:
+    - Refugee
+  ishpish:
+    group:
+    - Mercenary
+  dumble99:
+    group:
+    - Refugee
+  puffpuppy:
+    group:
+    - Mercenary
+  yoshiiebear:
+    group:
+    - Refugee
+  twinkleman:
+    group:
+    - Refugee
+  lambda462:
+    group:
+    - Refugee
+  tdtsucks:
+    group:
+    - Mercenary
+  alexpx:
+    group:
+    - Refugee
+  justsuper65:
+    group:
+    - Refugee
+  ryanlee3057:
+    group:
+    - Refugee
+  warfates:
+    group:
+    - Refugee
+  marios_shroom:
+    group:
+    - Mercenary
+  archiesworld:
+    group:
+    - Refugee
+  geoffsmith:
+    group:
+    - Refugee
+  iovino2:
+    group:
+    - Mercenary
+  phantomkiller07:
+    group:
+    - Refugee
+  nickfahey21:
+    group:
+    - Refugee
+  nightchaos:
+    group:
+    - Refugee
+  mineaccount:
+    group:
+    - Mercenary
+  zodsuper:
+    group:
+    - Mercenary
+    - Refugee
+  zolidy:
+    group:
+    - Mercenary
+  xioner:
+    group:
+    - Refugee
+  madman74:
+    group:
+    - Refugee
+  linsz:
+    group:
+    - Mercenary
+  athao9301:
+    group:
+    - Mercenary
+  qwertyas:
+    group:
+    - Mercenary
+  pathakman:
+    group:
+    - Mercenary
+  cheeseducksg:
+    group:
+    - Mercenary
+  barkauskas1:
+    group:
+    - Refugee
+  kasperh123456:
+    group:
+    - Refugee
+  bcd0112:
+    group:
+    - Refugee
+  dazzbot:
+    group:
+    - Refugee
+  char_the_husky:
+    group:
+    - Refugee
+  kittehz:
+    group:
+    - Refugee
+  grakrk:
+    group:
+    - Refugee
+  haighi123:
+    group:
+    - Refugee
+  kjetil330:
+    group:
+    - Refugee
+  smokeyone88:
+    group:
+    - Mercenary
+  goldatheist:
+    group:
+    - Refugee
+  brandboys:
+    group:
+    - Refugee
+  yo11:
+    group:
+    - Mercenary
+  dominiconline:
+    group:
+    - Mercenary
+  gageeboy:
+    group:
+    - Refugee
+  irmacka:
+    group:
+    - Refugee
+  everydayghost:
+    group:
+    - Mercenary
+  zorky505:
+    group:
+    - Refugee
+  sirmoosh:
+    group:
+    - Refugee
+  amb5:
+    group:
+    - Refugee
+  thespartan1445:
+    group:
+    - Refugee
+  police2:
+    group:
+    - Refugee
+  undyingrebellion:
+    group:
+    - Refugee
+  ieatdirt100:
+    group:
+    - Refugee
+  th3buhs:
+    group:
+    - Refugee
+  ap_2200:
+    group:
+    - Refugee
+  crosseman:
+    group:
+    - Refugee
+  willman09:
+    group:
+    - Mercenary
+  coroneill:
+    group:
+    - Refugee
+  kubalamb:
+    group:
+    - Mercenary
+  teldo:
+    group:
+    - Mercenary
+  silexon:
+    group:
+    - Refugee
+  gscal:
+    group:
+    - Messiah
+  hott_little:
+    group:
+    - Refugee
+  marfinizer21:
+    group:
+    - Refugee
+  smcoolfish:
+    group:
+    - Refugee
+  majorrp:
+    group:
+    - Refugee
+  the_ghost99:
+    group:
+    - Refugee
+  brisss:
+    group:
+    - Mercenary
+  madness0122:
+    group:
+    - Refugee
+  elliot9191:
+    group:
+    - Mercenary
+  yellowsian:
+    group:
+    - Refugee
+  dmdcrafter:
+    group:
+    - Refugee
+  noobpwner11:
+    group:
+    - Mercenary
+  dicle280:
+    group:
+    - Refugee
+  boogalaroo:
+    group:
+    - Mercenary
+  alpacaness:
+    group:
+    - Refugee
+  dburslem:
+    group:
+    - Mercenary
+  herrwolf:
+    group:
+    - Refugee
+  portalmasterx7:
+    group:
+    - Mercenary
+  ho56:
+    group:
+    - Refugee
+  agent5551:
+    group:
+    - Mercenary
+  anasin123:
+    group:
+    - Mercenary
+  austinl832:
+    group:
+    - Refugee
+  digitalfear117:
+    group:
+    - Refugee
+  qlim3x:
+    group:
+    - Refugee
+  clue314:
+    group:
+    - Mercenary
+  trisxd:
+    group:
+    - Refugee
+  skybrix:
+    group:
+    - Refugee
+  phezman:
+    group:
+    - Refugee
+  saviosaltamontes:
+    group:
+    - Mercenary
+  hithron:
+    group:
+    - Refugee
+  rob4932:
+    group:
+    - Mercenary
+  ryuseto:
+    group:
+    - Refugee
+  doodlebird:
+    group:
+    - Refugee
+  lolygagger101:
+    group:
+    - Mercenary
+  solder_97:
+    group:
+    - Mercenary
+  dracodrake:
+    group:
+    - Mercenary
+  rob_mc:
+    group:
+    - Refugee
+  stone5000556:
+    group:
+    - Messiah
+  lillane:
+    group:
+    - Refugee
+  frosstee:
+    group:
+    - Refugee
+  joezel:
+    group:
+    - Refugee
+  holylion:
+    group:
+    - Refugee
+  shadowstone96:
+    group:
+    - Mercenary
+  critterboy75:
+    group:
+    - Refugee
+  nope_is_dope:
+    group:
+    - Refugee
+  davidround:
+    group:
+    - Mercenary
+  spirit_x:
+    group:
+    - Refugee
+  flash997:
+    group:
+    - Mercenary
+  fanoffi:
+    group:
+    - Refugee
+  rinocheeselets2:
+    group:
+    - Mercenary
+  epicwarrior50:
+    group:
+    - Mercenary
+  jed123:
+    group:
+    - Refugee
+  rrezzolution:
+    group:
+    - Refugee
+  forrey:
+    group:
+    - Mercenary
+  killar1652:
+    group:
+    - Mercenary
+  h0neydewoooo:
+    group:
+    - Mercenary
+  pinkjay:
+    group:
+    - Refugee
+  jake347:
+    group:
+    - Mercenary
+  repoexplicit:
+    group:
+    - Mercenary
+  manbearpig220:
+    group:
+    - Refugee
+  wulfebyte:
+    group:
+    - Mercenary
+  eat_ur_family:
+    group:
+    - Refugee
+  happygrenades:
+    group:
+    - Messiah
+  cptqwashi:
+    group:
+    - Refugee
+  deneyz:
+    group:
+    - Mercenary
+  drumndenver:
+    group:
+    - Refugee
+  cjwhite17:
+    group:
+    - Refugee
+  wheelz7779:
+    group:
+    - Refugee
+  kool_kreeper:
+    group:
+    - Refugee
+  ked1365:
+    group:
+    - Refugee
+  kingstarwest:
+    group:
+    - Refugee
+  tteoi:
+    group:
+    - Refugee
+  thatle:
+    group:
+    - Refugee
+  ninjaman9876:
+    group:
+    - Mercenary
+  shadowlord76:
+    group:
+    - Mercenary
+  xxtacojesusxx:
+    group:
+    - Refugee
+  bids1240:
+    group:
+    - Refugee
+  skatemaniac321:
+    group:
+    - Refugee
+  n0el:
+    group:
+    - Refugee
+  rickypjangles:
+    group:
+    - Refugee
+  alexandher:
+    group:
+    - Refugee
+  dimmes:
+    group:
+    - Mercenary
+  chaoticgod42:
+    group:
+    - Mercenary
+  warfarsniper1:
+    group:
+    - Mercenary
+  donkeyrunner:
+    group:
+    - Refugee
+  system3d:
+    group:
+    - Refugee
+  teenwolf38:
+    group:
+    - Refugee
+  skymaster23:
+    group:
+    - Refugee
+  musiclink:
+    group:
+    - Refugee
+  phoebrook:
+    group:
+    - Refugee
+  rymipa:
+    group:
+    - Refugee
+  wookie__bear:
+    group:
+    - Refugee
+  tofh30:
+    group:
+    - Refugee
+  rocketrambo20:
+    group:
+    - Refugee
+  otakutech:
+    group:
+    - Mercenary
+  mineguy64:
+    group:
+    - Refugee
+  dcv2120:
+    group:
+    - Mercenary
+  skely7426:
+    group:
+    - Mercenary
+  sjowerd:
+    group:
+    - Mercenary
+  09090ness:
+    group:
+    - Mercenary
+  icejaff:
+    group:
+    - Refugee
+  gr4tix:
+    group:
+    - Mercenary
+  oceanblazer:
+    group:
+    - Refugee
+  seton546:
+    group:
+    - Refugee
+  ulfius:
+    group:
+    - Refugee
+  lass5782:
+    group:
+    - Refugee
+  kurizma88:
+    group:
+    - Refugee
+  phineas65:
+    group:
+    - Mercenary
+  johnnymm:
+    group:
+    - Mercenary
+  mittenshd:
+    group:
+    - Refugee
+  ndevano:
+    group:
+    - Refugee
+  draksur:
+    group:
+    - Refugee
+  mitchblock141:
+    group:
+    - Mercenary
+  spiderjoef:
+    group:
+    - Mercenary
+  dukeman971:
+    group:
+    - Mercenary
+  apmaxwell:
+    group:
+    - Refugee
+  fancypantsmonkey:
+    group:
+    - Refugee
+  bot714:
+    group:
+    - Mercenary
+  wesleylmp99:
+    group:
+    - Mercenary
+  techkid100:
+    group:
+    - Refugee
+  sirrelz:
+    group:
+    - Refugee
+  loltimate_gamer:
+    group:
+    - Mercenary
+  baadteddy:
+    group:
+    - Refugee
+  madpig125:
+    group:
+    - Mercenary
+  elderhappyryan:
+    group:
+    - Refugee
+  handymouse1234:
+    group:
+    - Refugee
+  mwinstonne:
+    group:
+    - Mercenary
+  seanyboy335:
+    group:
+    - Refugee
+  green731:
+    group:
+    - Mercenary
+  d_petsyoda:
+    group:
+    - Messiah
+  thief454916:
+    permissions:
+    - Refugee
+  minecraftfan237:
+    permissions:
+    - Refugee
+  seasonalfail:
+    permissions:
+    - Refugee
+  emulsifier:
+    permissions:
+    - Refugee
+  moby123:
+    permissions:
+    - Refugee
+  dansaydie:
+    permissions:
+    - Refugee
+  ljk199:
+    group:
+    - Mercenary
+  justinf123456:
+    group:
+    - Mercenary
+  jorgestrongham:
+    group:
+    - Refugee
+  maxveloz:
+    group:
+    - Mercenary
+  thedjtrollin:
+    group:
+    - Mercenary
+  crews789:
+    group:
+    - Mercenary
+  dubkid:
+    group:
+    - Refugee
+  samestian:
+    group:
+    - Refugee
+  decree:
+    group:
+    - Refugee
+  shutoutboy:
+    group:
+    - Mercenary
+  davidmorton:
+    group:
+    - Refugee
+  ryan9603:
+    group:
+    - Mercenary
+  marrty30:
+    group:
+    - Mercenary
+  x10tx:
+    group:
+    - Mercenary
+  roupas1:
+    group:
+    - Mercenary
+  elmoseesyou99:
+    group:
+    - Mercenary
+  killem:
+    group:
+    - Refugee
+  kevtastic:
+    group:
+    - Refugee
+  deadmeu:
+    group:
+    - Refugee
+  xainzz:
+    group:
+    - Refugee
+  hannyc:
+    group:
+    - Mercenary
+  minimoose13:
+    group:
+    - Mercenary
+  ihalfbaked:
+    group:
+    - Mercenary
+  proust:
+    group:
+    - Refugee
+  goananndan:
+    group:
+    - Messiah
+  bj1000000tv:
+    group:
+    - Refugee
+  bufaloboj1:
+    group:
+    - Refugee
+  patrick135678:
+    group:
+    - Mercenary
+  dorkboat:
+    group:
+    - Refugee
+  diegoparra24:
+    group:
+    - Mercenary
+  kcazrou:
+    group:
+    - Mercenary
+  joemartinez:
+    group:
+    - Mercenary
+  atallwhiteguy:
+    group:
+    - Mercenary
+  mattshelvey:
+    group:
+    - Mercenary
+  tylerldog:
+    group:
+    - Refugee
+  soopercooper69:
+    group:
+    - Refugee
+  starwarsman88:
+    group:
+    - Mercenary
+  arefu_roo:
+    group:
+    - Refugee
+  sodashaman:
+    group:
+    - Mercenary
+  skullcraft927:
+    group:
+    - Messiah
+  riceorony:
+    group:
+    - Refugee
+  prolawler:
+    group:
+    - Mercenary
+  jojack14:
+    group:
+    - Mercenary
+  stovgaard:
+    group:
+    - Refugee
+  camaroblue87:
+    group:
+    - Mercenary
+  flamestalker88:
+    group:
+    - Refugee
+  grim_aeron:
+    group:
+    - Refugee
+  blue131:
+    group:
+    - Mercenary
+  doodlebeat:
+    group:
+    - Refugee
+  cabes413:
+    group:
+    - Refugee
+  slimemario:
+    group:
+    - Refugee
+  h3dgehogmongoos:
+    group:
+    - Refugee
+  pandanat0r:
+    group:
+    - Refugee
+  badpig125:
+    group:
+    - Refugee
+  drockers:
+    group:
+    - Refugee
+  _sheik_:
+    group:
+    - Refugee
+  left_4_dead:
+    group:
+    - Refugee
+  saleemsplace:
+    group:
+    - Mercenary
+  xvc56:
+    group:
+    - Refugee
+  aspectr:
+    group:
+    - Refugee
+  creeper_powder:
+    group:
+    - Mercenary
+  noobtuberproduct:
+    group:
+    - Refugee
+  kappa930:
+    group:
+    - Refugee
+  zczczczc:
+    group:
+    - Mercenary
+  sammy905070:
+    group:
+    - Refugee
+  joac048:
+    group:
+    - Refugee
+  tmsfin:
+    group:
+    - Refugee
+  schiwingscrazy:
+    group:
+    - Refugee
+  kirbs0001:
+    group:
+    - Refugee
+  hansolowc:
+    group:
+    - Refugee
+  canadasbest:
+    group:
+    - Refugee
+  dkg1998:
+    group:
+    - Refugee
+  tegusta:
+    group:
+    - Mercenary
+  stargatenerd:
+    group:
+    - Refugee
+  mesocoll:
+    group:
+    - Refugee
+  sneadsta:
+    group:
+    - Refugee
+  aliokiller6:
+    group:
+    - Mercenary
+  bl00d0g1:
+    group:
+    - Mercenary
+  hultrafors:
+    group:
+    - Refugee
+  amped_up188:
+    group:
+    - Refugee
+  ace6623:
+    group:
+    - Refugee
+  eiswolf_cool:
+    group:
+    - Refugee
+  waterpicker:
+    group:
+    - Refugee
+  xxratmanxx:
+    group:
+    - Refugee
+  lwong1:
+    group:
+    - Mercenary
+  peppie100:
+    group:
+    - Mercenary
+  syppz1337:
+    group:
+    - Mercenary
+  kirill1512:
+    group:
+    - Mercenary
+  panesy12:
+    group:
+    - Mercenary
+  brockboot:
+    group:
+    - Refugee
+  13bondsl1:
+    group:
+    - Refugee
+  captainbedsheet:
+    group:
+    - Mercenary
+  ccccccc830:
+    group:
+    - Mercenary
+  tidewater1997:
+    group:
+    - Refugee
+  holtey:
+    group:
+    - Mercenary
+  mikelong1994:
+    group:
+    - Mercenary
+  mrisacc:
+    group:
+    - Mercenary
+  tbaxter:
+    group:
+    - Refugee
+  joac0481:
+    group:
+    - Mercenary
+  quleditemy:
+    group:
+    - Refugee
+  killaxlaxers:
+    group:
+    - Mercenary
+  kenben248:
+    group:
+    - Refugee
+  poboyztrack:
+    group:
+    - Mercenary
+  mrpanda99:
+    group:
+    - Refugee
+  chasemoon1:
+    group:
+    - Mercenary
+  clarasecher:
+    group:
+    - Refugee
+  klooneyville:
+    group:
+    - Refugee
+  danwessonmining:
+    group:
+    - Mercenary
+  chance555:
+    group:
+    - Mercenary
+  wyatt240:
+    group:
+    - Mercenary
+  ftscreator:
+    group:
+    - Admin
+  piemales:
+    group:
+    - Refugee
+  escapevlocity:
+    group:
+    - Refugee
+  ninnot:
+    group:
+    - Refugee
+  superstuff:
+    group:
+    - Refugee
+  fleoman:
+    group:
+    - Refugee
+  gmode17:
+    group:
+    - Mercenary
+  coulier:
+    group:
+    - Mercenary
+  xxeegxx:
+    group:
+    - Refugee
+  soul_sucker123:
+    group:
+    - Mercenary
+  zzzzop:
+    group:
+    - Mercenary
+  dominic_533:
+    group:
+    - Refugee
+  diabolicalfries:
+    group:
+    - Refugee
+  sjm1234:
+    group:
+    - Mercenary
+  marioiskewl:
+    group:
+    - Refugee
+  kilo_7:
+    group:
+    - Refugee
+  brodyritter:
+    group:
+    - Refugee
+  dcp13:
+    group:
+    - Mercenary
+  devo_jedi:
+    group:
+    - Mercenary
+  edwingsd:
+    group:
+    - Mercenary
+  xterminator5:
+    group:
+    - Refugee
+  killerbomb09:
+    group:
+    - Mercenary
+  markmetalhead93:
+    group:
+    - Refugee
+  tooninja4you:
+    group:
+    - Refugee
+  crazymadd44:
+    group:
+    - Refugee
+  sawtooth1999:
+    group:
+    - Mercenary
+  icepawner:
+    group:
+    - Refugee
+  karizmaa:
+    group:
+    - Mercenary
+  plaaad:
+    group:
+    - Mercenary
+  eatcurchildren:
+    group:
+    - Mercenary
+  tigertim:
+    group:
+    - Mercenary
+  kakashi455:
+    group:
+    - Mercenary
+  tomaidoh:
+    group:
+    - Refugee
+  gamerx123:
+    group:
+    - Refugee
+  puffdog0:
+    group:
+    - Refugee
+  graficalcooke:
+    group:
+    - Refugee
+  faisul:
+    group:
+    - Mercenary
+  jarebare7896:
+    group:
+    - Mercenary
+  ellelol:
+    group:
+    - Refugee
+  thegodlyasian:
+    group:
+    - Mercenary
+  stsguitar23:
+    group:
+    - Mercenary
+  kernom:
+    group:
+    - Refugee
+    - Members
+  taylorpoz:
+    group:
+    - Mercenary
+  ou812:
+    group:
+    - Refugee
+  poww10s:
+    group:
+    - Refugee
+  sirbloodshed:
+    group:
+    - Refugee
+  ivanbrevo2000:
+    group:
+    - Mercenary
+  hunter1919hunter:
+    group:
+    - Mercenary
+  robosheep:
+    group:
+    - Mercenary
+  jdwede:
+    group:
+    - Refugee
+  bongiovi:
+    group:
+    - Refugee
+  slocow:
+    group:
+    - Refugee
+  rightymontand:
+    group:
+    - Refugee
+  brennan101:
+    group:
+    - Mercenary
+  achilles444:
+    group:
+    - Mercenary
+  bloodrunsred:
+    group:
+    - Refugee
+  simkja:
+    group:
+    - Refugee
+  bd17866:
+    group:
+    - Mercenary
+  xmb_grecco1:
+    group:
+    - Mercenary
+  mrplasmasnake:
+    group:
+    - Refugee
+  crazymaxedout02:
+    group:
+    - Mercenary
+  justinhigg:
+    group:
+    - Mercenary
+  mrskarvoey:
+    group:
+    - Refugee
+  diddy6706:
+    group:
+    - Refugee
+  justgerman517:
+    group:
+    - Mercenary
+  chronicore420:
+    group:
+    - Mercenary
+  andylord1:
+    group:
+    - Mercenary
+  eliteminer404:
+    group:
+    - Mercenary
+  trace1587:
+    group:
+    - Refugee
+  feralsoul:
+    group:
+    - Mercenary
+  myfootonfire:
+    group:
+    - Refugee
+  ninja811:
+    group:
+    - Refugee
+  css10:
+    group:
+    - Refugee
+  antony90:
+    group:
+    - Refugee
+  ezext:
+    group:
+    - Mercenary
+  djatifact:
+    group:
+    - Refugee
+  xhippo:
+    group:
+    - Refugee
+  rshmari48:
+    group:
+    - Mercenary
+  ivehadworse:
+    group:
+    - Mercenary
+  simonbondrsa:
+    group:
+    - Mercenary
+  lukeyman373:
+    group:
+    - Mercenary
+  redrazonr197:
+    group:
+    - Refugee
+  hyperbcs:
+    group:
+    - Refugee
+  naskel:
+    group:
+    - Mercenary
+  remotepaul:
+    group:
+    - Refugee
+  jaydwagner:
+    group:
+    - Messiah
+  nickjack876:
+    group:
+    - Admin
+  beanbaker:
+    group:
+    - Refugee
+  unicorn72:
+    group:
+    - Mercenary
+  zogmister:
+    group:
+    - Mercenary
+  menzi1988:
+    group:
+    - Mercenary
+  volcomx:
+    group:
+    - Mercenary
+  ax304:
+    group:
+    - Refugee
+  dudeiswhite:
+    group:
+    - Refugee
+  sonicsx:
+    group:
+    - Mercenary
+  darklazer13:
+    group:
+    - Mercenary
+  bobbyboy14:
+    group:
+    - Mercenary
+  auroratree:
+    group:
+    - Mercenary
+  twwimstar:
+    group:
+    - Mercenary
+  john6656:
+    group:
+    - Mercenary
+  zeeks1000:
+    group:
+    - Refugee
+  meimei070:
+    group:
+    - Refugee
+  randomcokiller:
+    group:
+    - Refugee
+  gimicky_badger:
+    group:
+    - Mercenary
+  coldpinkko:
+    group:
+    - Refugee
+  steveo2395:
+    group:
+    - Refugee
+  darktiger1534:
+    group:
+    - Mercenary
+  laxmaster35:
+    group:
+    - Refugee
+  galiath:
+    group:
+    - Mercenary
+  treemoss:
+    group:
+    - Mercenary
+  manbearpig23:
+    group:
+    - Refugee
+  plonize:
+    group:
+    - Refugee
+  s0cc3rk1d9:
+    group:
+    - Refugee
+  willhen300:
+    group:
+    - Refugee
+  crazyidgdog:
+    group:
+    - Refugee
+  ben07:
+    group:
+    - Mercenary
+  assassinsedge:
+    group:
+    - Refugee
+  daimon761:
+    group:
+    - Refugee
+  xdamiendakillax:
+    group:
+    - Refugee
+  westin444:
+    group:
+    - Refugee
+  thetrickster785:
+    group:
+    - Mercenary
+  gdevereux:
+    group:
+    - Refugee
+  asger_bom_ravn:
+    group:
+    - Mercenary
+  ferrari162:
+    group:
+    - Refugee
+  reconav2:
+    group:
+    - Mercenary
+  assassins4221:
+    group:
+    - Mercenary
+  kingphoenix:
+    group:
+    - Mercenary
+  darkiller617:
+    group:
+    - Refugee
+  captpopers:
+    group:
+    - Refugee
+  luistrolo:
+    group:
+    - Mercenary
+  whovian91:
+    group:
+    - Mercenary
+  underground987:
+    group:
+    - Mercenary
+  carter_lambeth:
+    group:
+    - Guest
+  trevaweb:
+    group:
+    - Refugee
+  champion14:
+    group:
+    - Refugee
+  coolnick2424:
+    group:
+    - Mercenary
+  nuzleaf2000:
+    group:
+    - Mercenary
+  imbigman2:
+    group:
+    - Refugee
+  karana_wolfgroup:
+    permissions:
+    - Mercenary
+    group:
+    - Mercenary
+  pailstar:
+    group:
+    - Refugee
+  rzap6020:
+    group:
+    - Refugee
+  captaincrack3r:
+    group:
+    - Mercenary
+  a_pc_gamer:
+    group:
+    - Refugee
+  jamie_bom:
+    group:
+    - Mercenary
+  coolcat98:
+    group:
+    - Refugee
+  dnaz1229:
+    group:
+    - Refugee
+  rawr_rawr_lol:
+    group:
+    - Refugee
+  smija:
+    group:
+    - Mercenary
+  teamonumber1:
+    group:
+    - Refugee
+  sk_sly:
+    group:
+    - Refugee
+  mrskelington:
+    group:
+    - Mercenary
+  arturo0602:
+    group:
+    - Mercenary
+  jjp5000:
+    group:
+    - Refugee
+  mekrazy:
+    group:
+    - Refugee
+  hiddenleprechaun:
+    group:
+    - Refugee
+  whale109:
+    group:
+    - Mercenary
+  bobslayer101:
+    group:
+    - Refugee
+  mattsrick91:
+    group:
+    - Mercenary
+  stts1234:
+    group:
+    - Mercenary
+  mattstrick91:
+    group:
+    - Mercenary
+  sharkbuilder:
+    group:
+    - Mercenary
+  xccgx_5h0tgunr:
+    group:
+    - Refugee
+  billywhizzlol:
+    group:
+    - Mercenary
+  aaronsafc:
+    group:
+    - Mercenary
+  trurtleforce:
+    group:
+    - Mercenary
+  v12vanquish:
+    group:
+    - Mercenary
+  razziez:
+    group:
+    - Mercenary
+  tk3k:
+    group:
+    - Refugee
+  wallacems:
+    group:
+    - Refugee
+  bbqbowhunter:
+    group:
+    - Mercenary
+  sp3cial_ops:
+    group:
+    - Mercenary
+  icebird1942:
+    group:
+    - Refugee
+  madmaid:
+    group:
+    - Mercenary
+  mankong:
+    group:
+    - Refugee
+  hepnerd:
+    group:
+    - Mercenary
+  opie52:
+    group:
+    - Refugee
+  m12k11x24:
+    group:
+    - Refugee
+  ros32cacaman:
+    group:
+    - Mercenary
+  crg231pro:
+    group:
+    - Mercenary
+  torinp:
+    group:
+    - Refugee
+  neorin:
+    group:
+    - Mercenary
+  subar13:
+    group:
+    - Mercenary
+  scotman:
+    group:
+    - Refugee
+  midfielderbille:
+    group:
+    - Mercenary
+  king)oblivious:
+    group:
+    - Refugee
+  king_oblivious:
+    group:
+    - Refugee
+  camren65939:
+    group:
+    - Refugee
+  frizkie:
+    group:
+    - Refugee
+  fire1865:
+    group:
+    - Mercenary
+  blurple_peanut:
+    group:
+    - Refugee
+  lewichan:
+    group:
+    - Refugee
+  helgrind64:
+    group:
+    - Mercenary
+  psychoteddy:
+    group:
+    - Refugee
+  belloblaster:
+    group:
+    - Mercenary
+  legoboysk:
+    group:
+    - Refugee
+  rohspark:
+    group:
+    - Mercenary
+  miesha:
+    group:
+    - Mercenary
+  reflexx28:
+    group:
+    - Mercenary
+  x2clicks1boomx:
+    group:
+    - Refugee
+  tanis62599:
+    group:
+    - Refugee
+  frostycus:
+    group:
+    - Refugee
+  sweeping_mine_me:
+    group:
+    - Mercenary
+  jiufu:
+    group:
+    - Mercenary
+  resedi:
+    group:
+    - Refugee
+  jordanpierre2000:
+    group:
+    - Mercenary
+  natesplace19010:
+    permissions:
+    - Refugee
+  seth1326:
+    group:
+    - Mercenary
+  startselect3:
+    group:
+    - Mercenary
+  bdog17866:
+    group:
+    - Mercenary
+  twimstar:
+    group:
+    - Mercenary
+  samves:
+    group:
+    - Mercenary
+  joescott15:
+    group:
+    - Refugee
+  judbud123:
+    group:
+    - Mercenary
+  nopenopenope22:
+    group:
+    - Mercenary
+  lutenitjosh88:
+    group:
+    - Refugee
+  jacob120701:
+    group:
+    - Refugee
+  vaberon:
+    group:
+    - Mercenary
+  jetlord:
+    group:
+    - Mercenary
+  supperdigger99:
+    group:
+    - Refugee
+  kevman707:
+    group:
+    - Mercenary
+  undesired01:
+    group:
+    - Mercenary
+  blaize9:
+    group:
+    - Refugee
+  purpledragon1001:
+    group:
+    - Refugee
+  mariosniped:
+    group:
+    - Mercenary
+  daqman1:
+    group:
+    - Refugee
+  knightclan:
+    group:
+    - Refugee
+  kylecrashinhard:
+    group:
+    - Mercenary
+  kuanoni:
+    group:
+    - Refugee
+  musicisgood:
+    group:
+    - Mercenary
+  snowy446:
+    group:
+    - Mercenary
+  ferret96:
+    group:
+    - Refugee
+  yellirs:
+    group:
+    - Mercenary
+  luis5502:
+    group:
+    - Refugee
+  sicky_hackz:
+    group:
+    - Mercenary
+  bingbing12twa:
+    group:
+    - Mercenary
+  butterpot:
+    group:
+    - Mercenary
+  zufelt84:
+    group:
+    - Mercenary
+  inboundstrobe33:
+    group:
+    - Mercenary
+  hayden5406:
+    group:
+    - Mercenary
+  jfeld428:
+    group:
+    - Mercenary
+  1l2k3m:
+    group:
+    - Mercenary
+  razortail:
+    group:
+    - Mercenary
+  bjartskular3:
+    group:
+    - Mercenary
+  awsomergamer:
+    group:
+    - Mercenary
+  cheezencheese:
+    group:
+    - Messiah
+  noremac891:
+    group:
+    - Refugee
+  super_man_xd:
+    group:
+    - Mercenary
+  stickeeee:
+    group:
+    - Refugee
+  tatooine7777:
+    group:
+    - Refugee
+  lordvaderr:
+    group:
+    - Refugee
+  nickman883:
+    group:
+    - Refugee
+  kaseyd1233:
+    group:
+    - Messiah
+  jcddude327:
+    group:
+    - Messiah
+  turtwig257:
+    group:
+    - Mercenary
+  monko2000:
+    group:
+    - Refugee
+  husky1234567890:
+    group:
+    - Messiah
+  csteves12290:
+    group:
+    - Messiah
+  ryanjc17:
+    group:
+    - Refugee
+  d0ra:
+    group:
+    - Refugee
+  nidemp:
+    group: []
+  silentatom:
+    group:
+    - Mercenary
+  phatjared:
+    group:
+    - Mercenary
+  austinkarner:
+    group:
+    - Refugee
+  jakesix15:
+    group:
+    - Mercenary
+  firecat_dannyboy:
+    group:
+    - Mercenary
+  gwardar:
+    group:
+    - Refugee
+  stormbringer404:
+    group:
+    - Refugee
+  scotto6:
+    group:
+    - Mercenary
+  striker30z:
+    group:
+    - Mercenary
+  vesryn:
+    group:
+    - Mercenary
+  confire77:
+    group:
+    - Mercenary
+  mixi_roy:
+    group:
+    - Mercenary
+  whit30ut:
+    group:
+    - Admin
+  x_monstaa_x:
+    group:
+    - Mercenary
+  drakmanka:
+    group:
+    - Refugee
+  xdeadecho:
+    group:
+    - Mercenary
+  ireavir:
+    group:
+    - Mercenary
+  lulzmacky:
+    group:
+    - Mercenary
+  lordcaedus667:
+    group:
+    - Refugee
+  generalshire:
+    group:
+    - Messiah
+  jrock6013:
+    group:
+    - Refugee
+  magicshot4:
+    group:
+    - Refugee
+  romegerman:
+    group:
+    - Mercenary
+  ktmboy1112:
+    group:
+    - Mercenary
+  vycanon:
+    group:
+    - Mercenary
+  mrretreat:
+    group:
+    - Mercenary
+  stuupidcrrap:
+    group:
+    - Mercenary
+  gigaslasher123:
+    group:
+    - Mercenary
+  freezy602:
+    group:
+    - Refugee
+  ts_smelliot:
+    group:
+    - Mercenary
+  burnview:
+    group:
+    - Mercenary
+  hyperman501:
+    group:
+    - Mercenary
+  kingwikd1:
+    group:
+    - Mercenary
+  aldegor:
+    group:
+    - Mercenary
+  liammeifter:
+    group:
+    - Mercenary
+  dakavern:
+    group:
+    - Mercenary
+  gunniapi98:
+    group:
+    - Refugee
+  damarmar:
+    group:
+    - Mercenary
+  terrasfallen:
+    group:
+    - Mercenary
+  teh_engineerz:
+    group:
+    - Mercenary
+  dogvenom:
+    group:
+    - Mercenary
+  lyvidian:
+    group:
+    - Mercenary
+  big_poppy1125:
+    group:
+    - Mercenary
+  mattj1964:
+    group:
+    - Refugee
+  brandrune:
+    group:
+    - Refugee
+  blackharri:
+    group:
+    - Mercenary
+  vareide:
+    group:
+    - Refugee
+  gawd_beams:
+    group:
+    - Mercenary
+  darkmatter51:
+    group:
+    - Refugee
+  xjesifixx:
+    group:
+    - Mercenary
+  nakubi:
+    group:
+    - Mercenary
+  computer_normal:
+    group:
+    - Refugee
+  coner396:
+    group:
+    - Mercenary
+  veralis:
+    group:
+    - Mercenary
+  boxcraft:
+    group:
+    - Refugee
+  edwardlee99:
+    group:
+    - Mercenary
+  neonoobs:
+    group:
+    - Mercenary
+  speedy1357:
+    group:
+    - Mercenary
+  nexusnomis79:
+    group:
+    - Refugee
+  dreyz:
+    group:
+    - Mercenary
+  robotman11:
+    group:
+    - Refugee
+  mrthesean:
+    group:
+    - Mercenary
+  elitecrew:
+    group:
+    - Mercenary
+  superxelite:
+    group:
+    - Mercenary
+  phtx3:
+    group:
+    - Mercenary
+  englishluigi:
+    group:
+    - Mercenary
+  hydrogenetix:
+    group:
+    - Mercenary
+  bob7335:
+    group:
+    - Mercenary
+  the_sky_wizard:
+    group:
+    - Mercenary
+  emperor_riesstiu:
+    group:
+    - Mercenary
+  omgosh1911:
+    group:
+    - Refugee
+  creek567149:
+    group:
+    - Mercenary
+  chorrbs:
+    group:
+    - Mercenary
+  xpsychohobox:
+    group:
+    - Mercenary
+  firelink:
+    group:
+    - Refugee
+  jeliton:
+    group:
+    - Mercenary
+  oskiu1234:
+    group:
+    - Refugee
+  andrew_craft:
+    group:
+    - Mercenary
+  i3ack0ut:
+    group:
+    - Mercenary
+  iamaaron626:
+    group:
+    - Mercenary
+  nobleknight:
+    group:
+    - Mercenary
+  pez4251:
+    group:
+    - Mercenary
+  jaws1997:
+    group:
+    - Mercenary
+  miner9er:
+    group:
+    - Mercenary
+  matty707:
+    group:
+    - Mercenary
+  crenlon:
+    group:
+    - Mercenary
+  carngeberserker:
+    group:
+    - Mercenary
+  archimedic:
+    group:
+    - Mercenary
+  lexinus:
+    group:
+    - Mercenary
+  justinfnc:
+    group:
+    - Mercenary
+  adamtucker5:
+    group:
+    - Messiah
+  melchiresa:
+    group:
+    - Mercenary
+  raaksho:
+    group:
+    - Mercenary
+  cooliothugin:
+    group:
+    - Mercenary
+  calvingodly:
+    group:
+    - Mercenary
+  aiden2095:
+    group:
+    - Refugee
+  slimeyslug09:
+    group:
+    - Mercenary
+  cyprias:
+    group:
+    - Refugee
+  johnnymn:
+    group:
+    - Mercenary
+  epicfacepalmman:
+    group:
+    - Mercenary
+  xxraidenxx_23:
+    group:
+    - Mercenary
+  marcitos123:
+    group:
+    - Mercenary
+  thirdrate:
+    group:
+    - Mercenary
+  catdude900:
+    group:
+    - Mercenary
+  dubz4eva:
+    group:
+    - Mercenary
+  austjoe:
+    group:
+    - Mercenary
+  andytheman1:
+    group:
+    - Refugee
+  severson23:
+    group:
+    - Refugee
+  lizardfire:
+    group:
+    - Mercenary
+  zmkzhabitzz:
+    group:
+    - Mercenary
+  ryantheninja:
+    group:
+    - Mercenary
+  benjahy:
+    group:
+    - Mercenary
+  briland:
+    group:
+    - Mercenary
+  deadestmick777:
+    group:
+    - Mercenary
+  hojunleestation:
+    group:
+    - Mercenary
+  duttster:
+    group:
+    - Mercenary
+  wowawesome101:
+    group:
+    - Mercenary
+  knight_creeper:
+    group:
+    - Mercenary
+  tornado_of_souls:
+    group:
+    - Refugee
+  psychopathicxben:
+    group:
+    - Mercenary
+  usefb97:
+    group:
+    - Refugee
+  mrbuzz:
+    group:
+    - Refugee
+  swag3er_h1gh:
+    group:
+    - Mercenary
+  lorabelle:
+    group:
+    - Mercenary
+  ragexfuzion:
+    group:
+    - Mercenary
+  kimma47:
+    group:
+    - Mercenary
+  couladins:
+    group:
+    - Mercenary
+  a_old_fat_cat:
+    group:
+    - Mercenary
+  jk89live:
+    group:
+    - Mercenary
+  recon_miner:
+    group:
+    - Messiah
+  slycooperh74:
+    group:
+    - Savior
+  sippinonthisginn:
+    group:
+    - Mercenary
+  captain_creeper_:
+    group:
+    - Mercenary
+  whosthedoctor:
+    group:
+    - Mercenary
+  greek0poseidon:
+    group:
+    - Mercenary
+  androconus:
+    group:
+    - Mercenary
+  meloonman:
+    group:
+    - Mercenary
+  leetfish:
+    group:
+    - Mercenary
+  gearox:
+    group:
+    - Mercenary
+  white_runner:
+    group:
+    - Mercenary
+  pancakesarepic:
+    group:
+    - Mercenary
+  hollenwang:
+    group:
+    - Mercenary
+  zoanthrope21:
+    group:
+    - Mercenary
+  rapidelement:
+    group:
+    - Mercenary
+  samso56:
+    group:
+    - Mercenary
+  x666xgodric666x:
+    group:
+    - Mercenary
+  chizad:
+    group:
+    - Mercenary
+  capt_bronco:
+    group:
+    - Mercenary
+  anterly:
+    group:
+    - Mercenary
+  camaradinha:
+    group:
+    - Mercenary
+  psi_starman:
+    group:
+    - Mercenary
+  stratman1107:
+    group:
+    - Refugee
+  larivas:
+    group:
+    - Mercenary
+  piisarkaas:
+    group:
+    - Refugee
+  summergun:
+    group:
+    - Refugee
+  faceatk:
+    group:
+    - Mercenary
+  john281:
+    group:
+    - Mercenary
+  bvsquirrel:
+    group:
+    - Mercenary
+  xisaypwnx:
+    group:
+    - Mercenary
+  fight719:
+    group:
+    - Mercenary
+  julian213243:
+    group:
+    - Refugee
+  biymiwin:
+    group:
+    - Mercenary
+  alienbige:
+    group:
+    - Refugee
+  bullets_r_us:
+    group:
+    - Mercenary
+  msmc810:
+    group:
+    - Mercenary
+  happyjoey:
+    group:
+    - Mercenary
+  night__fury:
+    group:
+    - Mercenary
+  atomscout:
+    group:
+    - Mercenary
+  frustratedgamer:
+    group:
+    - Mercenary
+  themightybuffalo:
+    group:
+    - Mercenary
+  eskamoe:
+    group:
+    - Mercenary
+  ryowolfever:
+    group:
+    - Mercenary
+  unicornslaughter:
+    group:
+    - Mercenary
+  slay_ganj:
+    group:
+    - Refugee
+  mazza549:
+    group:
+    - Mercenary
+  greendeere60:
+    group:
+    - Mercenary
+  charmax:
+    group:
+    - Refugee
+  mrepicfacefan:
+    group:
+    - Mercenary
+  headshot3579:
+    group:
+    - Messiah
+  potatious:
+    group:
+    - Mercenary
+  minecraftchaos:
+    group:
+    - Mercenary
+  herohelper:
+    group:
+    - Mercenary
+  springrolls:
+    group:
+    - Mercenary
+  sweans:
+    group:
+    - Mercenary
+  filum:
+    group:
+    - Mercenary
+  nazizombieswaw:
+    group:
+    - Mercenary
+  deathdealer9:
+    group:
+    - Mercenary
+  hunter862000:
+    group:
+    - Messiah
+  bigfellow4:
+    group:
+    - Mercenary
+  jayprince:
+    group:
+    - Refugee
+  kurlzz00:
+    group:
+    - Mercenary
+  snowfalls:
+    group:
+    - Mercenary
+  fireking789:
+    group:
+    - Mercenary
+  maysontv:
+    group:
+    - Mercenary
+  nolen65:
+    group:
+    - Mercenary
+  ajuicysalmon:
+    group:
+    - Mercenary
+  shadowmerc:
+    group:
+    - Mercenary
+  air_michael:
+    group:
+    - Mercenary
+  atlantic541:
+    group:
+    - Mercenary
+  mudman607:
+    group:
+    - Refugee
+  vipxdarkness:
+    group:
+    - Mercenary
+  sammp1999:
+    group:
+    - Refugee
+  kazezero:
+    group:
+    - Mercenary
+  mcgeneral14:
+    group:
+    - Guest
+  _ddman_:
+    group:
+    - Refugee
+  jamestpwne:
+    permissions:
+    - Refugee
+  majikusmc:
+    group:
+    - Mercenary
+  sosk16:
+    group:
+    - Mercenary
+  smithyb:
+    group:
+    - Refugee
+  tinyslayer:
+    group:
+    - Refugee
+  moiru:
+    group:
+    - Mercenary
+  dishboy09:
+    group:
+    - Mercenary
+  broseph68:
+    group:
+    - Mercenary
+  pancakesareepic:
+    group:
+    - Mercenary
+  computer_hard:
+    group:
+    - Mercenary
+  pooper06:
+    group:
+    - Mercenary
+  ffirebrand:
+    group:
+    - Mercenary
+  saventjerent:
+    group:
+    - Mercenary
+  tirannus:
+    group:
+    - Mercenary
+  yiiyo:
+    group:
+    - Refugee
+  tpx5:
+    group:
+    - Mercenary
+  hairylemon98:
+    group:
+    - Mercenary
+  omegaunicorn:
+    group:
+    - Mercenary
+  minecraftswaqq:
+    group:
+    - Mercenary
+  hoiafar:
+    group:
+    - Mercenary
+  bbqfish:
+    group:
+    - Mercenary
+  sharkfist12:
+    group:
+    - Mercenary
+  foureyes23:
+    group:
+    - Mercenary
+  ovibuild:
+    group:
+    - Mercenary
+  changamer1000:
+    group:
+    - Mercenary
+  gamer2kill:
+    group:
+    - Mercenary
+  j6unlimited:
+    group:
+    - Messiah
+  mrmagosty:
+    group:
+    - Refugee
+  legitxassassin:
+    group:
+    - Mercenary
+  newjy:
+    group:
+    - Mercenary
+  x_awesomeminer_x:
+    group:
+    - Mercenary
+  dartex124:
+    group:
+    - Mercenary
+  tavern_keeper:
+    group:
+    - Mercenary
+  ectomonkey:
+    group:
+    - Mercenary
+  chiwingscrazy:
+    group:
+    - Refugee
+  when_night_falls:
+    group:
+    - Mercenary
+  drbakecake:
+    group:
+    - Mercenary
+  cheunginator:
+    group:
+    - Refugee
+  clevinger:
+    group:
+    - Mercenary
+  oojustjakeoo:
+    group:
+    - Mercenary
+  king_leonid88:
+    group:
+    - Mercenary
+  drdancefloor98:
+    group:
+    - Mercenary
+  brorland:
+    group:
+    - Mercenary
+  jedilord08:
+    group:
+    - Mercenary
+  glitch1500:
+    group:
+    - Mercenary
+  tekshon:
+    group:
+    - Mercenary
+  zsystem:
+    group:
+    - Mercenary
+  skhetch:
+    group:
+    - Mercenary
+  henrylee99:
+    group:
+    - Mercenary
+  in_flux:
+    group:
+    - Mercenary
+  jtp2:
+    group:
+    - Mercenary
+  xxthebananamanxx:
+    group:
+    - Mercenary
+  jm0ney12:
+    group:
+    - Mercenary
+  meliekpiez321:
+    group:
+    - Mercenary
+  red_cookie:
+    group:
+    - Refugee
+  maxrules25:
+    group:
+    - Mercenary
+  k_man604:
+    group:
+    - Mercenary
+  gamedevil667:
+    group:
+    - Mercenary
+  fall3n_ang3ls:
+    group:
+    - Mercenary
+  purple_potatoes:
+    group:
+    - Refugee
+  meskelington:
+    group:
+    - Mercenary
+  wobble_girl:
+    group:
+    - Mercenary
+  nordicgraywolf:
+    group:
+    - Mercenary
+  gxfour:
+    group:
+    - Mercenary
+  legostothemax:
+    group:
+    - Mercenary
+  dalax1257:
+    group:
+    - Mercenary
+  jokerspore:
+    group:
+    - Messiah
+  jonathan081:
+    group:
+    - Mercenary
+  rip__xchaos:
+    group:
+    - Messiah
+  derhirni:
+    group:
+    - Refugee
+  jirachi56:
+    group:
+    - Mercenary
+  olallajones:
+    group:
+    - Mercenary
+  nosoulsmug:
+    group:
+    - Mercenary
+  dust223:
+    group:
+    - Refugee
+  mentalminer97:
+    group:
+    - Refugee
+  tinamo:
+    group:
+    - Mercenary
+  m13k11x24:
+    group:
+    - Refugee
+  xcyrpezx:
+    group:
+    - Mercenary
+  xcyprezx:
+    group:
+    - Mercenary
+  sir_gunz:
+    group:
+    - Mercenary
+  ninpikachu:
+    group:
+    - Mercenary
+  cutthroatbne:
+    group:
+    - Mercenary
+  grenadegregory12:
+    group:
+    - Refugee
+  jskull117:
+    group:
+    - Mercenary
+  idonotblowup:
+    group:
+    - Refugee
+  mastertlee:
+    group:
+    - Refugee
+  veloxa:
+    group:
+    - Mercenary
+  totalpro007:
+    group:
+    - Mercenary
+  armandi:
+    group:
+    - Mercenary
+  assassin4221:
+    group:
+    - Mercenary
+  mcgeneral4:
+    group:
+    - Mercenary
+  exigent_remorse:
+    group:
+    - Refugee
+  quasi_god:
+    group:
+    - Mercenary
+  solid_one:
+    group:
+    - Messiah
+  dueytwo:
+    group:
+    - Mercenary
+  zarkop:
+    group:
+    - Refugee
+  jellyroots:
+    group:
+    - Mercenary
+  cutthroatbnf:
+    group:
+    - Messiah
+  michael475:
+    group:
+    - Refugee
+  hdxoutline:
+    group:
+    - Mercenary
+  dylansoccer11:
+    group:
+    - Mercenary
+  rme32:
+    group:
+    - Mercenary
+  lego812:
+    group:
+    - Refugee
+  mightytoast43:
+    group:
+    - Mercenary
+  skyline421:
+    group:
+    - Mercenary
+  skylord_miner:
+    group:
+    - Mercenary
+  r0ckstarr:
+    group:
+    - Mercenary
+  radixwolf:
+    group:
+    - Mercenary
+  i_have_aids_123:
+    group:
+    - Mercenary
+  halonoobs_com:
+    group:
+    - Mercenary
+  sicky_swag:
+    group:
+    - Refugee
+  karana_wolf:
+    group:
+    - Mercenary
+  dead_gamer_12q:
+    group:
+    - Refugee
+  rugosus:
+    group:
+    - Mercenary
+  fureolls:
+    group:
+    - Mercenary
+  strokk:
+    group:
+    - Mercenary
+  hn_x_hack3r:
+    group:
+    - Mercenary
+  thepvpnoob:
+    group:
+    - Messiah
+  jectr:
+    group:
+    - Mercenary
+  d4rk_silence:
+    group:
+    - Mercenary
+  ambrose151:
+    group:
+    - Mercenary
+  reconjockey:
+    group:
+    - Refugee
+  hevas:
+    group:
+    - Messiah
+  hay0ger:
+    group:
+    - Messiah
+  slimmy_freak:
+    group:
+    - Mercenary
+  detc0n:
+    group:
+    - Mercenary
+  majorc99:
+    group:
+    - Mercenary
+  thatrandomperson:
+    group:
+    - Messiah
+  blocksofcraft:
+    group:
+    - Messiah
+  zombeh_kwer:
+    group:
+    - Refugee
+  enginner98:
+    group:
+    - Mercenary
+  elitevillager:
+    group:
+    - Refugee
+  jayjay36:
+    group:
+    - Messiah
+  onlybonez:
+    group:
+    - Refugee
+  sweanh:
+    group:
+    - Mercenary
+  xx_xon_xx:
+    group:
+    - Messiah
+  silvonus000:
+    group:
+    - Messiah
+  jbreezy565:
+    group:
+    - Mercenary
+  xvik:
+    group:
+    - Mercenary
+  tacodude98:
+    group:
+    - Mercenary
+  martinjnie:
+    group:
+    - Admin
+  martijnie:
+    group:
+    - Admin
+  e87916ff-b327-4d01-b2e4-aedb4a55d23c:
+    permissions:
+    - '*'
+    options:
+      name: ataranlen
+    group:
+    - Admin
+  5a085c65-3b25-45de-86c0-de1335d3d73b:
+    group:
+    - Admin
+    options:
+      name: Frank_Magecaster
+    permissions:
+    - '*'
+  6560ec3b-449f-48f3-9994-7d2d7e9afa32:
+    group:
+    - Admin
+    options:
+      name: CloudQuake
+  e04ce6f2-3401-4af6-ad6d-3160708bd8a9:
+    group:
+    - Admin
+    - Messiah
+    options:
+      name: mooman219
+  e0218ffb-79e6-47ba-8139-7d01070e192d:
+    group:
+    - Admin
+    options:
+      name: HookJ
+  8c04da85-e17a-4438-a2bd-2253536cc81c:
+    group:
+    - Admin
+    options:
+      name: Dezx
+  50875471-1a74-4b3c-8a51-67ce0cf63625:
+    group:
+    - Admin
+    options:
+      name: serenow
+  aeb7b89c-7426-4aa7-8366-c8d912e90f1f:
+    group:
+    - Builder
+    options:
+      name: TT_FreeFire_TT
+  44d17c9d-069c-4685-93a8-f7ba1df8e0ec:
+    group:
+    - Admin
+    options:
+      name: vsalaka
+  b0dffb66-ced7-402d-9f26-58bf76cf2b61:
+    group:
+    - Admin
+    options:
+      name: Thagen
+  bffcc43c-84fe-48a1-8d27-4a0245c87d22:
+    group:
+    - Wanderer
+    options:
+      name: Master_Queef
+  568ad8cd-8032-404d-95bf-f191328165a2:
+    group:
+    - Builder
+    options:
+      name: abigblackguy159
+  490932ae-1022-4726-8d7f-08c7593ef079:
+    group:
+    - Builder
+    options:
+      name: OLivay
+  0b7950ba-7aad-4086-ac8d-03c3146d8d33:
+    group: []
+    options:
+      name: Landmine752
+  3a0059c5-a3d4-43d0-9c30-9539299dabda:
+    group:
+    - Builder
+    options:
+      name: PureStunts
+  11046da1-b937-4518-836e-cee39d6a465a:
+    group:
+    - Builder
+    options:
+      name: Oytz
+  11d5ecfd-1094-442c-b7a2-90986af1d981:
+    group:
+    - Builder
+    options:
+      name: Dylancorso
+  59186825-2528-42e3-8fef-9a6465938f83:
+    group:
+    - Messiah
+    options:
+      name: Mando8679
+  15f4c9a2-cc20-4b93-8f30-86f71a0e19df:
+    group:
+    - Admin
+    - Mercenary
+    options:
+      name: Gephery
+  8f65e9dd-6215-4870-b772-42729110c02b:
+    group:
+    - Admin
+    - Savior
+    options:
+      name: Mike429
+  540b2d52-54aa-4355-8e16-d856c3afc934:
+    group: []
+    options:
+      name: Phids
+schema-version: 1

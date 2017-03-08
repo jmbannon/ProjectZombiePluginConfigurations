@@ -1,0 +1,140 @@
+Drawer:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: true
+  LootList:
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_HELMET
+    Probability: 8.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_CHESTPLATE
+    Probability: 5.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_BOOTS
+    Probability: 8.0
+  - ==: Item
+    BonusAmount: 2
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SEEDS
+      amount: 2
+    Probability: 1.0
+  - ==: Item
+    BonusAmount: 2
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: NETHER_STALK
+      amount: 2
+    Probability: 1.0
+  - ==: Item
+    BonusAmount: 2
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: FLINT
+      amount: 2
+    Probability: 1.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_LEGGINGS
+    Probability: 7.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+    Probability: 7.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: COOKIE
+    Probability: 6.0
+  - ==: Item
+    BonusAmount: 1
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    Probability: 6.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §eHammer§e
+        lore:
+        - §eKills zombies in three hits
+        - §e33 durability
+    Probability: 20.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §eBaseball Bat§e
+        lore:
+        - §eKills zombies in two hits
+        - §e60 durability
+    Probability: 2.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SUGAR_CANE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §eM1911 Colt 45§e «7»
+        lore:
+        - '§eAmmo: Pistol Bullets'
+        - '§eAccuracy: 83.50'
+        - '§eDesc: Common, easy to find'
+        - §eRight click to shoot
+    Probability: 1.0
+  - ==: Item
+    BonusAmount: 6
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      amount: 3
+    Probability: 8.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: COMPASS
+    Probability: 5.0
+  - ==: Item
+    ItemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: WHEAT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §eBinoculars§e
+        lore:
+        - §eEquipped with night vision
+        - §eLeft click to zoom
+    Probability: 3.0
+  - ==: Money
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  - ==: Experience
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  Name: Drawer
+  Reset:
+    Hours: 0
+    Days: 0
+    Seconds: 0
+    Minutes: 15
+  RoundDownTime: false

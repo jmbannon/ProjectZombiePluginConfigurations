@@ -1,0 +1,435 @@
+Gun_Safe:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: true
+  LootList:
+  - ==: LootCollection
+    LootList:
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 5
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: NETHER_STALK
+          amount: 5
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: INK_SACK
+          damage: 3
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eGlock§e «17»
+            lore:
+            - '§eAmmo: Pistol Bullets'
+            - '§eAccuracy: 83.75'
+            - '§eDesc: Very large mag'
+            - §eRight click to shoot
+        Probability: 100.0
+      LowerNumberOfLoots: 0
+      Name: Glock
+      Probability: 2.0
+      UpperNumberOfLoots: 0
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 5
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: NETHER_STALK
+          amount: 5
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: IRON_HOE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eSilenced USP§e «12»
+            lore:
+            - '§eAmmo: Pistol Bullets'
+            - '§eAccuracy: 83.75'
+            - '§eDesc: Quiet, effective for sneaking'
+            - §eRight click to shoot
+        Probability: 100.0
+      LowerNumberOfLoots: 0
+      Name: USP
+      Probability: 2.0
+      UpperNumberOfLoots: 0
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 5
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: NETHER_STALK
+          amount: 5
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: INK_SACK
+          damage: 8
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eP228§e «15»
+            lore:
+            - '§eAmmo: Pistol Bullets'
+            - '§eAccuracy: 83.50'
+            - '§eDesc: Reliable, large mag'
+            - §eRight click to shoot
+        Probability: 100.0
+      LowerNumberOfLoots: 0
+      Name: P228
+      Probability: 8.0
+      UpperNumberOfLoots: 0
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 5
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: NETHER_STALK
+          amount: 5
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: SUGAR_CANE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eM1911 Colt 45§e «7»
+            lore:
+            - '§eAmmo: Pistol Bullets'
+            - '§eAccuracy: 83.50'
+            - '§eDesc: Common, easy to find'
+            - §eRight click to shoot
+        Probability: 100.0
+      LowerNumberOfLoots: 0
+      Name: Colt
+      Probability: 18.0
+      UpperNumberOfLoots: 0
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 5
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: NETHER_STALK
+          amount: 3
+        Probability: 100.0
+      LowerNumberOfLoots: 1
+      Name: Pammo
+      Probability: 70.0
+      UpperNumberOfLoots: 1
+    LowerNumberOfLoots: 1
+    Name: Pistol
+    Probability: 42.0
+    UpperNumberOfLoots: 1
+  - ==: LootCollection
+    LootList:
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 5
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: FLINT
+          amount: 10
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: INK_SACK
+          damage: 12
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eRemington 700§e ▪ «5»
+            lore:
+            - '§eAmmo: Hunting Rifle Bullets'
+            - '§eZoomed-in accuracy: 98.10'
+            - '§eDesc: Bolt action, good accuracy'
+            - §eRight click to shoot
+            - §eLeft click to zoom
+        Probability: 100.0
+      LowerNumberOfLoots: 0
+      Name: Remington
+      Probability: 2.0
+      UpperNumberOfLoots: 0
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 5
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: FLINT
+          amount: 10
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_AXE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eWinchester Model 70§e ▪ «4»
+            lore:
+            - '§eAmmo: Hunting Rifle Bullets'
+            - '§eZoomed-in accuracy: 97.40'
+            - '§eDesc: Bolt action, decent accuracy'
+            - §eRight click to shoot
+            - §eLeft click to zoom
+        Probability: 100.0
+      LowerNumberOfLoots: 0
+      Name: Winchester
+      Probability: 8.0
+      UpperNumberOfLoots: 0
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 5
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: FLINT
+          amount: 10
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: INK_SACK
+          damage: 13
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eM1903 Springfield§e ▪ «4»
+            lore:
+            - '§eAmmo: Hunting Rifle Bullets'
+            - '§eAccuracy: 94.80'
+            - '§eDesc: Common, easy to find'
+            - §eRight click to shoot
+        Probability: 100.0
+      LowerNumberOfLoots: 0
+      Name: Springfield
+      Probability: 15.0
+      UpperNumberOfLoots: 0
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 5
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: FLINT
+          amount: 3
+        Probability: 100.0
+      LowerNumberOfLoots: 1
+      Name: Hammo
+      Probability: 75.0
+      UpperNumberOfLoots: 1
+    LowerNumberOfLoots: 1
+    Name: HuntingRifle
+    Probability: 26.0
+    UpperNumberOfLoots: 1
+  - ==: LootCollection
+    LootList:
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 5
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: SEEDS
+          amount: 5
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: WOOD_HOE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eXM1014§e ▪ «6»
+            lore:
+            - '§eAmmo: Shotgun Shells'
+            - '§eBB Spread: 75.00'
+            - '§eDesc: Semi-auto, use at close range'
+            - §eRight click to shoot
+        Probability: 100.0
+      LowerNumberOfLoots: 0
+      Name: XM
+      Probability: 2.0
+      UpperNumberOfLoots: 0
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 5
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: SEEDS
+          amount: 5
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: INK_SACK
+          damage: 5
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eM3§e ▪ «6»
+            lore:
+            - '§eAmmo: Shotgun Shells'
+            - '§eBB Spread: 75.00'
+            - '§eDesc: Pump, decent accuracy'
+            - §eRight click to shoot
+        Probability: 100.0
+      LowerNumberOfLoots: 0
+      Name: M3
+      Probability: 13.0
+      UpperNumberOfLoots: 0
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 5
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: SEEDS
+          amount: 5
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: STONE_HOE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eOlympia§e ▪ «2»
+            lore:
+            - '§eAmmo: Shotgun Shells'
+            - '§eBB Spread: 50.00'
+            - '§eDesc: Double barrel, use at close range'
+            - §eRight click to shoot
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: AIR
+          damage: -1
+          amount: 0
+        Probability: 100.0
+      LowerNumberOfLoots: 0
+      Name: Olympia
+      Probability: 25.0
+      UpperNumberOfLoots: 0
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 4
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: SEEDS
+        Probability: 100.0
+      LowerNumberOfLoots: 1
+      Name: Sammo
+      Probability: 60.0
+      UpperNumberOfLoots: 1
+    LowerNumberOfLoots: 1
+    Name: Shotgun
+    Probability: 26.0
+    UpperNumberOfLoots: 1
+  - ==: LootCollection
+    LootList:
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 10
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: GOLD_NUGGET
+          amount: 10
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: GOLD_PICKAXE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eMP5§e ▪ «30»
+            lore:
+            - '§eAmmo: SMG Bullets'
+            - '§eAccuracy: 86.20'
+            - '§eDesc: Decent accuracy'
+            - §eRight click to shoot
+        Probability: 100.0
+      LowerNumberOfLoots: 1
+      Name: MP5
+      Probability: 5.0
+      UpperNumberOfLoots: 1
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 10
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: GOLD_NUGGET
+          amount: 10
+        Probability: 100.0
+      - ==: Item
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: INK_SACK
+          damage: 6
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §eMac10§e ▪ «30»
+            lore:
+            - '§eAmmo: SMG Bullets'
+            - '§eAccuracy: 85.00'
+            - '§eDesc: Common, poor accuracy'
+            - §eRight click to shoot
+        Probability: 100.0
+      LowerNumberOfLoots: 1
+      Name: Mac10
+      Probability: 10.0
+      UpperNumberOfLoots: 1
+    - ==: LootCollection
+      LootList:
+      - ==: Item
+        BonusAmount: 10
+        ItemStack:
+          ==: org.bukkit.inventory.ItemStack
+          type: GOLD_NUGGET
+          amount: 4
+        Probability: 100.0
+      LowerNumberOfLoots: 1
+      Name: SMGammo
+      Probability: 75.0
+      UpperNumberOfLoots: 1
+    LowerNumberOfLoots: 1
+    Name: SMG
+    Probability: 4.0
+    UpperNumberOfLoots: 1
+  - ==: Money
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  - ==: Experience
+    Lower: 0
+    Probability: 100.0
+    Upper: 0
+  Name: Gun_Safe
+  Reset:
+    Hours: 1
+    Days: 0
+    Seconds: 0
+    Minutes: 20
+  RoundDownTime: false
